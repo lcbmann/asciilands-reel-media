@@ -1,0 +1,27 @@
+Finish my Asciilands smithing reel in THIS CLOUD SESSION. The media is now publicly downloadable; do not ask me to run local Claude or attach the videos individually.
+
+Download and extract using your terminal:
+
+curl -fL --retry 5 -o smithing-handoff.zip https://github.com/lcbmann/asciilands-reel-media/releases/download/smithing-handoff-v1/claude-smithing-handoff.zip
+echo '3843aa5cf2034df872082987297d5e3717fb61af8cd5a62e9d03eb42258f3711  smithing-handoff.zip' | sha256sum -c -
+unzip -q smithing-handoff.zip -d smithing-edit
+
+Inspect the extracted directory structure and locate START-HERE.txt. Work from the directory containing it. Run python verify_bundle.py. Read START-HERE.txt and CLAUDE-HANDOFF.txt. The archive is 1.88 GB; allow adequate disk space for extraction and rendering. If downloading fails, report the exact HTTP/network error; do not conclude that local files are inaccessible. GitHub release downloads may redirect to release-assets.githubusercontent.com, which must be allowed by the cloud environment.
+
+Included: ten original gameplay recordings, original narration WAV, cached word timestamps, portable Python/ffmpeg renderer, fonts/logos/music, rejected v1 MP4, previous finished reel, shot catalogue and user timestamp notes. Install Python dependencies and ffmpeg as needed. No Windows machine or game server is required to edit these files. Use project/edit_reel.py as a starting point; its current editorial choices are NOT approved. Preserve reference files and make v2 separately. Inspect actual footage and audio using tools available in your environment; extract frames and audio as needed. Do not claim to have watched or heard anything you could not inspect.
+
+My corrections take priority over older instructions in the archive:
+- Remove ALL small editorial labels, including York/player-built town, iron/arming sword, bronze/rapier, star iron and rare materials. Necessary credits go in the post caption. Credit York to Louie; do not invent credits for other builders.
+- Start on actual walking through York, not the initial turn. The v1 opening needs roughly another second trimmed, but verify the exact in-point against the source.
+- For crossing a massive map, use an actual map zoom-out when supplied, not a snow orbit.
+- Enlarge the real inspection/UI content instead of adding redundant labels.
+- Show approaching the York Public Smith sign, then cut to the actual entrance and discovery of Smither, not an already stationary interior shot.
+- Do not reveal forging during the earlier click-a-button comparison. Establish smithing at normal speed, readable full UI and audible game sound; only then accelerate. Timelapses must reach the late shaping stages when it becomes a recognizable blade.
+- For 'that shape you hammered out ... actual sword you keep', show the imperfect steel blade being forged and then the SAME finished Swordy blade with visible imperfections. Do not imply the iron and bronze recordings use identical materials.
+- Remove awkward narration pauses after 'someone else buys it' and 'serious skill to work'. Keep a deliberate short pause after 'paying for their skill' before the final question. Retiming must keep word captions and cuts aligned.
+- Replace the rejected end-card fade with a clean, readable ending. No dark panel awkwardly obscuring the action. Do not force this narration into 30 seconds; the recorded script is much longer.
+- Maintain and extend the footage catalogue and timestamped shot log for future edits. Preserve my wording; propose only specific minimal rerecords if needed. Avoid unrelated combat/animal inserts merely to satisfy an older template.
+
+IMPORTANT UPDATE to the older handoff: oneclickstonetool.mkv is not the right pickup. Current stone tools are multi-step. Your prior code investigation identified Arrows at the workbench as a true one-click recipe. Two pickups are still missing: mapzoomout.mkv and oneclickarrows.mkv. Do all independent editing now. Clearly mark unresolved sections in the review notes; do not fabricate footage or claim these pickups exist. If no honest existing shot can serve a section, ask for that pickup and deliver the best provisional cut meanwhile. Check existing game audio before requesting any extra sound recording.
+
+Deliver: v2 MP4, a review copy under 30 MB, updated runnable editing script and any changed assets/configuration, updated footage log, post-caption draft and cover suggestion. Extract QA frames at every cut and caption change, check readability/cropping/overlap, and check audio timing/levels. State remaining limitations. Make deliverables downloadable from this cloud session; do not leave me with cloud-only paths or huge base64 output. Do not publish posts, upload to social media, or change the game repository. If this session permits a branch/PR for the editing code, keep changes confined to the separate asciilands-reel-media repository and keep raw videos/rendered files out of normal Git history.
