@@ -447,7 +447,8 @@ def weapons_and_tools():
 # at: spoken words that open the shot; a [bracketed] word marks the exact cut word.
 # srcs: sources (video dict(v=, t=, speed=) or still dict). Single video shots use v/t/speed.
 # speed 'fit:<source out>' derives speed from the narration length; t 'cont' continues.
-# sound: None | ('live',) real recorded audio | ('hits', min_gap) gated real strikes.
+# sound: None | ('live',) real recorded audio | ('hits', min_gap) gated real strikes |
+#        ('clicks', min_gap) gated UI sounds only (for clips with in-game music under them).
 CUT_LEAD = 0.07
 SHOTS = [
     dict(at='I want players', v='yorkarrival', t=6.00, look=world(1280, 750, 1280, 1230),
@@ -476,7 +477,7 @@ SHOTS = [
     dict(at='Better damage and', v='inventorymaterials', t=17.95, speed='fit:20.75', look=materials()),
     dict(at='But if anyone', v='oneclickstonepickaxe', t=0.0, speed='fit:1.25', look=crafting(),
          note='One-click Stone Pickaxe recipe: ingredients first.'),
-    dict(at='can click a', v='oneclickstonepickaxe', t='cont', look=crafting(), sound=('live',),
+    dict(at='can click a', v='oneclickstonepickaxe', t='cont', look=crafting(), sound=('clicks', 0.15),
          note='First click at source 1.55 lands on "click"; second identical craft at 3.67.'),
     dict(at="there's not much", v='oneclickstonepickaxe', t='cont', speed='fit:4.80', look=crafting(push_at=0.0),
          note='Hold on "+1 Stone Pickaxe".'),
@@ -506,7 +507,7 @@ SHOTS = [
 END_TAIL = 2.5
 # Game sound sits this many LU under the narration's integrated loudness (measured per shot),
 # heat whooshes are cut further, and while a word is spoken the game ducks by a fixed amount.
-GAME_UNDER_VOICE = {'live': 11.0, 'hits': 11.0}
+GAME_UNDER_VOICE = {'live': 11.0, 'hits': 11.0, 'clicks': 19.0}
 WHOOSH_CUT_DB = 10.0
 SPEECH_DUCK_DB = 6.0
 MUSIC_DB, MUSIC_UNDER_LIVE_DB = -27.0, -33.0
@@ -980,21 +981,22 @@ def mix(tl, total, words):
             events.append(dict(shot=s['at'], mode='live', source=[sp['t'], sp['t'] + s['duration']], whooshes_cut=len(whoosh)))
         else:
             gap = snd[1]
-            hits = [t for t, strike in onsets(sp['file'], sp['t'], s['t_out']) if strike]
+            found = onsets(sp['file'], sp['t'], s['t_out'])
+            hits = [t for t, strike in found if strike or snd[0] == 'clicks']
             placed, last = [], -9
             for o in hits:
                 t_out = s['start'] + (o - sp['t']) / sp['speed']
                 if t_out - last < gap or t_out > s['end'] - 0.05:
                     continue
-                hit = read_audio(sp['file'], max(0, o - 0.012), 0.42)
+                hit = read_audio(sp['file'], max(0, o - 0.012), 0.42 if snd[0] == 'hits' else 0.36)
                 hit[:int(0.004 * SR)] *= np.linspace(0, 1, int(0.004 * SR))[:, None]
-                hit *= np.exp(-np.linspace(0, 4.5, len(hit)))[:, None]
+                hit *= np.exp(-np.linspace(0, 4.5 if snd[0] == 'hits' else 6.0, len(hit)))[:, None]
                 j = int((t_out - 0.012) * SR)
                 m = min(len(hit), n - j)
                 part[j:j + m] += hit[:m]
                 placed.append(round(t_out, 3))
                 last = t_out
-            events.append(dict(shot=s['at'], mode='hits', placed_output=placed))
+            events.append(dict(shot=s['at'], mode=snd[0], placed_output=placed))
         a0, a1 = i0, min(n, int((s['end'] + 0.35) * SR))
         level = lufs_of(part[a0:a1, 0]) if np.abs(part[a0:a1]).max() > 0 else None
         if level is None or not np.isfinite(level):

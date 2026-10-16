@@ -45,6 +45,8 @@ YOUR NOTES, AND WHAT CHANGED
   appear.
 - "Rare materials are one reason.": your new take is spliced in at the measured silences (+0.9 dB to match).
   Its captions and the cuts after it are re-anchored.
+- Crafting clip: it has in-game music under it, so only the craft chime and clicks are used (short gated
+  windows, about 20 dB under the voice).
 - Forge sound: game sound is now calibrated per shot against the narration:
   - real-time sections 11 LU under the voice, gated strikes 11 LU under;
   - heat whooshes cut a further 10 dB;

@@ -242,7 +242,8 @@
     "v": "oneclickstonepickaxe",
     "t": 1.25,
     "sound": [
-      "live"
+      "clicks",
+      0.15
     ],
     "note": "First click at source 1.55 lands on \"click\"; second identical craft at 3.67.",
     "word": 88,

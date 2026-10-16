@@ -1,14 +1,14 @@
 [
   {
     "shot": "can click a",
-    "mode": "live",
-    "source": [
-      1.25,
-      3.9167
+    "mode": "clicks",
+    "placed_output": [
+      24.748,
+      24.918,
+      26.848
     ],
-    "whooshes_cut": 1,
-    "measured_lufs": -48.77,
-    "gain_db": 8.26
+    "measured_lufs": -45.03,
+    "gain_db": -3.48
   },
   {
     "shot": "I wanted being",

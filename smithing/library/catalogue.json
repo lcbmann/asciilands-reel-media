@@ -3408,7 +3408,8 @@
       "speed": 1,
       "phrase": "can click a",
       "sound": [
-       "live"
+       "clicks",
+       0.15
       ],
       "still": false
      },
