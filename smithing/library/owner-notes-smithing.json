@@ -1,0 +1,202 @@
+{
+  "smithtwoswords.mkv": [
+    "Iron arming sword and bronze rapier; full forging, naming, assembly and inspection. Candidate shaping timelapses; show hammer and blade together.",
+    [
+      [
+        1,
+        50,
+        "Etched iron arming sword forging"
+      ],
+      [
+        53,
+        57,
+        "Naming iron sword"
+      ],
+      [
+        57,
+        60,
+        "Forge completion"
+      ],
+      [
+        67,
+        80,
+        "Workbench assembly"
+      ],
+      [
+        81,
+        83,
+        "Inventory selection"
+      ],
+      [
+        83,
+        90,
+        "Iron sword inspection"
+      ],
+      [
+        94,
+        135,
+        "Bronze rapier forging"
+      ],
+      [
+        140,
+        145,
+        "Naming bronze rapier"
+      ],
+      [
+        150,
+        159,
+        "Assembly: owner marker 150; sampled 150 is outside UI, refine before use"
+      ],
+      [
+        159,
+        161.5,
+        "Bronze rapier inspection"
+      ]
+    ]
+  ],
+  "smithbadsteel.mkv": [
+    "Imperfect steel sword. Strong visual for mistakes affecting the actual retained shape. Not a controlled same-steel grade comparison.",
+    [
+      [
+        3,
+        58,
+        "Steel forging"
+      ],
+      [
+        9,
+        12,
+        "Mistake 1, owner marker 10"
+      ],
+      [
+        20,
+        24,
+        "Mistakes 2 and 3, owner markers 21 and 22"
+      ],
+      [
+        58,
+        65,
+        "Naming"
+      ],
+      [
+        67,
+        73,
+        "Crafting / assembly"
+      ],
+      [
+        75,
+        79.784,
+        "Inspection; uneven shape visible"
+      ]
+    ]
+  ],
+  "starironhard.mkv": [
+    "First half of difficult Star Iron forging. Narrow working heat band; cooling and surges. No completed item.",
+    [
+      [
+        3,
+        18,
+        "Heat control and early strikes"
+      ],
+      [
+        18,
+        40,
+        "Continued shaping and fluctuating heat"
+      ]
+    ]
+  ],
+  "orbitdesertmeteor.mkv": [
+    "Desert Star Iron meteor orbit. Owner says useful footage starts at 12.",
+    [
+      [
+        12,
+        25,
+        "Meteor orbit; sampled at 12,16,20"
+      ]
+    ]
+  ],
+  "orbitsnowmeteor.mkv": [
+    "Snow meteor orbit. Owner says useful footage starts at 48.",
+    [
+      [
+        48,
+        60,
+        "Snow meteor orbit"
+      ]
+    ]
+  ],
+  "inventorymaterials.mkv": [
+    "Cycles stone, copper, tin, bronze, iron, steel and Star Iron. Focus on right-hand descriptions; browser chrome must be cropped.",
+    [
+      [
+        2,
+        4,
+        "Stone"
+      ],
+      [
+        5,
+        7,
+        "Copper candidate"
+      ],
+      [
+        8,
+        10,
+        "Tin"
+      ],
+      [
+        10,
+        12,
+        "Bronze candidate"
+      ],
+      [
+        12,
+        14,
+        "Iron / Metal Ingot"
+      ],
+      [
+        15,
+        17,
+        "Steel candidate"
+      ],
+      [
+        18,
+        20.5,
+        "Star Iron"
+      ]
+    ]
+  ],
+  "yorksmith.mkv": [
+    "York Public Smith sign. Live town. Companion capture smithersmith shows sign reading Built by Louie; credit this smithy to Louie and town collectively.",
+    [
+      [
+        12,
+        15,
+        "Walk up and read smith sign"
+      ]
+    ]
+  ],
+  "yorkarrival.mkv": [
+    "Walk into player-built York. Live. No market UI requested.",
+    [
+      [
+        5,
+        12,
+        "Approach and walk through York"
+      ]
+    ]
+  ],
+  "smithersmith.mkv": [
+    "Smither standing with axe in York Public Smith. Sign reads York Public Blacksmith / Built by Louie. Walking in is clean; later orbit is choppy. Does not show a trade.",
+    [
+      [
+        3,
+        7,
+        "Walk into smithy"
+      ],
+      [
+        7,
+        12,
+        "Two characters inside; inspect orbit before using"
+      ]
+    ]
+  ]
+}

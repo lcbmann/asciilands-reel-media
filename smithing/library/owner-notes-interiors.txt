@@ -1,0 +1,29 @@
+@"C:\Users\liamb\Videos\walkcutout.mkv" @"C:\Users\liamb\Videos\stairclimb.mkv" @"C:\Users\liamb\Videos\windowslow.mkv" @"C:\Users\liamb\Videos\walkroofonly.mkv" @"C:\Users\liamb\Videos\circlerotate.mkv" @"C:\Users\liamb\Videos\dollhouseperformance.mkv" @"C:\Users\liamb\Videos\sightlinewalktowindow.mkv" @"C:\Users\liamb\Videos\sightlines.mkv" @"C:\Users\liamb\Videos\orbitsunset.mkv" @"C:\Users\liamb\Videos\interiorproblem.mkv" @"C:\Users\liamb\Documents\Audacity4\interiorcutawaysequelshort.wav" Recordings:
+
+1. walkcutout: character begins walking in just before 5 seconds in. Not straight on angle, but walking up and to the left into the doorway. Rest of the video is some slight rotation, climbing slowly up the steps, upper floor and balcony. 
+2. stairclimb: can use 8 seconds till 11 seconds for the view of the transparent floor and then climbing up the stairs 
+3. windowslow: slow rotation while standing on front of some windows. 7 sec through 10 sec is the best clip. 
+4. walkroofonly: from 7 seconds till 10 seconds is walking in then rotating slightly clockwise. rest of the video is not useful. you seem to misunderstand roof only: its only when you step inside that the roof and walls disappear, and no zoom occurs. 
+5. circlerotate: fps counter visible in the top right, circling view around character in house next to pet red panda. Best from 0:15 to 0:17 (there's a slight jolt in the rotation, perhaps try to match this with a slight zoom or a line so it doesn't look out of place?) 
+6. dollhouseperformance: shows that the dollhouse view is by FAR the most performant, with almost 5 times the frames as in circle view. Will shift the script to:  Idea two is from Fallout: a see-through circle around you. It looks kinda cool, but the game has to draw the world twice, once with the house and once without, so the frame rate takes a dive. Maybe do a side by side view of the two with the frame rates on top to see the difference?
+7. sightlines: walking into the house with sightlines enabled at 0:06 to 0:08. Walk around the house a bit: best way to show off the distracting outside darkness is 0:37 to 0:39 to the up and left of the character 
+8. sightlineswalktowindow: walking up to a window in a zoomed out enough view to see the cones of viewing show up in the distance. Best walk up from 0:18 to 0:21
+9. orbitsunset: nice orbit around player on balcony of house with cool limestone karst formations and other house in background. red panda on the ground below the house. probably best from 0:19 to 0:24. try and get the panda, character, and bits of the house/background limestone karst into the shot. 
+10. interiorproblem: showing with all modes off, walking in through the door and no longer being able to see the character. best from 0:09 to end. Probably could use it for part of the intro?
+
+
+Let me know if you need any other shots. We want to make sure this is as high quality as possible. Use the same captioning techniques and other styles from previous shorts. Show the out of 10 scores outside of the captions. Maybe format the game titles in the captions with the actual game logos or fonts rather than the default caption font. Make sure the individual comments (and the related comments that overlap) are shown clearly. We also had some issues with formatting and spacing previously, despite having one version for reels/shorts and another for tiktok. Small text in the top middle, for instance, only leads to the iphone notch overlapping or other problems. Having one version for all platforms where the captions are just a little smaller and there's a bit more of a margin on the sides for the text would probably be better.
+
+Interior cutaway sequel script:
+
+1. A week ago I asked how you would solve a big problem with my game: viewing interiors from an external camera. You sent me a ton of ideas, so I built the top three.
+2. First, the original dollhouse view. Simple and clean, but not being able to see out of windows is a major drawback.
+3. Idea one is from RuneScape: just hide the roof and the walls in your way. Now you can see outside, but walls popping in and out looks a bit more like a bug than a feature. I give it a 7 out of 10.
+4. Idea two is from Fallout: a see-through circle around you. It looks kinda cool, but the game has to draw the world twice, once with the house and once without, so the frame rate takes a dive. 4 out of 10 for now.
+5. Idea three was the most liked by far: Project Zomboid. Outside stays dark, except what you could actually see through the windows. The most realistic, but it can be a bit distracting as you move around the house. Solid 8/10. 
+6. All of these ideas might end up as options in settings. But which one should be the default? I’m still leaning dollhouse. What would you pick?
+
+
+changed up a few things like the intro, no real need to mention the upper floors being visible now. Is it too long? not sure about limits for reels/tiktoks/youtube shorts. 
+
+also, help me decide: get this posted today (probably around 10pm germany time) or wait till 7pm germany time tomorrow to post as we usually do? It's been a couple days since the last one and the last one didn't perform too well so I want to get it out earlier, but not if the later time is going to significantly impact views.

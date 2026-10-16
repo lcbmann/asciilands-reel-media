@@ -1,0 +1,3007 @@
+{
+ "updated": "2026-10-16",
+ "policy": "Append new recordings and selects here. Preserve original files and owner notes. A sampled still is not full motion/audio approval.",
+ "recordings": [
+  {
+   "index": 0,
+   "path": null,
+   "duration": 12.15,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.8225,
+    6.075,
+    9.72
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-03 19-57-39.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 1,
+   "path": null,
+   "duration": 35.05,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.257499999999999,
+    17.525,
+    28.04
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-03 20-01-18.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 2,
+   "path": null,
+   "duration": 92.034,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    13.805100000000001,
+    46.017,
+    73.6272
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-03 21-01-03.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 3,
+   "path": null,
+   "duration": 38.217,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.73255,
+    19.1085,
+    30.5736
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-03 21-02-39.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 4,
+   "path": null,
+   "duration": 85.75,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    12.862499999999999,
+    42.875,
+    68.60000000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 12-40-18.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 5,
+   "path": null,
+   "duration": 3.317,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    0.49755,
+    1.6585,
+    2.6536000000000004
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 12-45-07.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 6,
+   "path": null,
+   "duration": 191.067,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    28.660050000000002,
+    95.5335,
+    152.8536
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 12-45-18.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 7,
+   "path": "media/video/2026-10-04 12-50-20.mkv",
+   "duration": 185.7,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    27.854999999999997,
+    92.85,
+    148.56
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 111.5,
+      "source_out": 112.59333333333333,
+      "output_in": 1.9333333333333333,
+      "output_out": 3.3,
+      "speed": 0.8,
+      "phrase": "cross a massive"
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 12-50-20.mkv",
+   "source_available_in_bundle": true
+  },
+  {
+   "index": 8,
+   "path": null,
+   "duration": 188.967,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    28.34505,
+    94.4835,
+    151.17360000000002
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 13-44-58.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 9,
+   "path": null,
+   "duration": 134.058,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    20.1087,
+    67.029,
+    107.2464
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 13-49-34.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 10,
+   "path": null,
+   "duration": 151.517,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    22.727549999999997,
+    75.7585,
+    121.2136
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 13-53-10.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 11,
+   "path": null,
+   "duration": 173.65,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    26.0475,
+    86.825,
+    138.92000000000002
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 13-57-07.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 12,
+   "path": null,
+   "duration": 17.534,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.6300999999999997,
+    8.767,
+    14.0272
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 14-01-19.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 13,
+   "path": null,
+   "duration": 47.05,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    7.057499999999999,
+    23.525,
+    37.64
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 14-01-41.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 14,
+   "path": null,
+   "duration": 158.85,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    23.827499999999997,
+    79.425,
+    127.08
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 14-03-16.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 15,
+   "path": null,
+   "duration": 23.15,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.4724999999999997,
+    11.575,
+    18.52
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-04-17.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 16,
+   "path": null,
+   "duration": 284.55,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    42.6825,
+    142.275,
+    227.64000000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-04-45.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 17,
+   "path": null,
+   "duration": 12.351,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.8526500000000001,
+    6.1755,
+    9.8808
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-11-00.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 18,
+   "path": null,
+   "duration": 39.667,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.95005,
+    19.8335,
+    31.733600000000003
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-11-15.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 19,
+   "path": null,
+   "duration": 9.0,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.3499999999999999,
+    4.5,
+    7.2
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-12-44.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 20,
+   "path": null,
+   "duration": 25.567,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.83505,
+    12.7835,
+    20.4536
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-13-23.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 21,
+   "path": null,
+   "duration": 23.65,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.5475,
+    11.825,
+    18.919999999999998
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-14-50.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 22,
+   "path": null,
+   "duration": 7.084,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.0626,
+    3.542,
+    5.6672
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-16-07.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 23,
+   "path": null,
+   "duration": 70.834,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    10.6251,
+    35.417,
+    56.66720000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-17-09.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 24,
+   "path": null,
+   "duration": 16.517,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.47755,
+    8.2585,
+    13.2136
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-19-23.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 25,
+   "path": null,
+   "duration": 60.3,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    9.045,
+    30.15,
+    48.24
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 16-20-12.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 26,
+   "path": null,
+   "duration": 168.334,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    25.2501,
+    84.167,
+    134.6672
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 17-31-45.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 27,
+   "path": null,
+   "duration": 30.384,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.5576,
+    15.192,
+    24.3072
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 17-40-23.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 28,
+   "path": null,
+   "duration": 40.021,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    6.00315,
+    20.0105,
+    32.0168
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-05 22-31-06.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 29,
+   "path": null,
+   "duration": 82.734,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    12.410099999999998,
+    41.367,
+    66.1872
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-41-09.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 30,
+   "path": null,
+   "duration": 17.534,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.6300999999999997,
+    8.767,
+    14.0272
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-44-25.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 31,
+   "path": null,
+   "duration": 8.084,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.2126,
+    4.042,
+    6.4672
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-45-11.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 32,
+   "path": null,
+   "duration": 32.884,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.9326,
+    16.442,
+    26.3072
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-45-27.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 33,
+   "path": null,
+   "duration": 8.341,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.2511499999999998,
+    4.1705,
+    6.6728
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-46-52.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 34,
+   "path": null,
+   "duration": 95.434,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    14.3151,
+    47.717,
+    76.3472
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-47-02.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 35,
+   "path": null,
+   "duration": 41.467,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    6.22005,
+    20.7335,
+    33.1736
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-50-40.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 36,
+   "path": null,
+   "duration": 11.007,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.65105,
+    5.5035,
+    8.8056
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-52-46.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 37,
+   "path": null,
+   "duration": 27.767,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.16505,
+    13.8835,
+    22.2136
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-53-53.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 38,
+   "path": null,
+   "duration": 10.45,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.5675,
+    5.225,
+    8.36
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 12-57-14.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 39,
+   "path": null,
+   "duration": 39.067,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.86005,
+    19.5335,
+    31.253600000000002
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 13-03-59.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 40,
+   "path": null,
+   "duration": 37.525,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.628749999999999,
+    18.7625,
+    30.02
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 13-05-12.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 41,
+   "path": null,
+   "duration": 46.805,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    7.02075,
+    23.4025,
+    37.444
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 13-06-27.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 42,
+   "path": null,
+   "duration": 31.534,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.730099999999999,
+    15.767,
+    25.2272
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 13-09-19.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 43,
+   "path": null,
+   "duration": 8.8,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.32,
+    4.4,
+    7.040000000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 13-09-52.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 44,
+   "path": null,
+   "duration": 13.217,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.98255,
+    6.6085,
+    10.5736
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 13-10-21.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 45,
+   "path": null,
+   "duration": 48.45,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    7.2675,
+    24.225,
+    38.760000000000005
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 19-47-00.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 46,
+   "path": null,
+   "duration": 20.784,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.1176,
+    10.392,
+    16.6272
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 19-47-49.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 47,
+   "path": null,
+   "duration": 24.8,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.7199999999999998,
+    12.4,
+    19.840000000000003
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 19-48-30.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 48,
+   "path": null,
+   "duration": 124.6,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    18.689999999999998,
+    62.3,
+    99.68
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 19-54-27.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 49,
+   "path": null,
+   "duration": 7.334,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.1000999999999999,
+    3.667,
+    5.8672
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 20-18-02.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 50,
+   "path": null,
+   "duration": 444.634,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    66.6951,
+    222.317,
+    355.70720000000006
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-06 21-21-49.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 51,
+   "path": null,
+   "duration": 22.101,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.3151499999999996,
+    11.0505,
+    17.6808
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-11-58.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 52,
+   "path": null,
+   "duration": 18.584,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.7876,
+    9.292,
+    14.8672
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-13-50.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 53,
+   "path": null,
+   "duration": 11.5,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.7249999999999999,
+    5.75,
+    9.200000000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-16-48.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 54,
+   "path": null,
+   "duration": 7.134,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.0701,
+    3.567,
+    5.7072
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-21-40.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 55,
+   "path": null,
+   "duration": 46.9,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    7.034999999999999,
+    23.45,
+    37.52
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-45-56.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 56,
+   "path": null,
+   "duration": 58.7,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    8.805,
+    29.35,
+    46.96000000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-47-28.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 57,
+   "path": null,
+   "duration": 17.134,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.5701,
+    8.567,
+    13.7072
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-50-00.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 58,
+   "path": null,
+   "duration": 29.017,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.35255,
+    14.5085,
+    23.2136
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-50-20.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 59,
+   "path": null,
+   "duration": 24.05,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.6075,
+    12.025,
+    19.240000000000002
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-57-08.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 60,
+   "path": null,
+   "duration": 28.867,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.33005,
+    14.4335,
+    23.093600000000002
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 17-59-06.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 61,
+   "path": null,
+   "duration": 35.1,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.265,
+    17.55,
+    28.080000000000002
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 18-01-08.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 62,
+   "path": null,
+   "duration": 30.934,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.6401,
+    15.467,
+    24.747200000000003
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-09 18-02-32.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 63,
+   "path": null,
+   "duration": 1.367,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    0.20504999999999998,
+    0.6835,
+    1.0936000000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-13 18-33-38.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 64,
+   "path": null,
+   "duration": 32.341,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.85115,
+    16.1705,
+    25.8728
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-13 18-44-39.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 65,
+   "path": null,
+   "duration": 16.017,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.4025499999999997,
+    8.0085,
+    12.813600000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-13 18-46-03.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 66,
+   "path": null,
+   "duration": 26.217,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.9325499999999995,
+    13.1085,
+    20.9736
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-13 18-46-43.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 67,
+   "path": null,
+   "duration": 18.734,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.8101000000000003,
+    9.367,
+    14.987200000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 15,
+     "end": 17,
+     "description": "Circle view next to red panda",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "FPS visible top right; slight orbit jolt. Do not hide it with misleading performance claims.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\circlerotate.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 68,
+   "path": null,
+   "duration": 6.134,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    0.9201,
+    3.067,
+    4.9072000000000005
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "description": "Owner reports dollhouse about five times FPS of circle; compare recorded counters before asserting quantitative performance.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\dollhouseperformance.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 69,
+   "path": null,
+   "duration": 11.95,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.7924999999999998,
+    5.975,
+    9.56
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 9,
+     "end": 11.95,
+     "description": "Enter doorway and lose sight of character",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "All cutaway modes disabled.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\interiorproblem.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 70,
+   "path": null,
+   "duration": 25.067,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.7600499999999997,
+    12.5335,
+    20.053600000000003
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\nicehouses.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 71,
+   "path": null,
+   "duration": 37.2,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    5.58,
+    18.6,
+    29.760000000000005
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 19,
+     "end": 24,
+     "description": "Balcony orbit, limestone karst, house and red panda",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "Keep panda, character and landscape in framing.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitsunset.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 72,
+   "path": null,
+   "duration": 40.517,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    6.0775500000000005,
+    20.2585,
+    32.4136
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 6,
+     "end": 8,
+     "description": "Enter with sightlines",
+     "provenance": "Owner prior timestamp notes"
+    },
+    {
+     "start": 37,
+     "end": 39,
+     "description": "Distracting exterior darkness up-left of player",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\sightlines.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 73,
+   "path": null,
+   "duration": 21.7,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.255,
+    10.85,
+    17.36
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 18,
+     "end": 21,
+     "description": "Approach window; distant visibility cones",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "Owner older note called this sightlineswalktowindow.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\sightlinewalktowindow.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 74,
+   "path": null,
+   "duration": 12.25,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    1.8375,
+    6.125,
+    9.8
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 8,
+     "end": 11,
+     "description": "Transparent floor then climb stairs",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\stairclimb.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 75,
+   "path": null,
+   "duration": 31.334,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    4.7001,
+    15.667,
+    25.0672
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 4.5,
+     "end": 8,
+     "description": "Walk diagonally up-left into doorway",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "Rest: rotation, slow stairs, upper floor and balcony.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\walkcutout.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 76,
+   "path": null,
+   "duration": 25.417,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    3.81255,
+    12.7085,
+    20.333600000000004
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\walkintro.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 77,
+   "path": null,
+   "duration": 47.2,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    7.08,
+    23.6,
+    37.760000000000005
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 7,
+     "end": 10,
+     "description": "Enter house then slight clockwise rotation",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "Roof/walls vanish only upon entry; no zoom. Rest not useful per owner.",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\walkroofonly.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 78,
+   "path": null,
+   "duration": 15.467,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "samples": [
+    2.32005,
+    7.7335,
+    12.373600000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [
+    {
+     "start": 7,
+     "end": 10,
+     "description": "Slow orbit in front of windows",
+     "provenance": "Owner prior timestamp notes"
+    }
+   ],
+   "description": "",
+   "tags": [
+    "interiors",
+    "owner-select"
+   ],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\windowslow.mkv",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 79,
+   "path": null,
+   "duration": 39.166667,
+   "width": 1080,
+   "height": 1920,
+   "fps": "60/1",
+   "samples": [
+    5.87500005,
+    19.5833335,
+    31.3333336
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands\\tools\\media-capture\\out\\asciilands-short2-cutaway.mp4",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 80,
+   "path": null,
+   "duration": 42.858,
+   "width": 1080,
+   "height": 1920,
+   "fps": "60/1",
+   "samples": [
+    6.428699999999999,
+    21.429,
+    34.2864
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands\\tools\\media-capture\\out\\short3\\asciilands-short3-ascii.mp4",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 81,
+   "path": null,
+   "duration": 56.764,
+   "width": 1080,
+   "height": 1920,
+   "fps": "60/1",
+   "samples": [
+    8.5146,
+    28.382,
+    45.41120000000001
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands\\tools\\media-capture\\out\\short4\\asciilands-short4-breaking-in.mp4",
+   "source_available_in_bundle": false
+  },
+  {
+   "index": 82,
+   "path": null,
+   "duration": 55.066667,
+   "width": 1080,
+   "height": 1920,
+   "fps": "60/1",
+   "samples": [
+    8.26000005,
+    27.5333335,
+    44.0533336
+   ],
+   "review_status": "Three sampled stills; motion not fully reviewed",
+   "selects": [],
+   "used_in": {
+    "smithing-v1": []
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands\\tools\\media-capture\\out\\short5\\asciilands-short5-interiors.mp4",
+   "source_available_in_bundle": false
+  },
+  {
+   "file": "smithtwoswords.mkv",
+   "path": "media/video/smithtwoswords.mkv",
+   "duration": 161.5,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Iron arming sword and bronze rapier; full forging, naming, assembly and inspection. Candidate shaping timelapses; show hammer and blade together.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 1,
+     "end": 50,
+     "description": "Etched iron arming sword forging",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 53,
+     "end": 57,
+     "description": "Naming iron sword",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 57,
+     "end": 60,
+     "description": "Forge completion",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 67,
+     "end": 80,
+     "description": "Workbench assembly",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 81,
+     "end": 83,
+     "description": "Inventory selection",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 83,
+     "end": 90,
+     "description": "Iron sword inspection",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 94,
+     "end": 135,
+     "description": "Bronze rapier forging",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 140,
+     "end": 145,
+     "description": "Naming bronze rapier",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 150,
+     "end": 159,
+     "description": "Assembly: owner marker 150; sampled 150 is outside UI, refine before use",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 159,
+     "end": 161.5,
+     "description": "Bronze rapier inspection",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 38.0,
+     "end": 43.8,
+     "description": "Iron arming sword late strikes, real time (strikes 38.69 39.51 40.27 41.59 43.38)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 44.0,
+     "end": 49.0,
+     "description": "Iron at Fit 100 percent, idle heat; little action",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 49.0,
+     "end": 55.0,
+     "description": "Typing the name Cleaver",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 59.0,
+     "end": 62.0,
+     "description": "Iron finished blade panel",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 80.9,
+     "end": 83.4,
+     "description": "Pack with Cleaver selected",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 83.55,
+     "end": 86.5,
+     "description": "Cleaver Inspect fully open (closes 86.6)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 118.0,
+     "end": 145.0,
+     "description": "Bronze rapier late shaping, many strikes",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/smithtwoswords.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "local filming dev",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 83.4,
+      "source_out": 84.63666666666667,
+      "output_in": 3.3,
+      "output_out": 5.066666666666666,
+      "speed": 0.7,
+      "phrase": "just to buy"
+     },
+     {
+      "source_in": 159.3,
+      "source_out": 160.60000000000002,
+      "output_in": 5.066666666666666,
+      "output_out": 7.066666666666666,
+      "speed": 0.65,
+      "phrase": "Not just because"
+     },
+     {
+      "source_in": 84,
+      "source_out": 85.12,
+      "output_in": 7.066666666666666,
+      "output_out": 8.666666666666666,
+      "speed": 0.7,
+      "phrase": "but because of who"
+     },
+     {
+      "source_in": 68,
+      "source_out": 72.25,
+      "output_in": 11.5,
+      "output_out": 14.0,
+      "speed": 1.7,
+      "phrase": "Weapons and tools"
+     },
+     {
+      "source_in": 20,
+      "source_out": 28.39999999999999,
+      "output_in": 26.166666666666668,
+      "output_out": 28.966666666666665,
+      "speed": 3,
+      "phrase": "can click a button"
+     },
+     {
+      "source_in": 83.6,
+      "source_out": 85.70666666666666,
+      "output_in": 28.966666666666665,
+      "output_out": 31.6,
+      "speed": 0.8,
+      "phrase": "there's not much"
+     },
+     {
+      "source_in": 15,
+      "source_out": 31.599999999999994,
+      "output_in": 34.63333333333333,
+      "output_out": 37.4,
+      "speed": 6,
+      "phrase": "So in Asciilands"
+     },
+     {
+      "source_in": 119,
+      "source_out": 128.33333333333331,
+      "output_in": 39.56666666666667,
+      "output_out": 41.43333333333333,
+      "speed": 5,
+      "phrase": "and work the metal"
+     },
+     {
+      "source_in": 46,
+      "source_out": 47.53333333333334,
+      "output_in": 48.8,
+      "output_out": 50.333333333333336,
+      "speed": 1,
+      "phrase": "And that shape"
+     },
+     {
+      "source_in": 83.8,
+      "source_out": 85.24666666666666,
+      "output_in": 50.333333333333336,
+      "output_out": 52.4,
+      "speed": 0.7,
+      "phrase": "That's the actual"
+     },
+     {
+      "source_in": 53.0,
+      "source_out": 54.92666666666666,
+      "output_in": 52.4,
+      "output_out": 53.53333333333333,
+      "speed": 1.7,
+      "phrase": "You can give it"
+     },
+     {
+      "source_in": 84,
+      "source_out": 86.08,
+      "output_in": 53.53333333333333,
+      "output_out": 57.0,
+      "speed": 0.6,
+      "phrase": "and your maker's"
+     },
+     {
+      "source_in": 116,
+      "source_out": 119.4,
+      "output_in": 57.0,
+      "output_out": 58.7,
+      "speed": 2,
+      "phrase": "The basic metals"
+     },
+     {
+      "source_in": 129,
+      "source_out": 131.60000000000002,
+      "output_in": 74.33333333333333,
+      "output_out": 75.63333333333334,
+      "speed": 2,
+      "phrase": "You're paying for"
+     },
+     {
+      "source_in": 126,
+      "source_out": 129.0,
+      "output_in": 78.16666666666667,
+      "output_out": 79.66666666666667,
+      "speed": 2,
+      "phrase": "or just turn"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 83.62,
+      "source_out": 86.45,
+      "output_in": 2.8333333333333335,
+      "output_out": 7.766666666666667,
+      "speed": 0.57365,
+      "phrase": "just to buy a",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 80.95,
+      "source_out": 83.3,
+      "output_in": 10.6,
+      "output_out": 13.133333333333333,
+      "speed": 0.92764,
+      "phrase": "Weapons and tools",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 118.0,
+      "source_out": 145.0,
+      "output_in": 52.233333333333334,
+      "output_out": 53.833333333333336,
+      "speed": 16.875,
+      "phrase": "The basic metals",
+      "sound": [
+       "hits",
+       4.0,
+       0.3
+      ],
+      "provisional": null
+     },
+     {
+      "source_in": 83.62,
+      "source_out": 86.45,
+      "output_in": 59.36666666666667,
+      "output_out": 61.766666666666666,
+      "speed": 1.17917,
+      "phrase": "Someone asks who",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 38.0,
+      "source_out": 43.8,
+      "output_in": 67.63333333333334,
+      "output_out": 73.43333333333334,
+      "speed": 1,
+      "phrase": "You're paying for their",
+      "sound": [
+       "hits",
+       7.0,
+       0.2
+      ],
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\smithtwoswords.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: strikes and heat clear; faint in-game music under parts (tonal bed visible 90-140s). Use gated strikes, not continuous audio."
+  },
+  {
+   "file": "smithbadsteel.mkv",
+   "path": "media/video/smithbadsteel.mkv",
+   "duration": 79.784,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Imperfect steel sword. Strong visual for mistakes affecting the actual retained shape. Not a controlled same-steel grade comparison.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 3,
+     "end": 58,
+     "description": "Steel forging",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 9,
+     "end": 12,
+     "description": "Mistake 1, owner marker 10",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 20,
+     "end": 24,
+     "description": "Mistakes 2 and 3, owner markers 21 and 22",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 58,
+     "end": 65,
+     "description": "Naming",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 67,
+     "end": 73,
+     "description": "Crafting / assembly",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 75,
+     "end": 79.784,
+     "description": "Inspection; uneven shape visible",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 76.0,
+     "end": 79.7,
+     "description": "Verified clean Inspect window; 75.2 still shows Pack before window opens",
+     "provenance": "Editor cut-by-cut review 2026-10-16"
+    },
+    {
+     "start": 3.0,
+     "end": 5.6,
+     "description": "Forge UI open, untouched blank, silent",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 5.64,
+     "end": 12.1,
+     "description": "Real-time first heats and strikes; clean game audio, no music",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 12.1,
+     "end": 55.6,
+     "description": "Full shaping: blank to narrow rapier at Fit 97 percent (timelapse source)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 57.5,
+     "end": 60.6,
+     "description": "Typing the name Swordy",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 61.5,
+     "end": 63.0,
+     "description": "Finish chosen: Polished then Etched",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 63.8,
+     "end": 64.45,
+     "description": "Forge clicked: Forging...",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 64.5,
+     "end": 65.8,
+     "description": "Finished blade panel: \"Forged Swordy\"; finished piece preview at x1261-1296 y643-920",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 75.45,
+     "end": 79.7,
+     "description": "Swordy Inspect fully open (75.45 opening frame)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/smithbadsteel.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "local filming dev",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 4,
+      "source_out": 6.000000000000002,
+      "output_in": 24.5,
+      "output_out": 26.166666666666668,
+      "speed": 1.2,
+      "phrase": "But if anyone"
+     },
+     {
+      "source_in": 9,
+      "source_out": 12.033333333333331,
+      "output_in": 31.6,
+      "output_out": 34.63333333333333,
+      "speed": 1,
+      "phrase": "I wanted being"
+     },
+     {
+      "source_in": 20,
+      "source_out": 21.0,
+      "output_in": 38.56666666666667,
+      "output_out": 39.56666666666667,
+      "speed": 1,
+      "phrase": "choose where to strike"
+     },
+     {
+      "source_in": 20,
+      "source_out": 23.640000000000008,
+      "output_in": 41.43333333333333,
+      "output_out": 44.46666666666667,
+      "speed": 1.2,
+      "phrase": "Two players can"
+     },
+     {
+      "source_in": 76.0,
+      "source_out": 77.05,
+      "output_in": 44.46666666666667,
+      "output_out": 45.96666666666667,
+      "speed": 0.7,
+      "phrase": "very different swords"
+     },
+     {
+      "source_in": 76,
+      "source_out": 77.7,
+      "output_in": 45.96666666666667,
+      "output_out": 48.8,
+      "speed": 0.6,
+      "phrase": "Better forging makes"
+     },
+     {
+      "source_in": 76.0,
+      "source_out": 77.52,
+      "output_in": 75.63333333333334,
+      "output_out": 78.16666666666667,
+      "speed": 0.6,
+      "phrase": "But does this"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 3.0,
+      "source_out": 12.1,
+      "output_in": 29.166666666666668,
+      "output_out": 38.266666666666666,
+      "speed": 1,
+      "phrase": "I wanted being",
+      "sound": [
+       "live",
+       7.0
+      ],
+      "provisional": null
+     },
+     {
+      "source_in": 12.1,
+      "source_out": 55.6,
+      "output_in": 38.266666666666666,
+      "output_out": 45.333333333333336,
+      "speed": 6.15563,
+      "phrase": "Two players can",
+      "sound": [
+       "hits",
+       6.0,
+       0.42
+      ],
+      "provisional": null
+     },
+     {
+      "source_in": 64.48,
+      "source_out": 65.45,
+      "output_in": 45.333333333333336,
+      "output_out": 46.63333333333333,
+      "speed": 0.74615,
+      "phrase": "And that shape",
+      "sound": [
+       "live",
+       6.0
+      ],
+      "provisional": null
+     },
+     {
+      "source_in": 75.55,
+      "source_out": 77.4833,
+      "output_in": 46.63333333333333,
+      "output_out": 48.56666666666667,
+      "speed": 1,
+      "phrase": "That's the actual",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 57.4,
+      "source_out": 60.75,
+      "output_in": 48.56666666666667,
+      "output_out": 49.7,
+      "speed": 2.95597,
+      "phrase": "You can give",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 77.49,
+      "source_out": 79.65,
+      "output_in": 49.7,
+      "output_out": 52.233333333333334,
+      "speed": 0.85264,
+      "phrase": "and your maker's",
+      "sound": null,
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\smithbadsteel.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: clean game sound only (heat whoosh, tonal strikes near 690 Hz/2 kHz, finish chime). No music or microphone. Usable live."
+  },
+  {
+   "file": "starironhard.mkv",
+   "path": "media/video/starironhard.mkv",
+   "duration": 49.35,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "First half of difficult Star Iron forging. Narrow working heat band; cooling and surges. No completed item.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 3,
+     "end": 18,
+     "description": "Heat control and early strikes",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 18,
+     "end": 40,
+     "description": "Continued shaping and fluctuating heat",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 4.6,
+     "end": 7.4,
+     "description": "Heat, surge and strike at 6.49, real time",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/starironhard.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "local filming dev",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 5,
+      "source_out": 6.166666666666671,
+      "output_in": 37.4,
+      "output_out": 38.56666666666667,
+      "speed": 1,
+      "phrase": "You control the heat"
+     },
+     {
+      "source_in": 9,
+      "source_out": 13.199999999999996,
+      "output_in": 58.7,
+      "output_out": 62.9,
+      "speed": 1,
+      "phrase": "The higher"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 4.6,
+      "source_out": 7.3333,
+      "output_in": 53.833333333333336,
+      "output_out": 56.56666666666667,
+      "speed": 1,
+      "phrase": "The higher -tier",
+      "sound": [
+       "hits",
+       6.0,
+       0.25
+      ],
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\starironhard.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: strikes and heat clear; faint in-game music tones under the whole clip. Use gated strikes."
+  },
+  {
+   "file": "orbitdesertmeteor.mkv",
+   "path": "media/video/orbitdesertmeteor.mkv",
+   "duration": 57.834,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Desert Star Iron meteor orbit. Owner says useful footage starts at 12.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 12,
+     "end": 25,
+     "description": "Meteor orbit; sampled at 12,16,20",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 12.0,
+     "end": 14.1,
+     "description": "Meteor orbit used in v2",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/orbitdesertmeteor.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "unspecified",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 12,
+      "source_out": 14.233333333333334,
+      "output_in": 19.433333333333334,
+      "output_out": 21.666666666666668,
+      "speed": 1,
+      "phrase": "Rare materials"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 12.0,
+      "source_out": 14.0333,
+      "output_in": 18.166666666666668,
+      "output_out": 20.2,
+      "speed": 1,
+      "phrase": "Rare materials",
+      "sound": null,
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitdesertmeteor.mkv",
+   "source_available_in_bundle": true
+  },
+  {
+   "file": "orbitsnowmeteor.mkv",
+   "path": "media/video/orbitsnowmeteor.mkv",
+   "duration": 65.517,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Snow meteor orbit. Owner says useful footage starts at 48.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 48,
+     "end": 60,
+     "description": "Snow meteor orbit",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 48.0,
+     "end": 50.9,
+     "description": "Meteor orbit used in v2",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/orbitsnowmeteor.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "unspecified",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 48,
+      "source_out": 50.86666666666666,
+      "output_in": 71.46666666666667,
+      "output_out": 74.33333333333333,
+      "speed": 1,
+      "phrase": "You're not just"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 48.0,
+      "source_out": 50.8333,
+      "output_in": 64.8,
+      "output_out": 67.63333333333334,
+      "speed": 1,
+      "phrase": "You're not just",
+      "sound": null,
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitsnowmeteor.mkv",
+   "source_available_in_bundle": true
+  },
+  {
+   "file": "inventorymaterials.mkv",
+   "path": "media/video/inventorymaterials.mkv",
+   "duration": 20.85,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Cycles stone, copper, tin, bronze, iron, steel and Star Iron. Focus on right-hand descriptions; browser chrome must be cropped.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 2,
+     "end": 4,
+     "description": "Stone",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 5,
+     "end": 7,
+     "description": "Copper candidate",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 8,
+     "end": 10,
+     "description": "Tin",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 10,
+     "end": 12,
+     "description": "Bronze candidate",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 12,
+     "end": 14,
+     "description": "Iron / Metal Ingot",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 15,
+     "end": 17,
+     "description": "Steel candidate",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 18,
+     "end": 20.5,
+     "description": "Star Iron",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 0.0,
+     "end": 3.9,
+     "description": "Stone Chunk selected",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 17.95,
+     "end": 20.75,
+     "description": "Star Iron description: \"Rare meteor metal for exceptional metalwork\"",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/inventorymaterials.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "unspecified",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 17.9,
+      "source_out": 19.88333333333333,
+      "output_in": 21.666666666666668,
+      "output_out": 24.5,
+      "speed": 0.7,
+      "phrase": "Better damage"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 17.95,
+      "source_out": 20.75,
+      "output_in": 20.2,
+      "output_out": 22.9,
+      "speed": 1.03704,
+      "phrase": "Better damage and",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 0.0,
+      "source_out": 6.2667,
+      "output_in": 22.9,
+      "output_out": 29.166666666666668,
+      "speed": 1,
+      "phrase": "But if anyone",
+      "sound": null,
+      "provisional": "oneclickarrows.mkv"
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\inventorymaterials.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: UI clicks only."
+  },
+  {
+   "file": "yorksmith.mkv",
+   "path": "media/video/yorksmith.mkv",
+   "duration": 41.667,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "York Public Smith sign. Live town. Companion capture smithersmith shows sign reading Built by Louie; credit this smithy to Louie and town collectively.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 12,
+     "end": 15,
+     "description": "Walk up and read smith sign",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 10.5,
+     "end": 13.3,
+     "description": "Walk toward the two York buildings, smithy on the right",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 14.5,
+     "end": 16.5,
+     "description": "York Public Blacksmith sign readable: \"Built by Louie\"",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 18.0,
+     "end": 20.9,
+     "description": "Town overview, pergola, half-timbered house, smithy",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 21.0,
+     "end": 25.5,
+     "description": "Walk toward camera past the smithy with the dog; good settled ending shot",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/yorksmith.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "live",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 12,
+      "source_out": 14.453333333333337,
+      "output_in": 62.9,
+      "output_out": 65.96666666666667,
+      "speed": 0.8,
+      "phrase": "A good smith"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 18.0,
+      "source_out": 20.8333,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 14.55,
+      "source_out": 16.0167,
+      "output_in": 13.133333333333333,
+      "output_out": 14.6,
+      "speed": 1,
+      "phrase": "But for that",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 10.5,
+      "source_out": 13.3,
+      "output_in": 56.56666666666667,
+      "output_out": 59.36666666666667,
+      "speed": 1,
+      "phrase": "A good smith",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 21.0,
+      "source_out": 24.6,
+      "output_in": 73.43333333333334,
+      "output_out": 77.03333333333333,
+      "speed": 1,
+      "phrase": "Tell me in",
+      "sound": null,
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\yorksmith.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: ambience and footsteps, about -39 LUFS."
+  },
+  {
+   "file": "yorkarrival.mkv",
+   "path": "media/video/yorkarrival.mkv",
+   "duration": 13.517,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Walk into player-built York. Live. No market UI requested.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 5,
+     "end": 12,
+     "description": "Approach and walk through York",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 5.0,
+     "end": 5.93,
+     "description": "REJECT for openings: character faces camera and turns; walk begins 6.00",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 6.0,
+     "end": 12.9,
+     "description": "Clean walk through York from behind, dog alongside; menu opens at 13.0",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/yorkarrival.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "live",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 5,
+      "source_out": 6.933333333333334,
+      "output_in": 0,
+      "output_out": 1.9333333333333333,
+      "speed": 1,
+      "phrase": "I want players"
+     },
+     {
+      "source_in": 8,
+      "source_out": 10.266666666666667,
+      "output_in": 8.666666666666666,
+      "output_out": 11.5,
+      "speed": 0.8,
+      "phrase": "I'm building Asciilands"
+     },
+     {
+      "source_in": 9,
+      "source_out": 10.413333333333332,
+      "output_in": 69.7,
+      "output_out": 71.46666666666667,
+      "speed": 0.8,
+      "phrase": "and suddenly"
+     },
+     {
+      "source_in": 8,
+      "source_out": 10.746666666666659,
+      "output_in": 79.66666666666667,
+      "output_out": 83.1,
+      "speed": 0.8,
+      "phrase": "Tell me in"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 6.0,
+      "source_out": 7.5,
+      "output_in": 0.0,
+      "output_out": 1.5,
+      "speed": 1,
+      "phrase": "I want players",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 7.5,
+      "source_out": 8.8333,
+      "output_in": 1.5,
+      "output_out": 2.8333333333333335,
+      "speed": 1,
+      "phrase": "cross a massive map",
+      "sound": null,
+      "provisional": "mapzoomout.mkv"
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\yorkarrival.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: quiet ambience only (about -45 LUFS)."
+  },
+  {
+   "file": "smithersmith.mkv",
+   "path": "media/video/smithersmith.mkv",
+   "duration": 28.567,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Smither standing with axe in York Public Smith. Sign reads York Public Blacksmith / Built by Louie. Walking in is clean; later orbit is choppy. Does not show a trade.",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 3,
+     "end": 7,
+     "description": "Walk into smithy",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 7,
+     "end": 12,
+     "description": "Two characters inside; inspect orbit before using",
+     "provenance": "Owner notes; candidate end points/editor clarifications where noted"
+    },
+    {
+     "start": 0.0,
+     "end": 1.9,
+     "description": "REJECT: browser chrome visible at the top",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 3.5,
+     "end": 5.4,
+     "description": "Approach the smithy door",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 5.43,
+     "end": 5.43,
+     "description": "Exact frame where the view cuts inside the smithy",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 5.43,
+     "end": 8.2,
+     "description": "Inside: Smither at the anvil, sign label visible",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 8.2,
+     "end": 13.5,
+     "description": "Smither and player inside before the orbit starts at 14",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "contact_sheet": "library/contact-sheets/new/smithersmith.jpg",
+   "tags": [
+    "smithing",
+    "2026-10-16"
+   ],
+   "source_build": "live",
+   "used_in": {
+    "smithing-v1": [
+     {
+      "source_in": 3,
+      "source_out": 4.6,
+      "output_in": 14.0,
+      "output_out": 15.6,
+      "speed": 1,
+      "phrase": "But for that"
+     },
+     {
+      "source_in": 7,
+      "source_out": 10.066666666666666,
+      "output_in": 15.6,
+      "output_out": 19.433333333333334,
+      "speed": 0.8,
+      "phrase": "people need a reason"
+     },
+     {
+      "source_in": 7,
+      "source_out": 8.679999999999994,
+      "output_in": 65.96666666666667,
+      "output_out": 68.36666666666666,
+      "speed": 0.7,
+      "phrase": "Someone asks"
+     },
+     {
+      "source_in": 3.5,
+      "source_out": 4.566666666666674,
+      "output_in": 68.36666666666666,
+      "output_out": 69.7,
+      "speed": 0.8,
+      "phrase": "you point them"
+     }
+    ],
+    "smithing-v2": [
+     {
+      "source_in": 4.6,
+      "source_out": 8.1667,
+      "output_in": 14.6,
+      "output_out": 18.166666666666668,
+      "speed": 1,
+      "phrase": "people need a",
+      "sound": null,
+      "provisional": null
+     },
+     {
+      "source_in": 8.17,
+      "source_out": 11.2033,
+      "output_in": 61.766666666666666,
+      "output_out": 64.8,
+      "speed": 1,
+      "phrase": "you point them",
+      "sound": null,
+      "provisional": null
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\smithersmith.mkv",
+   "source_available_in_bundle": true,
+   "audio_review": "Audio checked: quiet ambience only (about -45 LUFS)."
+  }
+ ],
+ "pickups": [
+  {
+   "file": "mapzoomout.mkv",
+   "status": "NOT YET RECORDED",
+   "needed_for": "smithing-v2 \"cross a massive map\"",
+   "brief": "Open M on Local for 2 s, scroll out smoothly into World over 3-5 s, hold widest view 3 s, move pointer aside. Use a character that has visited many regions: the World atlas only draws visited or seen regions. Reduced motion off. Full 2560x1440, no other menus."
+  },
+  {
+   "file": "oneclickarrows.mkv",
+   "status": "NOT YET RECORDED",
+   "needed_for": "smithing-v2 \"click a button and make exactly the same sword\"",
+   "brief": "At a Workbench, open the Arrows recipe (2 sticks, 1 stone, 1 fibre makes 6 arrows; the recipe panel says \"Crafts immediately from inventory\"). Hold 2 s on the recipe, click Craft once, hold 2-3 s on the result, click once more. Game sound on, no voice. Stone tools are not used: they are multi-step workbench crafts."
+  }
+ ],
+ "history": [
+  "2026-10-16: smithing v2 verified selects, audio review, used_in.smithing-v2, pickup list (Claude). Nothing removed."
+ ]
+}

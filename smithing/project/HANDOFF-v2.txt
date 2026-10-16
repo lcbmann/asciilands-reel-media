@@ -1,0 +1,107 @@
+ASCIILANDS SMITHING REEL v2. HANDOFF
+
+FILES
+smithing-v2.mp4          Final 1080x1920, 30 fps, H.264/AAC. Two sections are provisional (below).
+smithing-v2-review.mp4   Review copy under 30 MB. Red PROVISIONAL tags mark the pickup sections.
+review-v2.html           Review page: shot list, numbers, QA contact sheets.
+edit_reel_v2.py          The renderer. All editorial choices are data near the top: PAUSES, SHOTS, ACCENTS, CAPTION_STARTS.
+update_library_v2.py     Appends v2 selects, audio notes, pickups and used_in.smithing-v2 to library/. Removes nothing.
+build_review_v2.py       Rebuilds review-v2.html.
+post-caption-v2.txt      Post caption, credits, hashtags, posting time, cover.
+cover-suggestion-v2.jpg  Cover still.
+edit-v2/                 All intermediates: words, cuts, timeline, captions, overlays, audio stages, QA stills.
+v1 and every original file are untouched.
+
+REBUILD
+python project/edit_reel_v2.py            (full render, cached per shot)
+python project/edit_reel_v2.py --prepare  (timing only: prints shots, captions, length)
+python project/update_library_v2.py
+python project/build_review_v2.py
+Needs Python 3.11+, Pillow, numpy and ffmpeg with libx264. faster-whisper is only needed if words-raw.json is deleted.
+
+
+PICKUPS STILL NEEDED (the only missing footage)
+
+1. mapzoomout.mkv
+   Used for: "cross a massive map" (output 1.50 to 2.83 s, shot 01).
+   Now: the opening York walk simply continues. That's honest, but it doesn't show scale.
+   Film:
+   - Use a character that has visited or seen many regions. The World atlas only draws visited or seen regions,
+     so a fresh filming account will make the world look small.
+   - Settings: reduced motion OFF, so Local to World animates instead of crossfading.
+   - Press M on the Local map and hold about 2 s.
+   - Scroll out steadily over 3 to 5 s. Two wheel steps past the widest Local view switches to World.
+   - Hold the widest useful World view about 3 s, then move the pointer off the map.
+   - Full 2560x1440 with no other menus open. Game sound on, no voice.
+   To drop it in: copy it to media/video/, then in SHOTS change the "cross a massive map" entry to
+     src='mapzoomout', t=<first moving frame>, speed='fit:<frame where the widest view settles>'
+   and give it a look, e.g. world(1280, 720, 1440, 1440) or a 9:16 crop around the atlas.
+
+2. oneclickarrows.mkv
+   Used for: "But if anyone with the same ingredients can click a button and make exactly the same sword,
+   there's not much reason to care who made it." (output 22.90 to 29.17 s, shot 09)
+   Now: the Pack's raw materials (Stone Chunk, Copper). Honest, but it doesn't show a click.
+   Why arrows, not a stone tool: in the current code, Stone Axe, Pickaxe and Knife are multi-step workbench crafts
+   ('workbench_steps', one click per step). Arrows are a true one-click workbench recipe ('simple' mode). Their
+   recipe panel says "Crafts immediately from inventory".
+   Film at a Workbench:
+   - Select Arrows (2 sticks + 1 stone + 1 fibre makes 6 arrows) and hold about 2 s so the ingredients are readable.
+   - Click Craft once, then hold 2 to 3 s on the result.
+   - Click Craft once more to show it's repeatable, then hold 1 to 2 s.
+   - Game sound on, no voice.
+   To drop it in: change the "But if anyone" SHOTS entry to src='oneclickarrows', t=<in>, a look that
+   shows the recipe card and the Craft button large, and sound=('live', 6.0).
+
+No sound pickup is needed. The existing recordings have usable real forge sound:
+- smithbadsteel is clean game sound only, used live in the real-time reveal.
+- smithtwoswords and starironhard carry faint in-game music, so only gated strikes are taken from them.
+
+
+VOICE: NO RERECORD REQUIRED
+The current take works with the footage. The "click a button" line is a hypothetical contrast, so showing a real
+one-click Arrows craft doesn't claim swords are made that way.
+Optional, if you want the imperfections spelled out (replaces "And that shape you hammered out?
+That's the actual sword you keep."):
+  "And that shape you hammered out, mistakes and all? That's the actual sword you keep."
+It plays over the finished steel piece pushing into the Swordy Inspect match. Record it in the same room and at
+the same distance, and the renderer re-anchors automatically (delete words-raw.json to re-transcribe).
+
+
+WHAT CHANGED FROM v1 (against your corrections)
+1  All small editorial labels are gone, including HAMMER / YOUR BLADE. The only text over the footage is the
+   spoken captions, plus the end card (emblem and name) in the last 2.7 s.
+2  The opening starts at yorkarrival 6.00, the first frame walking away. The turn ends at 5.93.
+3  The map is provisional (pickup 1). The snow landscape is no longer used.
+4  Inspect: the sword is about 1.1x source and the stats column 1.3x. The camera then moves to the row being
+   spoken about: METAL Iron, MAKER Smither, QUALITY Masterwork, at 2.4x.
+5  Sign then entrance: yorksmith 14.55 pushes into "York Public Blacksmith / Built by Louie". Then smithersmith
+   4.60 to 8.17 walks up to the door, cuts inside at 5.43 and finds Smither.
+6  The click-a-button line no longer shows forging. It's provisional (pickup 2).
+7  Smithing reveal at normal speed with real sound: the full forge window first (about 3 s), then its three real
+   parts lift into a vertical stack: Fit/Condition, heat and hammer controls, workpiece and preview.
+   Heat, strikes and the game's own "Too hot" / "Too cold. Stress added." messages are visible and audible.
+8  Timelapse: the same steel piece from 12.10 to 55.60 at 6.16x (speed derived from the narration). It goes
+   from block to narrow rapier at Fit 97%. Sound is real strikes placed where they land in the sped-up picture,
+   at least 0.42 s apart. Nothing is time-stretched.
+9  "That shape you hammered out?" pushes into the finished Swordy piece. The push ends with the blade at the
+   same size and position as the Swordy Inspect blade in the next shot, so the same notches carry across the cut.
+   No other sword appears between them.
+10 Narration: 87.62 s became 74.52 s. Only measured silence was removed (-35 dB, 0.25 s minimum); sentence
+   pauses are about 0.30 s and comma pauses 0.20 s. "someone else buys it." went from 1.25 s to 0.30 s,
+   "serious skill to work." from 1.88 s to 0.30 s. The only kept beat: 0.85 s after "paying for their skill.",
+   with live iron strikes landing in it. Every cut and caption is re-anchored to the retimed words.
+11 Ending: "Tell me in the comments" over a moving York walk past the smithy, with the dog. The caption stays up.
+   The round Asciilands emblem and the name, set in the caption type, fade in over 0.7 s at the top with a soft
+   shadow. There's no panel and no freeze; the music fades out with the picture. I didn't use the textured
+   wordmark: over the town it reads like a sign on a building.
+
+
+KNOWN LIMITATIONS
+- I couldn't listen. Sound decisions are based on spectrograms, onset detection, loudness meters and
+  level comparisons, not on hearing it. Please listen to the mix, especially the live forge level (+7 dB) under
+  the voice, and the music level (-27 dB, -33 dB under live forge sound).
+- The motion review used dense frame sequences and contact sheets, not real-time playback.
+- 77 s is longer than the 25 to 55 s guideline. The recorded script needs it, and the brief said not to force it short.
+- The Cleaver Inspect shots and the final Swordy Maker shot hold a static UI slightly slower than real time
+  (0.57x to 1.18x). Nothing moves in those windows, so there's no visible motion change.
+- The font is the bundled Atkinson Hyperlegible Bold (Segoe UI isn't available off Windows).

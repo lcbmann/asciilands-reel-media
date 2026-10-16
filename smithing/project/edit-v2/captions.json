@@ -1,0 +1,942 @@
+[
+  {
+    "text": "I WANT PLAYERS",
+    "start": 0.0,
+    "end": 0.759,
+    "lines": 1,
+    "x": 212,
+    "y": 1279,
+    "w": 666,
+    "h": 110
+  },
+  {
+    "text": "TO BE WILLING",
+    "start": 0.759,
+    "end": 1.339,
+    "lines": 1,
+    "x": 239,
+    "y": 1279,
+    "w": 609,
+    "h": 110
+  },
+  {
+    "text": "TO CROSS",
+    "start": 1.339,
+    "end": 1.799,
+    "lines": 1,
+    "x": 332,
+    "y": 1279,
+    "w": 423,
+    "h": 110
+  },
+  {
+    "text": "A MASSIVE MAP",
+    "start": 1.799,
+    "end": 2.919,
+    "lines": 1,
+    "x": 222,
+    "y": 1279,
+    "w": 644,
+    "h": 110
+  },
+  {
+    "text": "JUST TO BUY",
+    "start": 2.919,
+    "end": 3.779,
+    "lines": 1,
+    "x": 278,
+    "y": 1279,
+    "w": 532,
+    "h": 110
+  },
+  {
+    "text": "A SWORD.",
+    "start": 3.779,
+    "end": 4.593,
+    "lines": 1,
+    "x": 338,
+    "y": 1279,
+    "w": 411,
+    "h": 110
+  },
+  {
+    "text": "NOT JUST",
+    "start": 4.593,
+    "end": 5.033,
+    "lines": 1,
+    "x": 340,
+    "y": 1279,
+    "w": 411,
+    "h": 110
+  },
+  {
+    "text": "BECAUSE OF WHAT",
+    "start": 5.033,
+    "end": 5.513,
+    "lines": 1,
+    "x": 180,
+    "y": 1279,
+    "w": 731,
+    "h": 110
+  },
+  {
+    "text": "IT'S MADE FROM,",
+    "start": 5.513,
+    "end": 6.465,
+    "lines": 1,
+    "x": 209,
+    "y": 1279,
+    "w": 672,
+    "h": 112
+  },
+  {
+    "text": "BUT BECAUSE OF WHO",
+    "start": 6.465,
+    "end": 7.205,
+    "lines": 1,
+    "x": 114,
+    "y": 1279,
+    "w": 860,
+    "h": 110
+  },
+  {
+    "text": "MADE IT.",
+    "start": 7.205,
+    "end": 7.829,
+    "lines": 1,
+    "x": 354,
+    "y": 1280,
+    "w": 381,
+    "h": 108
+  },
+  {
+    "text": "I'M BUILDING",
+    "start": 7.829,
+    "end": 8.329,
+    "lines": 1,
+    "x": 272,
+    "y": 1279,
+    "w": 546,
+    "h": 110
+  },
+  {
+    "text": "ASCIILANDS AROUND",
+    "start": 8.329,
+    "end": 9.209,
+    "lines": 1,
+    "x": 123,
+    "y": 1279,
+    "w": 840,
+    "h": 110
+  },
+  {
+    "text": "A PLAYER-RUN ECONOMY.",
+    "start": 9.209,
+    "end": 10.669,
+    "lines": 2,
+    "x": 252,
+    "y": 1280,
+    "w": 582,
+    "h": 190
+  },
+  {
+    "text": "WEAPONS AND TOOLS",
+    "start": 10.669,
+    "end": 11.269,
+    "lines": 1,
+    "x": 115,
+    "y": 1279,
+    "w": 857,
+    "h": 110
+  },
+  {
+    "text": "MADE BY PLAYERS,",
+    "start": 11.269,
+    "end": 12.309,
+    "lines": 1,
+    "x": 173,
+    "y": 1279,
+    "w": 743,
+    "h": 112
+  },
+  {
+    "text": "FOR PLAYERS.",
+    "start": 12.309,
+    "end": 13.189,
+    "lines": 1,
+    "x": 263,
+    "y": 1279,
+    "w": 563,
+    "h": 110
+  },
+  {
+    "text": "BUT FOR THAT",
+    "start": 13.189,
+    "end": 13.629,
+    "lines": 1,
+    "x": 257,
+    "y": 1279,
+    "w": 576,
+    "h": 110
+  },
+  {
+    "text": "TO BE INTERESTING,",
+    "start": 13.629,
+    "end": 14.67,
+    "lines": 1,
+    "x": 141,
+    "y": 1279,
+    "w": 805,
+    "h": 112
+  },
+  {
+    "text": "PEOPLE NEED A REASON",
+    "start": 14.67,
+    "end": 15.27,
+    "lines": 2,
+    "x": 238,
+    "y": 1279,
+    "w": 614,
+    "h": 191
+  },
+  {
+    "text": "TO BUY FROM EACH",
+    "start": 15.27,
+    "end": 15.93,
+    "lines": 1,
+    "x": 159,
+    "y": 1279,
+    "w": 768,
+    "h": 110
+  },
+  {
+    "text": "OTHER INSTEAD",
+    "start": 15.93,
+    "end": 16.61,
+    "lines": 1,
+    "x": 225,
+    "y": 1279,
+    "w": 639,
+    "h": 110
+  },
+  {
+    "text": "OF JUST MAKING",
+    "start": 16.61,
+    "end": 17.09,
+    "lines": 1,
+    "x": 204,
+    "y": 1279,
+    "w": 680,
+    "h": 110
+  },
+  {
+    "text": "EVERYTHING THEMSELVES.",
+    "start": 17.09,
+    "end": 18.235,
+    "lines": 2,
+    "x": 276,
+    "y": 1279,
+    "w": 535,
+    "h": 191
+  },
+  {
+    "text": "RARE MATERIALS",
+    "start": 18.235,
+    "end": 18.962,
+    "lines": 1,
+    "x": 202,
+    "y": 1279,
+    "w": 685,
+    "h": 110
+  },
+  {
+    "text": "ARE ONE REASON.",
+    "start": 18.962,
+    "end": 19.912,
+    "lines": 1,
+    "x": 188,
+    "y": 1279,
+    "w": 711,
+    "h": 110
+  },
+  {
+    "text": "BETTER DAMAGE",
+    "start": 20.262,
+    "end": 20.762,
+    "lines": 1,
+    "x": 216,
+    "y": 1279,
+    "w": 658,
+    "h": 110
+  },
+  {
+    "text": "AND DURABILITY",
+    "start": 20.762,
+    "end": 21.382,
+    "lines": 1,
+    "x": 201,
+    "y": 1280,
+    "w": 686,
+    "h": 109
+  },
+  {
+    "text": "MAKE SOMETHING",
+    "start": 21.382,
+    "end": 21.982,
+    "lines": 1,
+    "x": 182,
+    "y": 1279,
+    "w": 724,
+    "h": 110
+  },
+  {
+    "text": "WORTH PAYING FOR.",
+    "start": 21.982,
+    "end": 22.967,
+    "lines": 1,
+    "x": 140,
+    "y": 1279,
+    "w": 807,
+    "h": 110
+  },
+  {
+    "text": "BUT IF ANYONE",
+    "start": 22.967,
+    "end": 23.507,
+    "lines": 1,
+    "x": 236,
+    "y": 1279,
+    "w": 619,
+    "h": 110
+  },
+  {
+    "text": "WITH THE SAME INGREDIENTS",
+    "start": 23.507,
+    "end": 24.627,
+    "lines": 2,
+    "x": 224,
+    "y": 1279,
+    "w": 640,
+    "h": 191
+  },
+  {
+    "text": "CAN CLICK A BUTTON",
+    "start": 24.627,
+    "end": 25.447,
+    "lines": 1,
+    "x": 123,
+    "y": 1279,
+    "w": 842,
+    "h": 110
+  },
+  {
+    "text": "AND MAKE EXACTLY",
+    "start": 25.447,
+    "end": 26.247,
+    "lines": 1,
+    "x": 152,
+    "y": 1279,
+    "w": 784,
+    "h": 110
+  },
+  {
+    "text": "THE SAME SWORD,",
+    "start": 26.247,
+    "end": 27.292,
+    "lines": 1,
+    "x": 181,
+    "y": 1279,
+    "w": 725,
+    "h": 112
+  },
+  {
+    "text": "THERE'S NOT MUCH",
+    "start": 27.292,
+    "end": 27.812,
+    "lines": 1,
+    "x": 165,
+    "y": 1279,
+    "w": 756,
+    "h": 110
+  },
+  {
+    "text": "REASON TO CARE",
+    "start": 27.812,
+    "end": 28.452,
+    "lines": 1,
+    "x": 200,
+    "y": 1279,
+    "w": 690,
+    "h": 110
+  },
+  {
+    "text": "WHO MADE IT.",
+    "start": 28.452,
+    "end": 29.237,
+    "lines": 1,
+    "x": 254,
+    "y": 1279,
+    "w": 579,
+    "h": 110
+  },
+  {
+    "text": "I WANTED",
+    "start": 29.237,
+    "end": 29.657,
+    "lines": 1,
+    "x": 338,
+    "y": 1280,
+    "w": 413,
+    "h": 108
+  },
+  {
+    "text": "BEING GOOD",
+    "start": 29.657,
+    "end": 30.137,
+    "lines": 1,
+    "x": 283,
+    "y": 1279,
+    "w": 522,
+    "h": 110
+  },
+  {
+    "text": "AT MAKING THINGS",
+    "start": 30.137,
+    "end": 30.937,
+    "lines": 1,
+    "x": 156,
+    "y": 1279,
+    "w": 776,
+    "h": 110
+  },
+  {
+    "text": "TO HAVE VALUE TOO.",
+    "start": 30.937,
+    "end": 32.216,
+    "lines": 1,
+    "x": 138,
+    "y": 1279,
+    "w": 811,
+    "h": 110
+  },
+  {
+    "text": "SO IN ASCIILANDS,",
+    "start": 32.216,
+    "end": 33.316,
+    "lines": 1,
+    "x": 162,
+    "y": 1279,
+    "w": 764,
+    "h": 112
+  },
+  {
+    "text": "YOU SHAPE THE",
+    "start": 33.316,
+    "end": 33.876,
+    "lines": 1,
+    "x": 228,
+    "y": 1279,
+    "w": 632,
+    "h": 110
+  },
+  {
+    "text": "BLADE YOURSELF.",
+    "start": 33.876,
+    "end": 34.937,
+    "lines": 1,
+    "x": 195,
+    "y": 1279,
+    "w": 699,
+    "h": 110
+  },
+  {
+    "text": "YOU CONTROL THE HEAT,",
+    "start": 34.937,
+    "end": 35.978,
+    "lines": 2,
+    "x": 174,
+    "y": 1279,
+    "w": 740,
+    "h": 193
+  },
+  {
+    "text": "CHOOSE WHERE TO STRIKE,",
+    "start": 35.978,
+    "end": 36.899,
+    "lines": 2,
+    "x": 169,
+    "y": 1279,
+    "w": 751,
+    "h": 193
+  },
+  {
+    "text": "AND WORK THE METAL",
+    "start": 36.899,
+    "end": 37.635,
+    "lines": 1,
+    "x": 107,
+    "y": 1279,
+    "w": 874,
+    "h": 110
+  },
+  {
+    "text": "INTO SHAPE.",
+    "start": 37.635,
+    "end": 38.348,
+    "lines": 1,
+    "x": 287,
+    "y": 1279,
+    "w": 516,
+    "h": 110
+  },
+  {
+    "text": "TWO PLAYERS",
+    "start": 38.348,
+    "end": 38.892,
+    "lines": 1,
+    "x": 259,
+    "y": 1279,
+    "w": 569,
+    "h": 110
+  },
+  {
+    "text": "CAN START",
+    "start": 38.892,
+    "end": 39.372,
+    "lines": 1,
+    "x": 314,
+    "y": 1279,
+    "w": 462,
+    "h": 110
+  },
+  {
+    "text": "WITH THE SAME STEEL",
+    "start": 39.372,
+    "end": 40.252,
+    "lines": 1,
+    "x": 104,
+    "y": 1279,
+    "w": 880,
+    "h": 110
+  },
+  {
+    "text": "AND END UP",
+    "start": 40.252,
+    "end": 40.992,
+    "lines": 1,
+    "x": 295,
+    "y": 1280,
+    "w": 498,
+    "h": 109
+  },
+  {
+    "text": "WITH VERY DIFFERENT SWORDS.",
+    "start": 40.992,
+    "end": 42.322,
+    "lines": 2,
+    "x": 103,
+    "y": 1280,
+    "w": 883,
+    "h": 190
+  },
+  {
+    "text": "BETTER FORGING",
+    "start": 42.639,
+    "end": 43.099,
+    "lines": 1,
+    "x": 201,
+    "y": 1279,
+    "w": 687,
+    "h": 110
+  },
+  {
+    "text": "MAKES THEM",
+    "start": 43.099,
+    "end": 43.519,
+    "lines": 1,
+    "x": 280,
+    "y": 1279,
+    "w": 528,
+    "h": 110
+  },
+  {
+    "text": "HIT HARDER",
+    "start": 43.519,
+    "end": 44.039,
+    "lines": 1,
+    "x": 295,
+    "y": 1280,
+    "w": 499,
+    "h": 108
+  },
+  {
+    "text": "AND LAST LONGER.",
+    "start": 44.039,
+    "end": 45.398,
+    "lines": 1,
+    "x": 169,
+    "y": 1279,
+    "w": 749,
+    "h": 110
+  },
+  {
+    "text": "AND THAT SHAPE",
+    "start": 45.398,
+    "end": 45.918,
+    "lines": 1,
+    "x": 203,
+    "y": 1279,
+    "w": 682,
+    "h": 110
+  },
+  {
+    "text": "YOU HAMMERED OUT?",
+    "start": 45.918,
+    "end": 46.694,
+    "lines": 1,
+    "x": 112,
+    "y": 1279,
+    "w": 862,
+    "h": 110
+  },
+  {
+    "text": "THAT'S THE ACTUAL",
+    "start": 46.694,
+    "end": 47.554,
+    "lines": 1,
+    "x": 157,
+    "y": 1279,
+    "w": 775,
+    "h": 110
+  },
+  {
+    "text": "SWORD YOU KEEP.",
+    "start": 47.554,
+    "end": 48.632,
+    "lines": 1,
+    "x": 185,
+    "y": 1279,
+    "w": 718,
+    "h": 110
+  },
+  {
+    "text": "YOU CAN GIVE",
+    "start": 48.632,
+    "end": 49.051,
+    "lines": 1,
+    "x": 250,
+    "y": 1279,
+    "w": 588,
+    "h": 110
+  },
+  {
+    "text": "IT A NAME,",
+    "start": 49.051,
+    "end": 49.772,
+    "lines": 1,
+    "x": 317,
+    "y": 1280,
+    "w": 456,
+    "h": 111
+  },
+  {
+    "text": "AND YOUR MAKER'S",
+    "start": 49.772,
+    "end": 50.411,
+    "lines": 1,
+    "x": 157,
+    "y": 1279,
+    "w": 773,
+    "h": 110
+  },
+  {
+    "text": "MARK STAYS ON IT",
+    "start": 50.411,
+    "end": 51.111,
+    "lines": 1,
+    "x": 169,
+    "y": 1279,
+    "w": 753,
+    "h": 110
+  },
+  {
+    "text": "WHEN SOMEONE ELSE",
+    "start": 51.111,
+    "end": 51.672,
+    "lines": 1,
+    "x": 123,
+    "y": 1279,
+    "w": 842,
+    "h": 110
+  },
+  {
+    "text": "BUYS IT.",
+    "start": 51.672,
+    "end": 52.297,
+    "lines": 1,
+    "x": 361,
+    "y": 1279,
+    "w": 367,
+    "h": 110
+  },
+  {
+    "text": "THE BASIC METALS",
+    "start": 52.297,
+    "end": 53.127,
+    "lines": 1,
+    "x": 169,
+    "y": 1279,
+    "w": 749,
+    "h": 110
+  },
+  {
+    "text": "ARE FORGIVING.",
+    "start": 53.127,
+    "end": 53.902,
+    "lines": 1,
+    "x": 215,
+    "y": 1279,
+    "w": 657,
+    "h": 110
+  },
+  {
+    "text": "THE HIGHER-TIER",
+    "start": 53.902,
+    "end": 54.482,
+    "lines": 1,
+    "x": 197,
+    "y": 1279,
+    "w": 694,
+    "h": 110
+  },
+  {
+    "text": "STUFF TAKES SERIOUS",
+    "start": 54.482,
+    "end": 55.577,
+    "lines": 1,
+    "x": 107,
+    "y": 1279,
+    "w": 874,
+    "h": 110
+  },
+  {
+    "text": "SKILL TO WORK.",
+    "start": 55.577,
+    "end": 56.626,
+    "lines": 1,
+    "x": 222,
+    "y": 1279,
+    "w": 644,
+    "h": 110
+  },
+  {
+    "text": "A GOOD SMITH",
+    "start": 56.626,
+    "end": 57.397,
+    "lines": 1,
+    "x": 239,
+    "y": 1279,
+    "w": 607,
+    "h": 110
+  },
+  {
+    "text": "COULD BUILD A SHOP",
+    "start": 57.397,
+    "end": 58.177,
+    "lines": 1,
+    "x": 125,
+    "y": 1279,
+    "w": 840,
+    "h": 110
+  },
+  {
+    "text": "AND A REPUTATION.",
+    "start": 58.177,
+    "end": 59.227,
+    "lines": 1,
+    "x": 151,
+    "y": 1279,
+    "w": 785,
+    "h": 110
+  },
+  {
+    "text": "SOMEONE ASKS WHO",
+    "start": 59.438,
+    "end": 60.158,
+    "lines": 1,
+    "x": 133,
+    "y": 1279,
+    "w": 822,
+    "h": 110
+  },
+  {
+    "text": "FORGED YOUR MASTERWORK SWORD,",
+    "start": 60.158,
+    "end": 61.838,
+    "lines": 2,
+    "x": 108,
+    "y": 1279,
+    "w": 873,
+    "h": 193
+  },
+  {
+    "text": "YOU POINT THEM TOWARDS",
+    "start": 61.838,
+    "end": 62.438,
+    "lines": 2,
+    "x": 199,
+    "y": 1279,
+    "w": 687,
+    "h": 191
+  },
+  {
+    "text": "THAT PLAYER,",
+    "start": 62.438,
+    "end": 63.178,
+    "lines": 1,
+    "x": 263,
+    "y": 1280,
+    "w": 561,
+    "h": 111
+  },
+  {
+    "text": "AND SUDDENLY THEY",
+    "start": 63.178,
+    "end": 63.858,
+    "lines": 1,
+    "x": 133,
+    "y": 1279,
+    "w": 822,
+    "h": 110
+  },
+  {
+    "text": "HAVE ANOTHER CUSTOMER.",
+    "start": 63.858,
+    "end": 64.858,
+    "lines": 2,
+    "x": 241,
+    "y": 1279,
+    "w": 607,
+    "h": 191
+  },
+  {
+    "text": "YOU'RE NOT JUST PAYING",
+    "start": 64.858,
+    "end": 65.538,
+    "lines": 2,
+    "x": 195,
+    "y": 1279,
+    "w": 698,
+    "h": 191
+  },
+  {
+    "text": "FOR THE MATERIALS",
+    "start": 65.538,
+    "end": 66.278,
+    "lines": 1,
+    "x": 144,
+    "y": 1279,
+    "w": 801,
+    "h": 110
+  },
+  {
+    "text": "AND A BIT",
+    "start": 66.278,
+    "end": 66.698,
+    "lines": 1,
+    "x": 327,
+    "y": 1280,
+    "w": 435,
+    "h": 108
+  },
+  {
+    "text": "OF SOMEONE'S TIME.",
+    "start": 66.698,
+    "end": 67.702,
+    "lines": 1,
+    "x": 135,
+    "y": 1279,
+    "w": 819,
+    "h": 110
+  },
+  {
+    "text": "YOU'RE PAYING FOR",
+    "start": 67.702,
+    "end": 68.242,
+    "lines": 1,
+    "x": 151,
+    "y": 1279,
+    "w": 785,
+    "h": 110
+  },
+  {
+    "text": "THEIR SKILL.",
+    "start": 68.242,
+    "end": 68.932,
+    "lines": 1,
+    "x": 281,
+    "y": 1279,
+    "w": 525,
+    "h": 110
+  },
+  {
+    "text": "BUT DOES THIS ACTUALLY",
+    "start": 69.469,
+    "end": 70.349,
+    "lines": 2,
+    "x": 238,
+    "y": 1279,
+    "w": 614,
+    "h": 191
+  },
+  {
+    "text": "MAKE CRAFTING",
+    "start": 70.349,
+    "end": 70.949,
+    "lines": 1,
+    "x": 215,
+    "y": 1279,
+    "w": 659,
+    "h": 110
+  },
+  {
+    "text": "MORE REWARDING,",
+    "start": 70.949,
+    "end": 72.009,
+    "lines": 1,
+    "x": 171,
+    "y": 1279,
+    "w": 747,
+    "h": 112
+  },
+  {
+    "text": "OR JUST TURN",
+    "start": 72.009,
+    "end": 72.489,
+    "lines": 1,
+    "x": 253,
+    "y": 1279,
+    "w": 582,
+    "h": 110
+  },
+  {
+    "text": "IT INTO A CHORE?",
+    "start": 72.489,
+    "end": 73.508,
+    "lines": 1,
+    "x": 179,
+    "y": 1279,
+    "w": 731,
+    "h": 110
+  },
+  {
+    "text": "TELL ME IN THE COMMENTS.",
+    "start": 73.508,
+    "end": 77.03333333333333,
+    "lines": 2,
+    "x": 232,
+    "y": 1280,
+    "w": 625,
+    "h": 190
+  }
+]
