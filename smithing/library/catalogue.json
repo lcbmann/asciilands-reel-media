@@ -2131,13 +2131,23 @@
      },
      {
       "source_in": 83.62,
-      "source_out": 86.45,
+      "source_out": 86.02,
       "output_in": 59.266666666666666,
       "output_out": 61.666666666666664,
-      "speed": 1.17917,
+      "speed": 1,
       "phrase": "Someone asks who",
       "sound": null,
       "still": false
+     },
+     {
+      "source_in": 85.0,
+      "source_out": 85.0,
+      "output_in": 59.266666666666666,
+      "output_out": 61.666666666666664,
+      "speed": null,
+      "phrase": "Someone asks who",
+      "sound": null,
+      "still": true
      },
      {
       "source_in": 38.0,

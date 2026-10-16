@@ -33,7 +33,8 @@ end card and every other layer are drawn with Pillow alpha_composite. The raw RG
 
 
 YOUR NOTES, AND WHAT CHANGED
-- Music: starts on its first note at full level. No fade-in. It fades out with the picture at the very end.
+- Music: starts on its first note and stays at one level for the whole reel (no fade-in, no dips under the
+  forge). It fades out with the picture at the very end.
 - "sword.": cuts to your Swordy Inspect screenshot with the rapier filling the frame.
 - "what it's made from" / "who made it": the camera moves to the stats. The panel dims and the spoken row
   lifts. "Steel" turns gold, then MAKER "John_Smith" turns gold.
@@ -83,7 +84,7 @@ THINGS TO KNOW
 - Your screenshot names the maker John_Smith. The forging footage was recorded as Smither. The John_Smith
   image is used only for the maker emphasis. The forging-to-kept-sword match still uses the Swordy footage
   with its stats hidden, so the two maker names never appear side by side.
-- The "Someone asks who forged your masterwork sword" shot still uses the Cleaver Inspect (MAKER Smither,
-  QUALITY Masterwork), because that sword is the Masterwork one.
+- "Someone asks who forged your masterwork sword": the Cleaver Inspect (the Masterwork sword) zooms to the
+  MAKER row, centred, and the panel dims while "Smither" turns gold.
 - I couldn't listen. The sound balance comes from stem measurements (RMS, peaks, LUFS) and spectrograms,
   so please listen to the forge sections and the outro once with sound.

@@ -290,7 +290,8 @@ def load_source(spec):
             img = emphasis(img, JS_ROWS[spec['variant']])
         return img
     if 'frame' in spec:
-        return frame_still(*spec['frame'])
+        img = frame_still(*spec['frame'])
+        return emphasis(img, spec['row']) if spec.get('row') else img
     return None
 
 
@@ -335,6 +336,8 @@ def forge(reveal_at=None, reveal_len=0.9):
 INSPECT_SWORD = ((905, 335, 360, 870), (80, 295, 397, 960))
 INSPECT_STATS = ((1488, 470, 384, 610), (500, 400, 499, 793))
 STATS_MAKER = (1488, 696, 384, 222)
+CLEAVER_MAKER_ROW = (1492, 702, 372, 64)          # MAKER Smither in the Cleaver Inspect at full resolution
+CLEAVER_MAKER = (1490, 647, 300, 173.5)           # camera centred on that row
 STATS_BIG = (80, 420, 920, 532)
 SWORD_HERO = (342, 300, 396, 957)        # the kept sword, centred, no stats
 
@@ -348,6 +351,15 @@ def inspect_detail(steps):
     return dict(bg='blur', layers=[
         dict(src=[(0, INSPECT_SWORD[0])], dst=[(0, INSPECT_SWORD[1])], alpha=[(0, 1), (t0, 1), (f'{t0}+0.3', 0)]),
         dict(src=src_k, dst=dst_k)])
+
+
+def maker_focus(t0, emph_at):
+    """Inspect, then the camera centres on the MAKER row; a still of the same window with the
+    panel dimmed and the maker in gold fades in over the live frame."""
+    look = inspect_detail([(t0, CLEAVER_MAKER)])
+    stats = look['layers'][1]
+    look['layers'].append(dict(i=1, src=stats['src'], dst=stats['dst'], alpha=[(0, 0), (emph_at, 0), (f'{emph_at}+0.4', 1)]))
+    return look
 
 
 def sword_hero():
@@ -496,8 +508,9 @@ SHOTS = [
     dict(at='The basic metals', v='smithtwoswords', t=118.0, speed='fit:145.0', look=forge(), sound=('hits', 0.30)),
     dict(at='The higher -tier', v='starironhard', t=4.60, look=forge(), sound=('hits', 0.25)),
     dict(at='A good smith', v='yorksmith', t=10.5, look=world(1280, 660, 1280, 1180)),
-    dict(at='Someone asks who', v='smithtwoswords', t=83.62, speed='fit:86.45',
-         look=inspect_detail([(0.3, STATS_MAKER)]), note='Cleaver: MAKER Smither, QUALITY Masterwork.'),
+    dict(at='Someone asks who', srcs=[dict(v='smithtwoswords', t=83.62),
+                                     dict(frame=('smithtwoswords', 85.0), row=CLEAVER_MAKER_ROW)],
+         look=maker_focus(0.3, '@forged your+0.1'), note='Cleaver: zoom to MAKER, centred, panel dims and the name turns gold.'),
     dict(at='you point them', v='smithersmith', t=8.17, look=world(1250, 680, 1100, 860, 1240, 650)),
     dict(at="You're not just", v='orbitsnowmeteor', t=48.0, look=world(1280, 780, 1280, 1150)),
     dict(at="You're paying for their", v='smithtwoswords', t=38.0, look=forge(), sound=('hits', 0.2),
@@ -510,7 +523,7 @@ END_TAIL = 2.5
 GAME_UNDER_VOICE = {'live': 11.0, 'hits': 11.0, 'clicks': 19.0}
 WHOOSH_CUT_DB = 10.0
 SPEECH_DUCK_DB = 6.0
-MUSIC_DB, MUSIC_UNDER_LIVE_DB = -27.0, -33.0
+MUSIC_DB = -27.0          # one level for the whole reel; only game sound is balanced under the voice
 ACCENTS = ['SWORD', 'SWORDS', 'MAP', 'MASSIVE', 'WHO', 'ECONOMY', 'PLAYERS', 'INTERESTING', 'RARE', 'DURABILITY',
            'DAMAGE', 'CLICK', 'BUTTON', 'SAME', 'VALUE', 'GOOD', 'BLADE', 'HEAT', 'STRIKE', 'SHAPE', 'METAL', 'STEEL',
            'DIFFERENT', 'FORGING', 'HARDER', 'LONGER', 'HAMMERED', 'KEEP', 'NAME', "MAKER'S", 'MARK', 'BUYS',
@@ -1007,13 +1020,10 @@ def mix(tl, total, words):
     speaking = [(w['s'] - 0.05, w['e'] + 0.12) for w in words]
     game *= gain_env(n, speaking, SPEECH_DUCK_DB, ramp=0.08)[:, None]
     out += game
-    # Theme from its first note at a fixed level: no fade-in. Lower under real-time forge sound.
+    # Theme from its first note at one fixed level for the whole reel: no fade-in, no dips.
     music = read_audio(ASSETS / 'music/asciilands-theme-loop.ogg')
     music = np.tile(music, (int(np.ceil(n / len(music))), 1))[:n]
     env = np.full(n, 10 ** (MUSIC_DB / 20), np.float32)
-    for s in tl:
-        if s.get('sound') and s['sound'][0] == 'live':
-            env[int(s['start'] * SR):int(s['end'] * SR)] = 10 ** (MUSIC_UNDER_LIVE_DB / 20)
     k = int(0.4 * SR)
     c = np.concatenate([[0], np.cumsum(env, dtype=np.float64)])
     sm = ((c[k:] - c[:-k]) / k).astype(np.float32)

@@ -483,24 +483,32 @@
   },
   {
     "at": "Someone asks who",
-    "v": "smithtwoswords",
-    "t": 83.62,
-    "speed": 1.17917,
-    "note": "Cleaver: MAKER Smither, QUALITY Masterwork.",
-    "word": 218,
-    "start": 59.266666666666666,
-    "end": 61.666666666666664,
-    "duration": 2.4,
-    "frames": 72,
-    "t_out": 86.45,
     "srcs": [
       {
         "v": "smithtwoswords",
         "t": 83.62,
-        "speed": 1.17917,
+        "speed": 1,
         "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithtwoswords.mkv"
+      },
+      {
+        "frame": [
+          "smithtwoswords",
+          85.0
+        ],
+        "row": [
+          1492,
+          702,
+          372,
+          64
+        ]
       }
-    ]
+    ],
+    "note": "Cleaver: zoom to MAKER, centred, panel dims and the name turns gold.",
+    "word": 218,
+    "start": 59.266666666666666,
+    "end": 61.666666666666664,
+    "duration": 2.4,
+    "frames": 72
   },
   {
     "at": "you point them",
