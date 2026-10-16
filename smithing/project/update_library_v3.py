@@ -14,6 +14,15 @@ TODAY = '2026-10-16'
 
 # Verified selects found while cutting v2. Times are source seconds.
 VERIFIED = {
+    '2026-10-04 17-31-45.mkv': [
+        (12.0, 16.0, 'Night campfire by a lakeside cabin; dark-haired player (blue-grey shirt, brown trousers) at the fire'),
+        (16.5, 21.0, 'Players arrive: Ash, Moss, Kestrel, Juniper join the campfire'),
+        (17.5, 20.3, 'Kestrel walks up from below: white hair, red jacket, backpack (used in v3)'),
+        (21.0, 29.0, 'Six characters around the campfire: Juniper, Kestrel, dark-haired player, Moss, Ash and one more'),
+        (46.6, 50.2, 'Dark-haired player close by the fire, cabin wall behind (used in v3, 49.0 to 51.8)'),
+        (50.9, 53.7, 'Ash walks in from the right: red hair, blue tunic; Moss follows (used in v3)'),
+        (60.0, 168.0, 'Group by the cabin from several orbit angles; same characters'),
+    ],
     'mapzoomout.mkv': [
         (0.0, 1.9, 'Local map, region hex Bracken Moss Meadows'),
         (2.0, 5.9, 'Local map zoom levels with the player arrow'),
@@ -79,6 +88,7 @@ VERIFIED = {
 }
 
 AUDIO = {
+    '2026-10-04 17-31-45.mkv': 'Audio not used in v3.',
     'mapzoomout.mkv': 'Audio checked: quiet; not used.',
     'oneclickstonepickaxe.mkv': 'Audio checked: UI clicks at 1.56/1.74 and 3.67/3.87 s; used live under the narration.',
     'smithbadsteel.mkv': 'Audio checked: clean game sound only (heat whoosh, tonal strikes near 690 Hz/2 kHz, finish chime). No music or microphone. Usable live.',
@@ -151,6 +161,11 @@ def main():
         e['review_status'] = 'Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only'
     for name, note in AUDIO.items():
         entries[name]['audio_review'] = note
+    camp = entries['2026-10-04 17-31-45.mkv']
+    camp.setdefault('description', 'Players together at a night campfire by a lakeside cabin: Ash, Moss, Kestrel, Juniper and a dark-haired player.')
+    camp['path'] = 'media/video/2026-10-04 17-31-45.mkv'
+    camp['source_available_in_bundle'] = True
+    camp['release'] = 'players-pickup-1'
     tl = json.loads((R / 'edit-v3/timeline.json').read_text())
     for e in entries.values():
         if 'used_in' in e:

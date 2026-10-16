@@ -22,6 +22,7 @@ New inputs used by v3:
   media/video/oneclickstonepickaxe.mkv          (uploaded as oneclickarrow.mkv)
   media/video/oneclick-stonepickaxe-packfull.mkv (uploaded as oneclickarrows.mkv; rejected)
   media/audio/rarematerials.wav
+  media/video/2026-10-04 17-31-45.mkv           (release players-pickup-1, SHA256 verified)
   assets/stills/swordy-john-smith-inspect.png    (your screenshot)
   assets/fonts/cp437_24x24.png                   (the game's bitmap font, copied read-only from the game repo)
 
@@ -38,9 +39,14 @@ YOUR NOTES, AND WHAT CHANGED
 - "sword.": cuts to your Swordy Inspect screenshot with the rapier filling the frame.
 - "what it's made from" / "who made it": the camera moves to the stats. The panel dims and the spoken row
   lifts. "Steel" turns gold, then MAKER "John_Smith" turns gold.
-- "I'm building Asciilands around a player-run economy": a 2x2 collage of moving footage that pops in tile by
-  tile: Smither in the York smithy, you walking through York, and players at the desert and snow meteors.
-  The straight-line walk shot is gone.
+- "I'm building Asciilands around a player-run economy": a 2x2 collage of four different characters, each
+  tile still playing and following its own character:
+    Smither in the York smithy (smithersmith.mkv 6.3 s);
+    Kestrel, white hair and red jacket, walking up to the campfire (2026-10-04 17-31-45.mkv 17.5 to 20.3 s);
+    Ash, red hair and blue tunic, walking in with Moss behind (same file 50.9 to 53.7 s);
+    a dark-haired player in a blue-grey shirt at the campfire (same file 49.0 to 51.8 s).
+  The three campfire tiles come from one session at different moments, but they show three different
+  characters. The duplicate meteor tiles and the straight-line walk are gone.
 - "Weapons and tools made by players, for players": the real iron, bronze and steel swords rise in one after
   another. Then, on "and tools", the real Stone Axe, Stone Pickaxe, Stone Sickle and Wooden Hammer tiles
   appear.

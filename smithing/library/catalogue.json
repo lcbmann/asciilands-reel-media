@@ -533,7 +533,7 @@
   },
   {
    "index": 26,
-   "path": null,
+   "path": "media/video/2026-10-04 17-31-45.mkv",
    "duration": 168.334,
    "width": 2560,
    "height": 1440,
@@ -543,13 +543,91 @@
     84.167,
     134.6672
    ],
-   "review_status": "Three sampled stills; motion not fully reviewed",
-   "selects": [],
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
+   "selects": [
+    {
+     "start": 12.0,
+     "end": 16.0,
+     "description": "Night campfire by a lakeside cabin; dark-haired player (blue-grey shirt, brown trousers) at the fire",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 16.5,
+     "end": 21.0,
+     "description": "Players arrive: Ash, Moss, Kestrel, Juniper join the campfire",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 17.5,
+     "end": 20.3,
+     "description": "Kestrel walks up from below: white hair, red jacket, backpack (used in v3)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 21.0,
+     "end": 29.0,
+     "description": "Six characters around the campfire: Juniper, Kestrel, dark-haired player, Moss, Ash and one more",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 46.6,
+     "end": 50.2,
+     "description": "Dark-haired player close by the fire, cabin wall behind (used in v3, 49.0 to 51.8)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 50.9,
+     "end": 53.7,
+     "description": "Ash walks in from the right: red hair, blue tunic; Moss follows (used in v3)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 60.0,
+     "end": 168.0,
+     "description": "Group by the cabin from several orbit angles; same characters",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
    "used_in": {
-    "smithing-v1": []
+    "smithing-v1": [],
+    "smithing-v3": [
+     {
+      "source_in": 17.5,
+      "source_out": 20.333,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 50.9,
+      "source_out": 53.733,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 49.0,
+      "source_out": 51.833,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     }
+    ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-04 17-31-45.mkv",
-   "source_available_in_bundle": false
+   "source_available_in_bundle": true,
+   "audio_review": "Audio not used in v3.",
+   "description": "Players together at a night campfire by a lakeside cabin: Ash, Moss, Kestrel, Juniper and a dark-haired player.",
+   "release": "players-pickup-1"
   },
   {
    "index": 27,
@@ -2631,16 +2709,6 @@
     ],
     "smithing-v3": [
      {
-      "source_in": 13.0,
-      "source_out": 15.833,
-      "output_in": 7.766666666666667,
-      "output_out": 10.6,
-      "speed": 1,
-      "phrase": "I'm building Asciilands",
-      "sound": null,
-      "still": false
-     },
-     {
       "source_in": 12.0,
       "source_out": 13.767,
       "output_in": 18.333333333333332,
@@ -2711,16 +2779,6 @@
      }
     ],
     "smithing-v3": [
-     {
-      "source_in": 49.0,
-      "source_out": 51.833,
-      "output_in": 7.766666666666667,
-      "output_out": 10.6,
-      "speed": 1,
-      "phrase": "I'm building Asciilands",
-      "sound": null,
-      "still": false
-     },
      {
       "source_in": 48.0,
       "source_out": 50.867,
@@ -3103,16 +3161,6 @@
       "output_out": 1.5,
       "speed": 1,
       "phrase": "I want players",
-      "sound": null,
-      "still": false
-     },
-     {
-      "source_in": 9.0,
-      "source_out": 11.833,
-      "output_in": 7.766666666666667,
-      "output_out": 10.6,
-      "speed": 1,
-      "phrase": "I'm building Asciilands",
       "sound": null,
       "still": false
      }

@@ -400,6 +400,12 @@ def maker_story(steps, emphasis_at):
     return dict(bg=None, layers=layers)
 
 
+def follow(points, h=300):
+    """Crop keyframes that keep one walking character centred: points are (t, x, y) in source pixels."""
+    w = h * 450 / 465
+    return [(t, (x - w / 2, y - h / 2, w, h)) for t, x, y in points]
+
+
 def tiles_pop(tiles, stagger=0.18, start=0.0, length=0.45):
     """Collage: each tile (source index, src rect, dst rect) scales up from 90 % and fades in."""
     layers = []
@@ -407,8 +413,9 @@ def tiles_pop(tiles, stagger=0.18, start=0.0, length=0.45):
         t = start + k * stagger
         x, y, w, h = d
         small = (x + w * 0.05, y + h * 0.05, w * 0.9, h * 0.9)
-        layers.append(dict(i=i, src=[(0, s)], dst=[(0, small), (t, small), (t + length, d)],
-                           alpha=[(0, 0), (t, 0), (t + length * 0.7, 1)], shadow=True))
+        layers.append(dict(i=i, src=s if isinstance(s, list) else [(0, s)], dst=[(0, small), (t, small), (t + length, d)],
+                           alpha=[(0, 0), (t, 0), (t + length * 0.7, 1)], shadow=True,
+                           ease='linear' if isinstance(s, list) else None))   # following crops move at walking pace
     return dict(bg='blur', layers=layers)
 
 
@@ -472,11 +479,17 @@ SHOTS = [
          look=maker_story([(0, JS_SWORD), ("@what it's made", JS_METAL), ('@because of who', JS_MAKER)],
                           [(1, "@what it's made"), (2, '@because of who')]),
          note='Owner-supplied Swordy Inspect: full-screen sword, then METAL Steel, then MAKER John_Smith.'),
-    dict(at="I'm building Asciilands", srcs=[dict(v='smithersmith', t=6.3), dict(v='yorkarrival', t=9.0),
-                                            dict(v='orbitdesertmeteor', t=13.0), dict(v='orbitsnowmeteor', t=49.0)],
-         look=tiles_pop([(0, (960, 350, 581, 600), (80, 300, 450, 465)), (1, (952, 370, 677, 700), (550, 300, 450, 465)),
-                         (2, (733, 270, 735, 760), (80, 785, 450, 465)), (3, (892, 320, 735, 760), (550, 785, 450, 465))]),
-         note='Collage of players around the world, each tile still playing.'),
+    dict(at="I'm building Asciilands", srcs=[dict(v='smithersmith', t=6.3), dict(v='2026-10-04 17-31-45', t=17.5),
+                                            dict(v='2026-10-04 17-31-45', t=50.9), dict(v='2026-10-04 17-31-45', t=49.0)],
+         look=tiles_pop([
+             (0, (960, 350, 581, 600), (80, 300, 450, 465)),                       # Smither: brown apron, moustache
+             (1, follow([(0, 1216, 1290), (0.1, 1216, 1290), (0.9, 1200, 1136), (1.7, 1178, 950), (2.5, 1182, 830), (2.83, 1185, 812)]),
+              (550, 300, 450, 465)),                                                # Kestrel: white hair, red jacket, backpack
+             (2, follow([(0, 2290, 620), (0.3, 2176, 624), (1.1, 1840, 656), (1.9, 1466, 672), (2.83, 1420, 650)]),
+              (80, 785, 450, 465)),                                                 # Ash: red hair, blue tunic
+             (3, follow([(0, 1270, 600), (2.83, 1270, 600)]), (550, 785, 450, 465))]),  # dark hair, blue-grey shirt
+         note='Four different characters, each tile following its own: Smither (smithy), Kestrel, Ash and a '
+              'dark-haired player from 2026-10-04 17-31-45.mkv.'),
     dict(at='Weapons and tools', srcs=[dict(frame=('smithtwoswords', 85.0)), dict(frame=('smithtwoswords', 160.8)),
                                       dict(frame=('smithbadsteel', 77.0)), dict(frame=('oneclickstonepickaxe', 1.0))],
          look=weapons_and_tools(), note='Iron, bronze and steel swords, then four real tools.'),
