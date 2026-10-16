@@ -1,0 +1,87 @@
+ASCIILANDS SMITHING REEL v3. HANDOFF
+
+FILES
+smithing-v3.mp4          Final 1080x1920, 30 fps, H.264/AAC, 76.9 s. Nothing provisional.
+smithing-v3-review.mp4   The same cut at a lower bitrate, under 30 MB.
+review-v3.html           Shot list with every source, numbers and QA contact sheets.
+edit_reel_v3.py          The renderer. Editorial data is at the top: VOICE_REPLACEMENTS, PAUSES, SHOTS, looks,
+                         GAME_UNDER_VOICE, MUSIC_DB, ACCENTS.
+update_library_v3.py     Appends v3 selects, new recordings, the voice take and the screenshot to library/.
+                         Removes nothing.
+build_review_v3.py       Rebuilds review-v3.html.
+post-caption-v3.txt      Post caption, credits, hashtags, posting time and cover.
+v1 and v2 are kept for comparison. The v2 renderer and its outputs are unchanged.
+
+REBUILD
+python project/edit_reel_v3.py            (full render, cached per shot)
+python project/edit_reel_v3.py --prepare  (timing only)
+python project/update_library_v3.py
+python project/build_review_v3.py
+New inputs used by v3:
+  media/video/mapzoomout.mkv
+  media/video/oneclickstonepickaxe.mkv          (uploaded as oneclickarrow.mkv)
+  media/video/oneclick-stonepickaxe-packfull.mkv (uploaded as oneclickarrows.mkv; rejected)
+  media/audio/rarematerials.wav
+  assets/stills/swordy-john-smith-inspect.png    (your screenshot)
+  assets/fonts/cp437_24x24.png                   (the game's bitmap font, copied read-only from the game repo)
+
+
+PIPELINE CHANGE (as you corrected)
+Every frame is now rendered in Python. Gameplay frames or stills are cropped and animated, then captions, the
+end card and every other layer are drawn with Pillow alpha_composite. The raw RGB frames are piped into ffmpeg
+(-f rawvideo -pix_fmt rgb24 -i -) and encoded with libx264. No ffmpeg overlay or enable filters are used.
+
+
+YOUR NOTES, AND WHAT CHANGED
+- Music: starts on its first note at full level. No fade-in. It fades out with the picture at the very end.
+- "sword.": cuts to your Swordy Inspect screenshot with the rapier filling the frame.
+- "what it's made from" / "who made it": the camera moves to the stats. The panel dims and the spoken row
+  lifts. "Steel" turns gold, then MAKER "John_Smith" turns gold.
+- "I'm building Asciilands around a player-run economy": a 2x2 collage of moving footage that pops in tile by
+  tile: Smither in the York smithy, you walking through York, and players at the desert and snow meteors.
+  The straight-line walk shot is gone.
+- "Weapons and tools made by players, for players": the real iron, bronze and steel swords rise in one after
+  another. Then, on "and tools", the real Stone Axe, Stone Pickaxe, Stone Sickle and Wooden Hammer tiles
+  appear.
+- "Rare materials are one reason.": your new take is spliced in at the measured silences (+0.9 dB to match).
+  Its captions and the cuts after it are re-anchored.
+- Forge sound: game sound is now calibrated per shot against the narration:
+  - real-time sections 11 LU under the voice, gated strikes 11 LU under;
+  - heat whooshes cut a further 10 dB;
+  - the game dips 6 dB under each spoken word.
+  Measured on the stems: game RMS is about 18 dB under the voice, and strike peaks 5 to 10 dB under the
+  voice peaks.
+- 0:45 "multiple tracks": this was the steel recording's own completion jingle playing under the theme on
+  "And that shape you hammered out?". That shot now carries no recorded sound. The theme loop is 68.6 s, so
+  there is no loop seam in the reel.
+- "your maker's mark stays on it...": pushes from the full sword into MAKER John_Smith, which turns gold as
+  the panel dims.
+- Click shot: "But if anyone with the same ingredients" holds on the recipe and ingredients. "can click a
+  button" lands on the real click at source 1.55, and "+1 Stone Pickaxe" appears. The second identical click
+  falls around "exactly the same sword". "there's not much reason to care who made it" pushes toward the
+  result.
+- Map: the World atlas zoom-out (6.45 to 8.85 s) runs under "cross a massive map just to buy a".
+- "That's the actual sword you keep": the imperfect Swordy blade, centred and large. The push on the finished
+  steel piece now lands on this centred position, so the defects still match across the cut.
+- Outro: built like short2/short5:
+  - the town keeps moving underneath, blurred 14 and blended 74% toward ink;
+  - the wordmark at 36% of the height, "FREE IN YOUR BROWSER" in gold at 53%, "asciilands.io" at 58%, in the
+    game's bitmap font, each fading in over 0.45 s and rising 22 px, staggered 0, 0.3 and 0.55 s;
+  - a 0.6 s dissolve in from the previous shot's last frame and a 0.5 s fade to black;
+  - the "TELL ME IN THE COMMENTS." caption stays on top.
+
+
+THINGS TO KNOW
+- The crafting pickups show the Stone Pickaxe recipe, not Arrows. The take you sent second is a real
+  one-click craft (one press, then "+1 Stone Pickaxe"), so the beat is honest. This also corrects what I said
+  earlier from the code: in this build the Stone Pickaxe is a single-click Workbench recipe. The first upload
+  (Make fails with "Pack full") is kept but logged as rejected.
+- The narration says "the same sword"; the craft shown is a pickaxe. It illustrates one-click crafting, not
+  a claim that swords are made that way. No rerecord needed unless you'd rather say "the same item".
+- Your screenshot names the maker John_Smith. The forging footage was recorded as Smither. The John_Smith
+  image is used only for the maker emphasis. The forging-to-kept-sword match still uses the Swordy footage
+  with its stats hidden, so the two maker names never appear side by side.
+- The "Someone asks who forged your masterwork sword" shot still uses the Cleaver Inspect (MAKER Smither,
+  QUALITY Masterwork), because that sword is the Masterwork one.
+- I couldn't listen. The sound balance comes from stem measurements (RMS, peaks, LUFS) and spectrograms,
+  so please listen to the forge sections and the outro once with sound.

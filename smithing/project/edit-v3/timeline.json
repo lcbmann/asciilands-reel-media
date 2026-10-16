@@ -1,0 +1,591 @@
+[
+  {
+    "at": "I want players",
+    "v": "yorkarrival",
+    "t": 6.0,
+    "note": "Walk through York starts at 6.00; turn ends 5.93.",
+    "word": 0,
+    "start": 0.0,
+    "end": 1.5,
+    "duration": 1.5,
+    "frames": 45,
+    "speed": 1,
+    "t_out": 7.5,
+    "srcs": [
+      {
+        "v": "yorkarrival",
+        "t": 6.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/yorkarrival.mkv"
+      }
+    ]
+  },
+  {
+    "at": "cross a massive map",
+    "v": "mapzoomout",
+    "t": 6.45,
+    "speed": 0.98631,
+    "note": "World atlas zooming out to the whole explored world.",
+    "word": 7,
+    "start": 1.5,
+    "end": 3.933333333333333,
+    "duration": 2.4333,
+    "frames": 73,
+    "t_out": 8.85,
+    "srcs": [
+      {
+        "v": "mapzoomout",
+        "t": 6.45,
+        "speed": 0.98631,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/mapzoomout.mkv"
+      }
+    ]
+  },
+  {
+    "at": "buy a [sword.]",
+    "srcs": [
+      {
+        "still": "swordy-john-smith"
+      },
+      {
+        "still": "swordy-john-smith",
+        "variant": "metal"
+      },
+      {
+        "still": "swordy-john-smith",
+        "variant": "maker"
+      }
+    ],
+    "note": "Owner-supplied Swordy Inspect: full-screen sword, then METAL Steel, then MAKER John_Smith.",
+    "word": 15,
+    "start": 3.933333333333333,
+    "end": 7.766666666666667,
+    "duration": 3.8333,
+    "frames": 115
+  },
+  {
+    "at": "I'm building Asciilands",
+    "srcs": [
+      {
+        "v": "smithersmith",
+        "t": 6.3,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithersmith.mkv"
+      },
+      {
+        "v": "yorkarrival",
+        "t": 9.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/yorkarrival.mkv"
+      },
+      {
+        "v": "orbitdesertmeteor",
+        "t": 13.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/orbitdesertmeteor.mkv"
+      },
+      {
+        "v": "orbitsnowmeteor",
+        "t": 49.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/orbitsnowmeteor.mkv"
+      }
+    ],
+    "note": "Collage of players around the world, each tile still playing.",
+    "word": 30,
+    "start": 7.766666666666667,
+    "end": 10.6,
+    "duration": 2.8333,
+    "frames": 85
+  },
+  {
+    "at": "Weapons and tools",
+    "srcs": [
+      {
+        "frame": [
+          "smithtwoswords",
+          85.0
+        ]
+      },
+      {
+        "frame": [
+          "smithtwoswords",
+          160.8
+        ]
+      },
+      {
+        "frame": [
+          "smithbadsteel",
+          77.0
+        ]
+      },
+      {
+        "frame": [
+          "oneclickstonepickaxe",
+          1.0
+        ]
+      }
+    ],
+    "note": "Iron, bronze and steel swords, then four real tools.",
+    "word": 38,
+    "start": 10.6,
+    "end": 13.133333333333333,
+    "duration": 2.5333,
+    "frames": 76
+  },
+  {
+    "at": "But for that",
+    "v": "yorksmith",
+    "t": 14.55,
+    "note": "York Public Blacksmith sign, Built by Louie.",
+    "word": 46,
+    "start": 13.133333333333333,
+    "end": 14.6,
+    "duration": 1.4667,
+    "frames": 44,
+    "speed": 1,
+    "t_out": 16.0167,
+    "srcs": [
+      {
+        "v": "yorksmith",
+        "t": 14.55,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/yorksmith.mkv"
+      }
+    ]
+  },
+  {
+    "at": "people need a",
+    "v": "smithersmith",
+    "t": 4.6,
+    "note": "Walk up to the door, enter at 5.43, Smither is inside.",
+    "word": 52,
+    "start": 14.6,
+    "end": 18.333333333333332,
+    "duration": 3.7333,
+    "frames": 112,
+    "speed": 1,
+    "t_out": 8.3333,
+    "srcs": [
+      {
+        "v": "smithersmith",
+        "t": 4.6,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithersmith.mkv"
+      }
+    ]
+  },
+  {
+    "at": "Rare materials",
+    "v": "orbitdesertmeteor",
+    "t": 12.0,
+    "note": "Voice: replacement take rarematerials.wav.",
+    "word": 67,
+    "start": 18.333333333333332,
+    "end": 20.1,
+    "duration": 1.7667,
+    "frames": 53,
+    "speed": 1,
+    "t_out": 13.7667,
+    "srcs": [
+      {
+        "v": "orbitdesertmeteor",
+        "t": 12.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/orbitdesertmeteor.mkv"
+      }
+    ]
+  },
+  {
+    "at": "Better damage and",
+    "v": "inventorymaterials",
+    "t": 17.95,
+    "speed": 1.03704,
+    "word": 72,
+    "start": 20.1,
+    "end": 22.8,
+    "duration": 2.7,
+    "frames": 81,
+    "t_out": 20.75,
+    "srcs": [
+      {
+        "v": "inventorymaterials",
+        "t": 17.95,
+        "speed": 1.03704,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/inventorymaterials.mkv"
+      }
+    ]
+  },
+  {
+    "at": "But if anyone",
+    "v": "oneclickstonepickaxe",
+    "t": 0.0,
+    "speed": 0.76532,
+    "note": "One-click Stone Pickaxe recipe: ingredients first.",
+    "word": 81,
+    "start": 22.8,
+    "end": 24.433333333333334,
+    "duration": 1.6333,
+    "frames": 49,
+    "t_out": 1.25,
+    "srcs": [
+      {
+        "v": "oneclickstonepickaxe",
+        "t": 0.0,
+        "speed": 0.76532,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/oneclickstonepickaxe.mkv"
+      }
+    ]
+  },
+  {
+    "at": "can click a",
+    "v": "oneclickstonepickaxe",
+    "t": 1.25,
+    "sound": [
+      "live"
+    ],
+    "note": "First click at source 1.55 lands on \"click\"; second identical craft at 3.67.",
+    "word": 88,
+    "start": 24.433333333333334,
+    "end": 27.1,
+    "duration": 2.6667,
+    "frames": 80,
+    "speed": 1,
+    "t_out": 3.9167,
+    "srcs": [
+      {
+        "v": "oneclickstonepickaxe",
+        "t": 1.25,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/oneclickstonepickaxe.mkv"
+      }
+    ]
+  },
+  {
+    "at": "there's not much",
+    "v": "oneclickstonepickaxe",
+    "t": 3.9167,
+    "speed": 0.44913,
+    "note": "Hold on \"+1 Stone Pickaxe\".",
+    "word": 98,
+    "start": 27.1,
+    "end": 29.066666666666666,
+    "duration": 1.9667,
+    "frames": 59,
+    "t_out": 4.8,
+    "srcs": [
+      {
+        "v": "oneclickstonepickaxe",
+        "t": 3.9167,
+        "speed": 0.44913,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/oneclickstonepickaxe.mkv"
+      }
+    ]
+  },
+  {
+    "at": "I wanted being",
+    "v": "smithbadsteel",
+    "t": 3.0,
+    "sound": [
+      "live"
+    ],
+    "note": "Real-time steel forging with its own sound; full UI first.",
+    "word": 107,
+    "start": 29.066666666666666,
+    "end": 38.166666666666664,
+    "duration": 9.1,
+    "frames": 273,
+    "speed": 1,
+    "t_out": 12.1,
+    "srcs": [
+      {
+        "v": "smithbadsteel",
+        "t": 3.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithbadsteel.mkv"
+      }
+    ]
+  },
+  {
+    "at": "Two players can",
+    "v": "smithbadsteel",
+    "t": 12.1,
+    "speed": 6.15563,
+    "sound": [
+      "hits",
+      0.42
+    ],
+    "note": "Timelapse of the same steel piece to Fit 97%.",
+    "word": 140,
+    "start": 38.166666666666664,
+    "end": 45.233333333333334,
+    "duration": 7.0667,
+    "frames": 212,
+    "t_out": 55.6,
+    "srcs": [
+      {
+        "v": "smithbadsteel",
+        "t": 12.1,
+        "speed": 6.15563,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithbadsteel.mkv"
+      }
+    ]
+  },
+  {
+    "at": "And that shape",
+    "v": "smithbadsteel",
+    "t": 64.48,
+    "speed": 0.76577,
+    "note": "Finished steel piece, matched to the kept sword. No recorded sound: it carries the game jingle.",
+    "word": 164,
+    "start": 45.233333333333334,
+    "end": 46.5,
+    "duration": 1.2667,
+    "frames": 38,
+    "t_out": 65.45,
+    "srcs": [
+      {
+        "v": "smithbadsteel",
+        "t": 64.48,
+        "speed": 0.76577,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithbadsteel.mkv"
+      }
+    ]
+  },
+  {
+    "at": "That's the actual",
+    "v": "smithbadsteel",
+    "t": 75.55,
+    "note": "The same imperfect blade, centred and large.",
+    "word": 170,
+    "start": 46.5,
+    "end": 48.46666666666667,
+    "duration": 1.9667,
+    "frames": 59,
+    "speed": 1,
+    "t_out": 77.5167,
+    "srcs": [
+      {
+        "v": "smithbadsteel",
+        "t": 75.55,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithbadsteel.mkv"
+      }
+    ]
+  },
+  {
+    "at": "You can give",
+    "v": "smithbadsteel",
+    "t": 57.4,
+    "speed": 2.95597,
+    "note": "Typing the name Swordy.",
+    "word": 176,
+    "start": 48.46666666666667,
+    "end": 49.6,
+    "duration": 1.1333,
+    "frames": 34,
+    "t_out": 60.75,
+    "srcs": [
+      {
+        "v": "smithbadsteel",
+        "t": 57.4,
+        "speed": 2.95597,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithbadsteel.mkv"
+      }
+    ]
+  },
+  {
+    "at": "and your maker's",
+    "srcs": [
+      {
+        "still": "swordy-john-smith"
+      },
+      {
+        "still": "swordy-john-smith",
+        "variant": "maker"
+      }
+    ],
+    "note": "Maker mark: zoom to MAKER John_Smith, panel dims, name turns gold.",
+    "word": 182,
+    "start": 49.6,
+    "end": 52.13333333333333,
+    "duration": 2.5333,
+    "frames": 76
+  },
+  {
+    "at": "The basic metals",
+    "v": "smithtwoswords",
+    "t": 118.0,
+    "speed": 16.875,
+    "sound": [
+      "hits",
+      0.3
+    ],
+    "word": 194,
+    "start": 52.13333333333333,
+    "end": 53.733333333333334,
+    "duration": 1.6,
+    "frames": 48,
+    "t_out": 145.0,
+    "srcs": [
+      {
+        "v": "smithtwoswords",
+        "t": 118.0,
+        "speed": 16.875,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithtwoswords.mkv"
+      }
+    ]
+  },
+  {
+    "at": "The higher -tier",
+    "v": "starironhard",
+    "t": 4.6,
+    "sound": [
+      "hits",
+      0.25
+    ],
+    "word": 199,
+    "start": 53.733333333333334,
+    "end": 56.43333333333333,
+    "duration": 2.7,
+    "frames": 81,
+    "speed": 1,
+    "t_out": 7.3,
+    "srcs": [
+      {
+        "v": "starironhard",
+        "t": 4.6,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/starironhard.mkv"
+      }
+    ]
+  },
+  {
+    "at": "A good smith",
+    "v": "yorksmith",
+    "t": 10.5,
+    "word": 208,
+    "start": 56.43333333333333,
+    "end": 59.266666666666666,
+    "duration": 2.8333,
+    "frames": 85,
+    "speed": 1,
+    "t_out": 13.3333,
+    "srcs": [
+      {
+        "v": "yorksmith",
+        "t": 10.5,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/yorksmith.mkv"
+      }
+    ]
+  },
+  {
+    "at": "Someone asks who",
+    "v": "smithtwoswords",
+    "t": 83.62,
+    "speed": 1.17917,
+    "note": "Cleaver: MAKER Smither, QUALITY Masterwork.",
+    "word": 218,
+    "start": 59.266666666666666,
+    "end": 61.666666666666664,
+    "duration": 2.4,
+    "frames": 72,
+    "t_out": 86.45,
+    "srcs": [
+      {
+        "v": "smithtwoswords",
+        "t": 83.62,
+        "speed": 1.17917,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithtwoswords.mkv"
+      }
+    ]
+  },
+  {
+    "at": "you point them",
+    "v": "smithersmith",
+    "t": 8.17,
+    "word": 225,
+    "start": 61.666666666666664,
+    "end": 64.66666666666667,
+    "duration": 3.0,
+    "frames": 90,
+    "speed": 1,
+    "t_out": 11.17,
+    "srcs": [
+      {
+        "v": "smithersmith",
+        "t": 8.17,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithersmith.mkv"
+      }
+    ]
+  },
+  {
+    "at": "You're not just",
+    "v": "orbitsnowmeteor",
+    "t": 48.0,
+    "word": 237,
+    "start": 64.66666666666667,
+    "end": 67.53333333333333,
+    "duration": 2.8667,
+    "frames": 86,
+    "speed": 1,
+    "t_out": 50.8667,
+    "srcs": [
+      {
+        "v": "orbitsnowmeteor",
+        "t": 48.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/orbitsnowmeteor.mkv"
+      }
+    ]
+  },
+  {
+    "at": "You're paying for their",
+    "v": "smithtwoswords",
+    "t": 38.0,
+    "sound": [
+      "hits",
+      0.2
+    ],
+    "note": "Iron arming sword, real-time strikes carry the beat and the question.",
+    "word": 250,
+    "start": 67.53333333333333,
+    "end": 73.23333333333333,
+    "duration": 5.7,
+    "frames": 171,
+    "speed": 1,
+    "t_out": 43.7,
+    "srcs": [
+      {
+        "v": "smithtwoswords",
+        "t": 38.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/smithtwoswords.mkv"
+      }
+    ]
+  },
+  {
+    "at": "Tell me in",
+    "v": "yorksmith",
+    "t": 21.0,
+    "endcard": true,
+    "lead": 0.15,
+    "word": 270,
+    "start": 73.23333333333333,
+    "end": 76.9,
+    "duration": 3.6667,
+    "frames": 110,
+    "speed": 1,
+    "t_out": 24.6667,
+    "srcs": [
+      {
+        "v": "yorksmith",
+        "t": 21.0,
+        "speed": 1,
+        "file": "/tmp/claude-0/-home-user-asciilands/6a9a6cb9-968d-522c-814c-9c9055c24fd1/scratchpad/dl/smithing-edit/claude-smithing-handoff/media/video/yorksmith.mkv"
+      }
+    ]
+  }
+]

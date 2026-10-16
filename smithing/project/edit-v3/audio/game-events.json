@@ -1,0 +1,79 @@
+[
+  {
+    "shot": "can click a",
+    "mode": "live",
+    "source": [
+      1.25,
+      3.9167
+    ],
+    "whooshes_cut": 1,
+    "measured_lufs": -48.77,
+    "gain_db": 8.26
+  },
+  {
+    "shot": "I wanted being",
+    "mode": "live",
+    "source": [
+      3.0,
+      12.1
+    ],
+    "whooshes_cut": 3,
+    "measured_lufs": -40.36,
+    "gain_db": -0.15
+  },
+  {
+    "shot": "Two players can",
+    "mode": "hits",
+    "placed_output": [
+      38.185,
+      38.686,
+      39.153,
+      39.612,
+      40.078,
+      40.528,
+      41.08,
+      41.769,
+      42.213,
+      42.804,
+      43.632,
+      44.435
+    ],
+    "measured_lufs": -43.57,
+    "gain_db": 3.06
+  },
+  {
+    "shot": "The basic metals",
+    "mode": "hits",
+    "placed_output": [
+      52.178,
+      52.484,
+      52.837,
+      53.15
+    ],
+    "measured_lufs": -41.64,
+    "gain_db": 1.13
+  },
+  {
+    "shot": "The higher -tier",
+    "mode": "hits",
+    "placed_output": [
+      53.793,
+      55.623
+    ],
+    "measured_lufs": -43.12,
+    "gain_db": 2.61
+  },
+  {
+    "shot": "You're paying for their",
+    "mode": "hits",
+    "placed_output": [
+      68.218,
+      69.038,
+      69.808,
+      71.118,
+      72.918
+    ],
+    "measured_lufs": -44.13,
+    "gain_db": 3.62
+  }
+]

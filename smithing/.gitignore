@@ -18,3 +18,10 @@ project/edit-v2/render.log
 project/edit-v2/silencedetect.txt
 assets/
 reference/
+project/edit-v3/shots/
+project/edit-v3/stills/
+project/edit-v3/qa/*.jpg
+project/edit-v3/*.mp4
+project/edit-v3/*.wav
+project/edit-v3/audio/*.wav
+project/edit-v3/render.log

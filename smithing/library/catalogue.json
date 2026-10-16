@@ -1801,7 +1801,7 @@
     "aac"
    ],
    "description": "Iron arming sword and bronze rapier; full forging, naming, assembly and inspection. Candidate shaping timelapses; show hammer and blade together.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 1,
@@ -2094,6 +2094,64 @@
       ],
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 85.0,
+      "source_out": 85.0,
+      "output_in": 10.6,
+      "output_out": 13.133333333333333,
+      "speed": null,
+      "phrase": "Weapons and tools",
+      "sound": null,
+      "still": true
+     },
+     {
+      "source_in": 160.8,
+      "source_out": 160.8,
+      "output_in": 10.6,
+      "output_out": 13.133333333333333,
+      "speed": null,
+      "phrase": "Weapons and tools",
+      "sound": null,
+      "still": true
+     },
+     {
+      "source_in": 118.0,
+      "source_out": 145.0,
+      "output_in": 52.13333333333333,
+      "output_out": 53.733333333333334,
+      "speed": 16.875,
+      "phrase": "The basic metals",
+      "sound": [
+       "hits",
+       0.3
+      ],
+      "still": false
+     },
+     {
+      "source_in": 83.62,
+      "source_out": 86.45,
+      "output_in": 59.266666666666666,
+      "output_out": 61.666666666666664,
+      "speed": 1.17917,
+      "phrase": "Someone asks who",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 38.0,
+      "source_out": 43.7,
+      "output_in": 67.53333333333333,
+      "output_out": 73.23333333333333,
+      "speed": 1,
+      "phrase": "You're paying for their",
+      "sound": [
+       "hits",
+       0.2
+      ],
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\smithtwoswords.mkv",
@@ -2111,7 +2169,7 @@
     "aac"
    ],
    "description": "Imperfect steel sword. Strong visual for mistakes affecting the actual retained shape. Not a controlled same-steel grade comparison.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 3,
@@ -2340,6 +2398,73 @@
       "sound": null,
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 77.0,
+      "source_out": 77.0,
+      "output_in": 10.6,
+      "output_out": 13.133333333333333,
+      "speed": null,
+      "phrase": "Weapons and tools",
+      "sound": null,
+      "still": true
+     },
+     {
+      "source_in": 3.0,
+      "source_out": 12.1,
+      "output_in": 29.066666666666666,
+      "output_out": 38.166666666666664,
+      "speed": 1,
+      "phrase": "I wanted being",
+      "sound": [
+       "live"
+      ],
+      "still": false
+     },
+     {
+      "source_in": 12.1,
+      "source_out": 55.6,
+      "output_in": 38.166666666666664,
+      "output_out": 45.233333333333334,
+      "speed": 6.15563,
+      "phrase": "Two players can",
+      "sound": [
+       "hits",
+       0.42
+      ],
+      "still": false
+     },
+     {
+      "source_in": 64.48,
+      "source_out": 65.45,
+      "output_in": 45.233333333333334,
+      "output_out": 46.5,
+      "speed": 0.76577,
+      "phrase": "And that shape",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 75.55,
+      "source_out": 77.517,
+      "output_in": 46.5,
+      "output_out": 48.46666666666667,
+      "speed": 1,
+      "phrase": "That's the actual",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 57.4,
+      "source_out": 60.75,
+      "output_in": 48.46666666666667,
+      "output_out": 49.6,
+      "speed": 2.95597,
+      "phrase": "You can give",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\smithbadsteel.mkv",
@@ -2357,7 +2482,7 @@
     "aac"
    ],
    "description": "First half of difficult Star Iron forging. Narrow working heat band; cooling and surges. No completed item.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 3,
@@ -2418,6 +2543,21 @@
       ],
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 4.6,
+      "source_out": 7.3,
+      "output_in": 53.733333333333334,
+      "output_out": 56.43333333333333,
+      "speed": 1,
+      "phrase": "The higher -tier",
+      "sound": [
+       "hits",
+       0.25
+      ],
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\starironhard.mkv",
@@ -2435,7 +2575,7 @@
     "aac"
    ],
    "description": "Desert Star Iron meteor orbit. Owner says useful footage starts at 12.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 12,
@@ -2478,6 +2618,28 @@
       "sound": null,
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 13.0,
+      "source_out": 15.833,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 12.0,
+      "source_out": 13.767,
+      "output_in": 18.333333333333332,
+      "output_out": 20.1,
+      "speed": 1,
+      "phrase": "Rare materials",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitdesertmeteor.mkv",
@@ -2494,7 +2656,7 @@
     "aac"
    ],
    "description": "Snow meteor orbit. Owner says useful footage starts at 48.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 48,
@@ -2537,6 +2699,28 @@
       "sound": null,
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 49.0,
+      "source_out": 51.833,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 48.0,
+      "source_out": 50.867,
+      "output_in": 64.66666666666667,
+      "output_out": 67.53333333333333,
+      "speed": 1,
+      "phrase": "You're not just",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitsnowmeteor.mkv",
@@ -2553,7 +2737,7 @@
     "aac"
    ],
    "description": "Cycles stone, copper, tin, bronze, iron, steel and Star Iron. Focus on right-hand descriptions; browser chrome must be cropped.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 2,
@@ -2648,6 +2832,18 @@
       "sound": null,
       "provisional": "oneclickarrows.mkv"
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 17.95,
+      "source_out": 20.75,
+      "output_in": 20.1,
+      "output_out": 22.8,
+      "speed": 1.03704,
+      "phrase": "Better damage and",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\inventorymaterials.mkv",
@@ -2665,7 +2861,7 @@
     "aac"
    ],
    "description": "York Public Smith sign. Live town. Companion capture smithersmith shows sign reading Built by Louie; credit this smithy to Louie and town collectively.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 12,
@@ -2756,6 +2952,38 @@
       "sound": null,
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 14.55,
+      "source_out": 16.017,
+      "output_in": 13.133333333333333,
+      "output_out": 14.6,
+      "speed": 1,
+      "phrase": "But for that",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 10.5,
+      "source_out": 13.333,
+      "output_in": 56.43333333333333,
+      "output_out": 59.266666666666666,
+      "speed": 1,
+      "phrase": "A good smith",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 21.0,
+      "source_out": 24.667,
+      "output_in": 73.23333333333333,
+      "output_out": 76.9,
+      "speed": 1,
+      "phrase": "Tell me in",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\yorksmith.mkv",
@@ -2773,7 +3001,7 @@
     "aac"
    ],
    "description": "Walk into player-built York. Live. No market UI requested.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 5,
@@ -2856,6 +3084,28 @@
       "sound": null,
       "provisional": "mapzoomout.mkv"
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 6.0,
+      "source_out": 7.5,
+      "output_in": 0.0,
+      "output_out": 1.5,
+      "speed": 1,
+      "phrase": "I want players",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 9.0,
+      "source_out": 11.833,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\yorkarrival.mkv",
@@ -2873,7 +3123,7 @@
     "aac"
    ],
    "description": "Smither standing with axe in York Public Smith. Sign reads York Public Blacksmith / Built by Louie. Walking in is clean; later orbit is choppy. Does not show a trade.",
-   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2); motion of unused ranges sampled only",
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
    "selects": [
     {
      "start": 3,
@@ -2980,28 +3230,267 @@
       "sound": null,
       "provisional": null
      }
+    ],
+    "smithing-v3": [
+     {
+      "source_in": 6.3,
+      "source_out": 9.133,
+      "output_in": 7.766666666666667,
+      "output_out": 10.6,
+      "speed": 1,
+      "phrase": "I'm building Asciilands",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 4.6,
+      "source_out": 8.333,
+      "output_in": 14.6,
+      "output_out": 18.333333333333332,
+      "speed": 1,
+      "phrase": "people need a",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 8.17,
+      "source_out": 11.17,
+      "output_in": 61.666666666666664,
+      "output_out": 64.66666666666667,
+      "speed": 1,
+      "phrase": "you point them",
+      "sound": null,
+      "still": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\smithersmith.mkv",
    "source_available_in_bundle": true,
    "audio_review": "Audio checked: quiet ambience only (about -45 LUFS)."
+  },
+  {
+   "file": "mapzoomout.mkv",
+   "path": "media/video/mapzoomout.mkv",
+   "duration": 12.667,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Owner pickup: World map zoom-out, current build.",
+   "selects": [
+    {
+     "start": 0.0,
+     "end": 1.9,
+     "description": "Local map, region hex Bracken Moss Meadows",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 2.0,
+     "end": 5.9,
+     "description": "Local map zoom levels with the player arrow",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 6.0,
+     "end": 6.4,
+     "description": "REJECT: blank frame during the Local to World switch",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 6.45,
+     "end": 8.85,
+     "description": "World atlas zooming out to the whole explored world (used in v3)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 8.85,
+     "end": 12.6,
+     "description": "Widest World view, held",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
+   "tags": [
+    "smithing",
+    "pickup",
+    "2026-10-16"
+   ],
+   "source_available_in_bundle": true,
+   "used_in": {
+    "smithing-v3": [
+     {
+      "source_in": 6.45,
+      "source_out": 8.85,
+      "output_in": 1.5,
+      "output_out": 3.933333333333333,
+      "speed": 0.98631,
+      "phrase": "cross a massive map",
+      "sound": null,
+      "still": false
+     }
+    ]
+   },
+   "audio_review": "Audio checked: quiet; not used."
+  },
+  {
+   "file": "oneclickstonepickaxe.mkv",
+   "path": "media/video/oneclickstonepickaxe.mkv",
+   "duration": 4.884,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Owner pickup (uploaded as oneclickarrow.mkv): one-click Stone Pickaxe craft at a Workbench. Shows the Stone Pickaxe recipe, not Arrows.",
+   "selects": [
+    {
+     "start": 0.0,
+     "end": 1.5,
+     "description": "Workbench: Stone Pickaxe recipe, ingredients Stick 50/2, Stone Chunk 52/2, Rope 2/1",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 1.55,
+     "end": 1.55,
+     "description": "First click on Make 1 Stone Pickaxe",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 1.8,
+     "end": 3.6,
+     "description": "Result line: +1 Stone Pickaxe",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 3.67,
+     "end": 3.67,
+     "description": "Second identical click",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
+   "tags": [
+    "smithing",
+    "pickup",
+    "2026-10-16"
+   ],
+   "source_available_in_bundle": true,
+   "used_in": {
+    "smithing-v3": [
+     {
+      "source_in": 1.0,
+      "source_out": 1.0,
+      "output_in": 10.6,
+      "output_out": 13.133333333333333,
+      "speed": null,
+      "phrase": "Weapons and tools",
+      "sound": null,
+      "still": true
+     },
+     {
+      "source_in": 0.0,
+      "source_out": 1.25,
+      "output_in": 22.8,
+      "output_out": 24.433333333333334,
+      "speed": 0.76532,
+      "phrase": "But if anyone",
+      "sound": null,
+      "still": false
+     },
+     {
+      "source_in": 1.25,
+      "source_out": 3.917,
+      "output_in": 24.433333333333334,
+      "output_out": 27.1,
+      "speed": 1,
+      "phrase": "can click a",
+      "sound": [
+       "live"
+      ],
+      "still": false
+     },
+     {
+      "source_in": 3.917,
+      "source_out": 4.8,
+      "output_in": 27.1,
+      "output_out": 29.066666666666666,
+      "speed": 0.44913,
+      "phrase": "there's not much",
+      "sound": null,
+      "still": false
+     }
+    ]
+   },
+   "audio_review": "Audio checked: UI clicks at 1.56/1.74 and 3.67/3.87 s; used live under the narration."
+  },
+  {
+   "file": "oneclick-stonepickaxe-packfull.mkv",
+   "path": "media/video/oneclick-stonepickaxe-packfull.mkv",
+   "duration": 7.234,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "audio": [
+    "aac"
+   ],
+   "description": "Owner pickup (uploaded as oneclickarrows.mkv): the craft fails with Pack full. Rejected for the one-click beat.",
+   "selects": [
+    {
+     "start": 0.0,
+     "end": 3.7,
+     "description": "Stone Pickaxe recipe before the click (usable only as a recipe view)",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    },
+    {
+     "start": 3.78,
+     "end": 7.2,
+     "description": "REJECT: Make fails with \"Pack full\", then the Pack opens. Not a successful craft",
+     "provenance": "Claude frame/audio review 2026-10-16 (verified select)"
+    }
+   ],
+   "review_status": "Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only",
+   "tags": [
+    "smithing",
+    "pickup",
+    "2026-10-16"
+   ],
+   "source_available_in_bundle": true,
+   "used_in": {}
   }
  ],
  "pickups": [
   {
    "file": "mapzoomout.mkv",
-   "status": "NOT YET RECORDED",
-   "needed_for": "smithing-v2 \"cross a massive map\"",
-   "brief": "Open M on Local for 2 s, scroll out smoothly into World over 3-5 s, hold widest view 3 s, move pointer aside. Use a character that has visited many regions: the World atlas only draws visited or seen regions. Reduced motion off. Full 2560x1440, no other menus."
+   "status": "RECORDED 2026-10-16",
+   "needed_for": "smithing \"cross a massive map\"",
+   "brief": "Used 6.45 to 8.85 s."
   },
   {
-   "file": "oneclickarrows.mkv",
-   "status": "NOT YET RECORDED",
-   "needed_for": "smithing-v2 \"click a button and make exactly the same sword\"",
-   "brief": "At a Workbench, open the Arrows recipe (2 sticks, 1 stone, 1 fibre makes 6 arrows; the recipe panel says \"Crafts immediately from inventory\"). Hold 2 s on the recipe, click Craft once, hold 2-3 s on the result, click once more. Game sound on, no voice. Stone tools are not used: they are multi-step workbench crafts."
+   "file": "oneclickstonepickaxe.mkv",
+   "status": "RECORDED 2026-10-16",
+   "needed_for": "smithing \"click a button and make exactly the same sword\"",
+   "brief": "A real one-click Stone Pickaxe craft. The earlier take (oneclick-stonepickaxe-packfull.mkv) failed with Pack full."
   }
  ],
  "history": [
-  "2026-10-16: smithing v2 verified selects, audio review, used_in.smithing-v2, pickup list (Claude). Nothing removed."
+  "2026-10-16: smithing v2 verified selects, audio review, used_in.smithing-v2, pickup list (Claude). Nothing removed.",
+  "2026-10-16: smithing v3 pickups received, new selects, rejected take, voice pickup and owner still, used_in.smithing-v3 (Claude). Nothing removed."
+ ],
+ "supplied": [
+  {
+   "file": "rarematerials.wav",
+   "path": "media/audio/rarematerials.wav",
+   "kind": "voice pickup",
+   "description": "Replacement take of \"Rare materials are one reason.\" Speech 0.62 to 2.10 s; spliced into v3 at +0.9 dB."
+  },
+  {
+   "file": "swordy-john-smith-inspect.png",
+   "path": "assets/stills/swordy-john-smith-inspect.png",
+   "kind": "owner screenshot",
+   "description": "Swordy Inspect, maker John_Smith (2000x1224). Used for the sword, METAL and MAKER emphasis in v3."
+  }
  ]
 }
