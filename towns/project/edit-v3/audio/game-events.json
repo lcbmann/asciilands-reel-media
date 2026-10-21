@@ -33,11 +33,11 @@
     "shot": "to get the servers",
     "mode": "steps",
     "source": [
-      26.0,
-      28.5
+      6.5,
+      9.0
     ],
-    "measured_lufs": -49.74,
-    "gain_db": -16.31
+    "measured_lufs": -49.18,
+    "gain_db": -16.87
   },
   {
     "music": {

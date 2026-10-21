@@ -262,7 +262,14 @@ def prepare_audio():
 # ---------------------------------------------------------------- stills
 # A still is a frame taken from a recording, or a supplied image. Looks address
 # sources by index: shot['srcs'][i].
+DISCORD = Path('C:/Users/liamb/Videos/asciilands-towns-short/discord-stills')
 STILL_IMAGES = {
+    'nordheim-walls': DISCORD / 'NA_kingdom-of-nordheim_1562365573734862898_0.png',   # Bill, Just Bill
+    'northmost': DISCORD / 'EU_castle-northmost_1561624618379387001_0.png',           # Dirtmole
+    'pyramids': DISCORD / 'ANY_screenshots_1562450670852907008_0.png',                # Truly
+    'hellheim': DISCORD / 'EU_hellheim_1561846647888154695_0.png',                    # Monsterrubberduck
+    'york-sea': DISCORD / 'EU_york_1562209372308897802_0.png',                        # Craeb (York: Louie)
+    'wefarm': DISCORD / 'NA_want-cheap-food_1562138164284497921_1.png',               # goRogue
     'cult': ASSETS / 'stills/discord-cult-of-akton.png',      # Cleptomane's post, owner screenshot
     'poll': ASSETS / 'stills/discord-poll-final.png',         # the announcement poll, owner screenshot
     'wiki': ASSETS / 'stills/wiki-star-iron-order.png',       # awiki.yi5.dev Market row, owner screenshot
@@ -308,8 +315,7 @@ def load_source(spec):
 # Clean source area per recording: everything outside it (the Chrome debugging bar, tab and
 # bookmark bars on the local-build clips, the window's bottom edge) can never enter a crop.
 CLEAN_DEFAULT = (0, 100, 2560, 1406)    # below the Chrome debugging bar and the Admin tools badge
-CLEAN = {'yorkbridge-smooth': (920, 240, 1680, 1406), 'nordheim-smooth': (1040, 240, 1800, 1406),
-         'aphelion-smooth': (1100, 100, 1800, 1200), 'fortredleaf-smooth': (240, 100, 1820, 1406),
+CLEAN = {'yorkbridge-smooth': (450, 240, 2150, 1406), 'nordheim-smooth': (500, 240, 2100, 1406),
          '2026-10-21 22-37-13': (0, 240, 2560, 1406), 'world zoom': (0, 240, 2560, 1406), 'nordheim': (0, 240, 2560, 1406), 'awesomesmithing': (0, 240, 2560, 1406), 'raft': (0, 240, 2560, 1406),
          'yorkarrival': (0, 0, 2560, 1440), 'orbitdesertmeteor': (0, 0, 2560, 1440)}
 
@@ -537,6 +543,40 @@ def still_frame(cx, cy, h):
     return dict(bg=None, layers=[dict(src=[(0, (cx - w / 2, cy - h / 2, w, h))], dst=[(0, (0, 0, W, H))])])
 
 
+def wide(cx, cy, w, aspect=1.15, mid=960):
+    """Orbit shots keep more of the horizon: a window wider than 9:16 across the full frame width,
+    on a blurred, darkened copy of the same footage (which keeps moving with it)."""
+    h = w / aspect
+    dh = W / aspect
+    return dict(bg='blur', layers=[dict(src=[(0, (cx - w / 2, cy - h / 2, w, h))],
+                                        dst=[(0, (0, mid - dh / 2, W, dh))])])
+
+
+COLLAGE = [  # (still, crop centre x, y, crop width) in the screenshot's pixels
+    ('nordheim-walls', 1240, 720, 1700), ('northmost', 900, 520, 1100), ('pyramids', 1420, 560, 1250),
+    ('hellheim', 930, 480, 1100), ('york-sea', 960, 560, 1250), ('wefarm', 1230, 520, 1350)]
+TILE_W, TILE_H = 450, 294
+
+
+def collage(start=0.10, stagger=0.16):
+    """The York crowd keeps playing, sharp at first, then dims under it as the players' own
+    screenshots pop in one after another."""
+    layers = [dict(i=0, src=[(0, (1280 - 1300 * 9 / 32, 760 - 650, 1300 * 9 / 16, 1300))], dst=[(0, (0, 0, W, H))],
+                   alpha=[(0, 1), (start, 1), (start + 0.5, 0)])]
+    for k, (_, cx, cy, cw) in enumerate(COLLAGE):
+        ch = cw * TILE_H / TILE_W
+        x, y = 80 + (k % 2) * (TILE_W + 20), 318 + (k // 2) * (TILE_H + 20)
+        t = start + k * stagger
+        small = (x + TILE_W * 0.06, y + TILE_H * 0.06, TILE_W * 0.88, TILE_H * 0.88)
+        layers.append(dict(i=k + 1, src=[(0, (cx - cw / 2, cy - ch / 2, cw, ch))],
+                           dst=[(0, small), (t, small), (t + 0.4, (x, y, TILE_W, TILE_H))],
+                           alpha=[(0, 0), (t, 0), (t + 0.25, 1)], shadow=True))
+    return dict(bg='blur', layers=layers)
+
+
+COLLAGE_SRCS = [dict(v='york4', t='cont')] + [dict(still=name) for name, *_ in COLLAGE]
+
+
 def swords_static():
     tiles = [(1, (45, 330, 310, 698)), (2, (385, 330, 310, 698)), (3, (725, 330, 310, 698))]
     return dict(bg='blur', layers=[dict(i=i, src=[(0, SMITH_SWORD)], dst=[(0, d)], shadow=True) for i, d in tiles])
@@ -556,19 +596,19 @@ ORBIT = 1.5                     # orbits play faster: smoother motion, more ener
 SHOTS = [
     dict(at='Last week', v='yorkarrival', t=6.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps',),
          note='York last week. Walk from behind starts 6.00. The turn ends 5.93.'),
-    dict(at='And [now]', v='yorkbridge-smooth', t=0.20, speed=2.0, look=still_frame(1300, 819, 1174), label='YORK',
+    dict(at='And [now]', v='yorkbridge-smooth', t=0.20, speed=3.0, look=wide(1300, 822, 1166, aspect=1.0), label='YORK',
          note='York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).'),
     dict(at="It's not the", srcs=MAP_SRCS, look=map_zoom(),
          note='One smooth zoom from the York local map to the whole island, made from the held zoom levels.'),
-    dict(at='new ones have', v='fortredleaf-smooth', t=0.20, speed=ORBIT, flip=True, look=still_frame(1940, 640, 1150),
+    dict(at='new ones have', v='fortredleaf', t=37.00, speed=2.0, flip=True, look=wide(1250, 700, 1560, aspect=1.2),
          label='FORT REDLEAF', note='Fort Redleaf orbit (owner select 0:31), mirrored, gatehouse centred.'),
-    dict(at="It's been a", v='aphelion-smooth', t=0.20, speed=ORBIT, look=still_frame(1450, 620, 1100), label='APHELION',
+    dict(at="It's been a", v='aphelionorbit', t=34.50, speed=2.0, look=wide(1350, 620, 1380, aspect=1.15), label='APHELION',
          note='Aphelion from afar (owner select from 0:23): the town across the snow.'),
     dict(at='selling plots and', v='plotforsale', t=14.30, look=plots(),
          note='Real plot UI: For sale 50 gold, Buy for 50 gold, the plot grid. Starts after the 14.08 jump.'),
     dict(at='and running their', v='driftwoodmarket', t=47.20, look=still_frame(1280, 760, 1300), label='DRIFTWOOD',
          sound=('steps',), note='Driftwood market street, centred on the player walking (owner select from 0:42).'),
-    dict(at='and even kingdoms.', v='nordheim-smooth', t=0.20, speed=ORBIT, look=still_frame(1420, 860, 1190), label='NORDHEIM',
+    dict(at='and even kingdoms.', v='nordheim-smooth', t=0.20, speed=2.0, look=wide(1300, 822, 1166, aspect=1.0), label='NORDHEIM',
          note='Nordheim from the mountain, the walled town in view (owner select from 0:08).'),
     dict(at='[guilds] and religions.', srcs=[dict(still='cult')], look=cult(),
          note="Cleptomane's Cult of Akton post (owner screenshot)."),
@@ -578,8 +618,10 @@ SHOTS = [
          look=star_iron_order(), note='Wiki market row: Star Iron, best buy order 1000g (owner screenshot).'),
     dict(at='This totally caught', v='york4', t=3.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps', 8.0),
          note='Walking through York full of players (owner select 0:03).'),
-    dict(at='to get the servers', v='york4', t=26.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps', 8.0),
-         note='Another player crosses in front (owner select 0:26 to 0:31).'),
+    dict(at='to get the servers', srcs=COLLAGE_SRCS, look=collage(), sound=('steps', 8.0),
+         note='Collage of player screenshots from Discord over the York crowd, which carries on from the shot before: '
+              'Nordheim (Bill), Castle Northmost (Dirtmole), pyramids (Truly), Hellheim (Monsterrubberduck), '
+              'York (Craeb), WE FARM (goRogue).'),
     dict(at='I asked what', srcs=[dict(still='poll'), dict(still='poll', rows=['smithing']),
                                   dict(still='poll', rows=['smithing', 'exploration'])],
          look=poll(), note='Final poll: Smithing then Exploration and Sailing lift out as they are named.'),
@@ -588,8 +630,8 @@ SHOTS = [
          look=swords_static(), note='Three new swords: Masterwork Blacksteel, Needle, Quick Dirk.'),
     dict(at="I've just about", v='raft', t=3.00, look=still_frame(1400, 800, 1180),
          note='Bringing the raft up to the dock (owner select 0:03). The recording has no sound.'),
-    dict(at='Comment below what', v='fortredleaf-smooth', t=5.20, look=still_frame(1450, 640, 1150), endcard=True, lead=0.15,
-         note='Fort Redleaf orbit under the end card (owner select from 0:31), unmirrored.'),
+    dict(at='Comment below what', v=YB, t=22.00, look=still_frame(1300, 819, 1174), endcard=True, lead=0.15,
+         note='York bridge orbit under the end card (owner recording from 0:18).'),
 ]
 END_TAIL = 2.5
 # Real game sound: only its transients (footsteps, barks, clicks) pass the gate; the steady wind
@@ -615,6 +657,8 @@ def next_beat(t):
 
 SYNC_CUT = dict(at='This totally caught', pause_after='for a single piece.')
 LABEL_SIZE, LABEL_X, LABEL_Y = 54, 84, 285
+SERVER = {'YORK': 'EU', 'FORT REDLEAF': 'EU', 'APHELION': 'EU', 'DRIFTWOOD': 'NA', 'NORDHEIM': 'NA'}
+PIN = ['..###..', '.#####.', '##...##', '##...##', '.#####.', '.#####.', '..###..', '...#...']   # pixel map pin
 LABEL_DELAY, LABEL_FIRST_DELAY, LABEL_FADE = 0.30, 0.90, 0.25
 ACCENTS = ['ONE', 'NOW', 'ONLY', 'WORLD', 'BEHOLD', 'PEOPLE', 'VILLAGES', 'PLOTS', 'TAXES', 'MARKETS', 'KINGDOMS',
            'GUILDS', 'RELIGIONS', 'ECONOMY', 'STAR', 'THOUSAND', 'GOLD', 'GUARD', 'SERVERS', 'PLAYERS', 'NEXT',
@@ -657,6 +701,9 @@ def build_timeline(words, voice_len):
             s['t_out'] = round(s['t'] + s['duration'] * s['speed'], 4)
             s['srcs'] = [dict(v=s['v'], t=s['t'], speed=s['speed'], flip=s.get('flip', False))]
         for sp in s['srcs']:
+            if sp.get('t') == 'cont':
+                assert tl[i - 1].get('v') == sp['v'], s['at']
+                sp['t'] = tl[i - 1]['t_out']
             if 'v' in sp:
                 sp.setdefault('speed', 1)
                 sp['file'] = str(src(sp['v']))
@@ -958,15 +1005,31 @@ _LABELS = {}
 
 
 def label_image(text):
-    """The town on screen: caption style, gold, in the top-left corner of the safe area (clear of the notch)."""
+    """The town on screen, top-left in the safe area (clear of the notch): a pixel map pin, the
+    name in gold caption style, and its server small underneath."""
     if text not in _LABELS:
-        f = font(LABEL_SIZE)
-        im = Image.new('RGBA', (W, LABEL_SIZE + 60))
+        f, fs = font(LABEL_SIZE), font(30)
+        im = Image.new('RGBA', (W, LABEL_SIZE + 110))
         shadow = Image.new('RGBA', im.size)
         d, ds = ImageDraw.Draw(im), ImageDraw.Draw(shadow)
-        x = 20
+        px, k = 22, 6                                   # pin cells of 6 px
+        for r, row in enumerate(PIN):
+            for c, ch in enumerate(row):
+                if ch == '#':
+                    box = (px + c * k, 16 + r * k, px + (c + 1) * k - 1, 16 + (r + 1) * k - 1)
+                    d.rectangle((box[0] - 3, box[1] - 3, box[2] + 3, box[3] + 3), fill=INK)
+        for r, row in enumerate(PIN):
+            for c, ch in enumerate(row):
+                if ch == '#':
+                    d.rectangle((px + c * k, 16 + r * k, px + (c + 1) * k - 1, 16 + (r + 1) * k - 1), fill=GOLD)
+                    ds.rectangle((px + c * k + 3, 22 + r * k, px + (c + 1) * k + 2, 22 + (r + 1) * k), fill=(0, 0, 0, 170))
+        x = px + 7 * k + 18
         ds.text((x + 3, 16), text, font=f, fill=(0, 0, 0, 170), stroke_width=9, stroke_fill=(0, 0, 0, 170))
         d.text((x, 10), text, font=f, fill=GOLD, stroke_width=7, stroke_fill=INK)
+        if SERVER.get(text):
+            tag = SERVER[text] + ' SERVER'
+            ds.text((x + 3, LABEL_SIZE + 26), tag, font=fs, fill=(0, 0, 0, 170), stroke_width=7, stroke_fill=(0, 0, 0, 170))
+            d.text((x, LABEL_SIZE + 22), tag, font=fs, fill=WHITE, stroke_width=5, stroke_fill=INK)
         shadow = shadow.filter(ImageFilter.GaussianBlur(6))
         shadow.alpha_composite(im)
         box = shadow.getbbox()

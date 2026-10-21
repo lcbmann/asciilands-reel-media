@@ -29,7 +29,7 @@
     "at": "And [now]",
     "v": "yorkbridge-smooth",
     "t": 0.2,
-    "speed": 2.0,
+    "speed": 3.0,
     "label": "YORK",
     "note": "York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).",
     "word": 8,
@@ -37,12 +37,12 @@
     "end": 4.566666666666666,
     "duration": 1.9333,
     "frames": 58,
-    "t_out": 4.0666,
+    "t_out": 5.9999,
     "srcs": [
       {
         "v": "yorkbridge-smooth",
         "t": 0.2,
-        "speed": 2.0,
+        "speed": 3.0,
         "flip": false,
         "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\yorkbridge-smooth.mkv"
       }
@@ -121,9 +121,9 @@
   },
   {
     "at": "new ones have",
-    "v": "fortredleaf-smooth",
-    "t": 0.2,
-    "speed": 1.5,
+    "v": "fortredleaf",
+    "t": 37.0,
+    "speed": 2.0,
     "flip": true,
     "label": "FORT REDLEAF",
     "note": "Fort Redleaf orbit (owner select 0:31), mirrored, gatehouse centred.",
@@ -132,22 +132,22 @@
     "end": 9.233333333333333,
     "duration": 2.0,
     "frames": 60,
-    "t_out": 3.2,
+    "t_out": 41.0,
     "srcs": [
       {
-        "v": "fortredleaf-smooth",
-        "t": 0.2,
-        "speed": 1.5,
+        "v": "fortredleaf",
+        "t": 37.0,
+        "speed": 2.0,
         "flip": true,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\fortredleaf-smooth.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\fortredleaf.mkv"
       }
     ]
   },
   {
     "at": "It's been a",
-    "v": "aphelion-smooth",
-    "t": 0.2,
-    "speed": 1.5,
+    "v": "aphelionorbit",
+    "t": 34.5,
+    "speed": 2.0,
     "label": "APHELION",
     "note": "Aphelion from afar (owner select from 0:23): the town across the snow.",
     "word": 33,
@@ -155,14 +155,14 @@
     "end": 12.2,
     "duration": 2.9667,
     "frames": 89,
-    "t_out": 4.6501,
+    "t_out": 40.4334,
     "srcs": [
       {
-        "v": "aphelion-smooth",
-        "t": 0.2,
-        "speed": 1.5,
+        "v": "aphelionorbit",
+        "t": 34.5,
+        "speed": 2.0,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\aphelion-smooth.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\aphelionorbit.mkv"
       }
     ]
   },
@@ -218,7 +218,7 @@
     "at": "and even kingdoms.",
     "v": "nordheim-smooth",
     "t": 0.2,
-    "speed": 1.5,
+    "speed": 2.0,
     "label": "NORDHEIM",
     "note": "Nordheim from the mountain, the walled town in view (owner select from 0:08).",
     "word": 54,
@@ -226,12 +226,12 @@
     "end": 17.366666666666667,
     "duration": 2.1667,
     "frames": 65,
-    "t_out": 3.4501,
+    "t_out": 4.5334,
     "srcs": [
       {
         "v": "nordheim-smooth",
         "t": 0.2,
-        "speed": 1.5,
+        "speed": 2.0,
         "flip": false,
         "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\nordheim-smooth.mkv"
       }
@@ -322,30 +322,42 @@
   },
   {
     "at": "to get the servers",
-    "v": "york4",
-    "t": 26.0,
-    "label": "YORK",
+    "srcs": [
+      {
+        "v": "york4",
+        "t": 6.5,
+        "speed": 1,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\york4.mkv"
+      },
+      {
+        "still": "nordheim-walls"
+      },
+      {
+        "still": "northmost"
+      },
+      {
+        "still": "pyramids"
+      },
+      {
+        "still": "hellheim"
+      },
+      {
+        "still": "york-sea"
+      },
+      {
+        "still": "wefarm"
+      }
+    ],
     "sound": [
       "steps",
       8.0
     ],
-    "note": "Another player crosses in front (owner select 0:26 to 0:31).",
+    "note": "Collage of player screenshots from Discord over the York crowd, which carries on from the shot before: Nordheim (Bill), Castle Northmost (Dirtmole), pyramids (Truly), Hellheim (Monsterrubberduck), York (Craeb), WE FARM (goRogue).",
     "word": 105,
     "start": 30.133333333333333,
     "end": 32.63333333333333,
     "duration": 2.5,
-    "frames": 75,
-    "speed": 1,
-    "t_out": 28.5,
-    "srcs": [
-      {
-        "v": "york4",
-        "t": 26.0,
-        "speed": 1,
-        "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\york4.mkv"
-      }
-    ]
+    "frames": 75
   },
   {
     "at": "I asked what",
@@ -433,25 +445,25 @@
   },
   {
     "at": "Comment below what",
-    "v": "fortredleaf-smooth",
-    "t": 5.2,
+    "v": "2026-10-21 22-37-13",
+    "t": 22.0,
     "endcard": true,
     "lead": 0.15,
-    "note": "Fort Redleaf orbit under the end card (owner select from 0:31), unmirrored.",
+    "note": "York bridge orbit under the end card (owner recording from 0:18).",
     "word": 147,
     "start": 40.666666666666664,
     "end": 46.03333333333333,
     "duration": 5.3667,
     "frames": 161,
     "speed": 1,
-    "t_out": 10.5667,
+    "t_out": 27.3667,
     "srcs": [
       {
-        "v": "fortredleaf-smooth",
-        "t": 5.2,
+        "v": "2026-10-21 22-37-13",
+        "t": 22.0,
         "speed": 1,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\fortredleaf-smooth.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\2026-10-21 22-37-13.mkv"
       }
     ]
   }

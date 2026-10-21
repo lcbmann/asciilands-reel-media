@@ -6,9 +6,9 @@
     "peak_db": -11.27
   },
   "game": {
-    "lufs": -62.0,
+    "lufs": -62.4,
     "true_peak": -38.1,
-    "rms_db": -75.76,
+    "rms_db": -75.74,
     "peak_db": -38.14
   },
   "music": {
@@ -56,15 +56,15 @@
     },
     {
       "shot": "to get the servers",
-      "game_rms_db": -75.59,
-      "game_under_voice_db": 38.5,
-      "game_peak_vs_voice_peak_db": -27.6
+      "game_rms_db": -75.15,
+      "game_under_voice_db": 38.1,
+      "game_peak_vs_voice_peak_db": -28.2
     },
     {
       "shot": "I asked what",
-      "game_rms_db": -89.53,
-      "game_under_voice_db": 55.7,
-      "game_peak_vs_voice_peak_db": -38.5
+      "game_rms_db": -91.42,
+      "game_under_voice_db": 59.8,
+      "game_peak_vs_voice_peak_db": -39.1
     }
   ],
   "music_rms_per_0.4s": {

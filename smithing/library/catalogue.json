@@ -3881,8 +3881,8 @@
      {
       "shot": "to get the servers",
       "source": [
-       26.0,
-       28.5
+       6.5,
+       9.0
       ],
       "output": [
        30.133333333333333,
@@ -4078,7 +4078,20 @@
       "mirrored": false
      }
     ],
-    "towns-v3": []
+    "towns-v3": [
+     {
+      "shot": "It's been a",
+      "source": [
+       34.5,
+       40.433
+      ],
+      "output": [
+       9.233333333333333,
+       12.2
+      ],
+      "mirrored": false
+     }
+    ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\aphelionorbit.mkv",
    "source_available_in_bundle": false,
@@ -4205,7 +4218,20 @@
       "mirrored": true
      }
     ],
-    "towns-v3": []
+    "towns-v3": [
+     {
+      "shot": "new ones have",
+      "source": [
+       37.0,
+       41.0
+      ],
+      "output": [
+       7.233333333333333,
+       9.233333333333333
+      ],
+      "mirrored": true
+     }
+    ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\fortredleaf.mkv",
    "source_available_in_bundle": false,
@@ -4637,7 +4663,20 @@
     }
    ],
    "used_in": {
-    "towns-v3": []
+    "towns-v3": [
+     {
+      "shot": "Comment below what",
+      "source": [
+       22.0,
+       27.367
+      ],
+      "output": [
+       40.666666666666664,
+       46.03333333333333
+      ],
+      "mirrored": false
+     }
+    ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-21 22-37-13.mkv",
    "source_available_in_bundle": false,
