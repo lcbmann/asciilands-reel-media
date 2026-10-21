@@ -220,3 +220,6 @@ awesomesmithing.mkv,False,,0.0,64.0,NOTE: local build; Chrome tab and bookmark b
 raft.mkv,False,,3.0,6.0,Bringing the raft up to the dock and stopping; Moor raft prompt,verified 2026-10-21,Owner timestamp notes 2026-10-21,no sound
 raft.mkv,False,,0.0,0.9,REJECT: Build menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
 raft.mkv,False,,6.4,7.4,REJECT: Build menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
+2026-10-21 22-37-13.mkv,False,,18.0,28.5,"York from across the river: the Great York Bridge, the stone tower and the new houses, orbit (used at 1.5x)",verified 2026-10-21,Owner timestamp notes 2026-10-21,quiet ambience
+2026-10-21 22-37-13.mkv,False,,0.0,1.5,REJECT: HUD and settings visible,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),quiet ambience
+2026-10-21 22-37-13.mkv,False,,0.0,28.5,NOTE: Chrome tab and bookmark bars at the top (keep crops below y 232),verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),quiet ambience

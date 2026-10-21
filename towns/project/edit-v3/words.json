@@ -1,0 +1,1298 @@
+[
+  {
+    "w": "Last",
+    "s": 0.0,
+    "e": 0.2977,
+    "p": 0.875,
+    "source_start": 0.0,
+    "source_end": 0.88
+  },
+  {
+    "w": "week,",
+    "s": 0.2977,
+    "e": 0.5977,
+    "p": 0.996,
+    "source_start": 0.88,
+    "source_end": 1.18
+  },
+  {
+    "w": "my",
+    "s": 0.8377,
+    "e": 1.0177,
+    "p": 0.991,
+    "source_start": 1.42,
+    "source_end": 1.6
+  },
+  {
+    "w": "game",
+    "s": 1.0177,
+    "e": 1.2977,
+    "p": 0.998,
+    "source_start": 1.6,
+    "source_end": 1.88
+  },
+  {
+    "w": "had",
+    "s": 1.2977,
+    "e": 1.6377,
+    "p": 0.992,
+    "source_start": 1.88,
+    "source_end": 2.22
+  },
+  {
+    "w": "one",
+    "s": 1.6377,
+    "e": 1.9377,
+    "p": 0.973,
+    "source_start": 2.22,
+    "source_end": 2.52
+  },
+  {
+    "w": "town.",
+    "s": 1.9377,
+    "e": 2.2777,
+    "p": 0.989,
+    "source_start": 2.52,
+    "source_end": 2.86
+  },
+  {
+    "w": "And",
+    "s": 2.5588,
+    "e": 2.7188,
+    "p": 0.978,
+    "source_start": 3.52,
+    "source_end": 3.68
+  },
+  {
+    "w": "now",
+    "s": 2.7188,
+    "e": 3.0188,
+    "p": 0.993,
+    "source_start": 3.68,
+    "source_end": 3.98
+  },
+  {
+    "w": "it",
+    "s": 3.0188,
+    "e": 3.2188,
+    "p": 0.843,
+    "source_start": 3.98,
+    "source_end": 4.18
+  },
+  {
+    "w": "looks",
+    "s": 3.2188,
+    "e": 3.3988,
+    "p": 0.996,
+    "source_start": 4.18,
+    "source_end": 4.36
+  },
+  {
+    "w": "like",
+    "s": 3.3988,
+    "e": 3.6588,
+    "p": 0.998,
+    "source_start": 4.36,
+    "source_end": 4.62
+  },
+  {
+    "w": "this.",
+    "s": 3.6588,
+    "e": 4.0188,
+    "p": 0.946,
+    "source_start": 4.62,
+    "source_end": 4.98
+  },
+  {
+    "w": "It's",
+    "s": 4.3529,
+    "e": 4.5929,
+    "p": 0.993,
+    "source_start": 5.74,
+    "source_end": 5.98
+  },
+  {
+    "w": "not",
+    "s": 4.5929,
+    "e": 4.7129,
+    "p": 0.999,
+    "source_start": 5.98,
+    "source_end": 6.1
+  },
+  {
+    "w": "the",
+    "s": 4.7129,
+    "e": 4.8529,
+    "p": 0.997,
+    "source_start": 6.1,
+    "source_end": 6.24
+  },
+  {
+    "w": "only",
+    "s": 4.8529,
+    "e": 5.0129,
+    "p": 1.0,
+    "source_start": 6.24,
+    "source_end": 6.4
+  },
+  {
+    "w": "town",
+    "s": 5.0129,
+    "e": 5.2529,
+    "p": 0.999,
+    "source_start": 6.4,
+    "source_end": 6.64
+  },
+  {
+    "w": "anymore,",
+    "s": 5.2529,
+    "e": 5.5929,
+    "p": 0.888,
+    "source_start": 6.64,
+    "source_end": 6.98
+  },
+  {
+    "w": "either.",
+    "s": 5.6729,
+    "e": 5.9329,
+    "p": 0.999,
+    "source_start": 7.06,
+    "source_end": 7.32
+  },
+  {
+    "w": "All",
+    "s": 6.151,
+    "e": 6.291,
+    "p": 0.997,
+    "source_start": 7.9,
+    "source_end": 8.04
+  },
+  {
+    "w": "across",
+    "s": 6.291,
+    "e": 6.531,
+    "p": 0.999,
+    "source_start": 8.04,
+    "source_end": 8.28
+  },
+  {
+    "w": "the",
+    "s": 6.531,
+    "e": 6.691,
+    "p": 0.999,
+    "source_start": 8.28,
+    "source_end": 8.44
+  },
+  {
+    "w": "world,",
+    "s": 6.691,
+    "e": 6.911,
+    "p": 0.998,
+    "source_start": 8.44,
+    "source_end": 8.66
+  },
+  {
+    "w": "new",
+    "s": 7.011,
+    "e": 7.111,
+    "p": 0.994,
+    "source_start": 8.76,
+    "source_end": 8.86
+  },
+  {
+    "w": "ones",
+    "s": 7.111,
+    "e": 7.311,
+    "p": 0.995,
+    "source_start": 8.86,
+    "source_end": 9.06
+  },
+  {
+    "w": "have",
+    "s": 7.311,
+    "e": 7.411,
+    "p": 0.986,
+    "source_start": 9.06,
+    "source_end": 9.16
+  },
+  {
+    "w": "been",
+    "s": 7.411,
+    "e": 7.511,
+    "p": 0.998,
+    "source_start": 9.16,
+    "source_end": 9.26
+  },
+  {
+    "w": "springing",
+    "s": 7.511,
+    "e": 7.891,
+    "p": 0.993,
+    "source_start": 9.26,
+    "source_end": 9.64
+  },
+  {
+    "w": "up,",
+    "s": 7.891,
+    "e": 7.991,
+    "p": 0.998,
+    "source_start": 9.64,
+    "source_end": 9.74
+  },
+  {
+    "w": "left",
+    "s": 8.151,
+    "e": 8.211,
+    "p": 0.996,
+    "source_start": 9.9,
+    "source_end": 9.96
+  },
+  {
+    "w": "and",
+    "s": 8.211,
+    "e": 8.391,
+    "p": 0.994,
+    "source_start": 9.96,
+    "source_end": 10.14
+  },
+  {
+    "w": "right.",
+    "s": 8.391,
+    "e": 8.591,
+    "p": 1.0,
+    "source_start": 10.14,
+    "source_end": 10.34
+  },
+  {
+    "w": "It's",
+    "s": 8.8292,
+    "e": 8.8892,
+    "p": 0.99,
+    "source_start": 10.76,
+    "source_end": 10.82
+  },
+  {
+    "w": "been",
+    "s": 8.8892,
+    "e": 9.0092,
+    "p": 0.999,
+    "source_start": 10.82,
+    "source_end": 10.94
+  },
+  {
+    "w": "a",
+    "s": 9.0092,
+    "e": 9.1092,
+    "p": 0.999,
+    "source_start": 10.94,
+    "source_end": 11.04
+  },
+  {
+    "w": "sight",
+    "s": 9.1092,
+    "e": 9.2692,
+    "p": 0.946,
+    "source_start": 11.04,
+    "source_end": 11.2
+  },
+  {
+    "w": "to",
+    "s": 9.2692,
+    "e": 9.3892,
+    "p": 0.999,
+    "source_start": 11.2,
+    "source_end": 11.32
+  },
+  {
+    "w": "behold.",
+    "s": 9.3892,
+    "e": 9.6892,
+    "p": 0.991,
+    "source_start": 11.32,
+    "source_end": 11.62
+  },
+  {
+    "w": "People",
+    "s": 9.8689,
+    "e": 10.1489,
+    "p": 0.997,
+    "source_start": 12.5,
+    "source_end": 12.78
+  },
+  {
+    "w": "have",
+    "s": 10.1489,
+    "e": 10.2889,
+    "p": 0.996,
+    "source_start": 12.78,
+    "source_end": 12.92
+  },
+  {
+    "w": "been",
+    "s": 10.2889,
+    "e": 10.4489,
+    "p": 0.997,
+    "source_start": 12.92,
+    "source_end": 13.08
+  },
+  {
+    "w": "founding",
+    "s": 10.4489,
+    "e": 10.7689,
+    "p": 0.958,
+    "source_start": 13.08,
+    "source_end": 13.4
+  },
+  {
+    "w": "villages,",
+    "s": 10.7689,
+    "e": 11.2489,
+    "p": 0.999,
+    "source_start": 13.4,
+    "source_end": 13.88
+  },
+  {
+    "w": "selling",
+    "s": 11.5003,
+    "e": 11.8199,
+    "p": 0.997,
+    "source_start": 14.24,
+    "source_end": 14.56
+  },
+  {
+    "w": "plots",
+    "s": 11.8199,
+    "e": 12.1999,
+    "p": 0.996,
+    "source_start": 14.56,
+    "source_end": 14.94
+  },
+  {
+    "w": "and",
+    "s": 12.1999,
+    "e": 12.4599,
+    "p": 0.883,
+    "source_start": 14.94,
+    "source_end": 15.2
+  },
+  {
+    "w": "levying",
+    "s": 12.4599,
+    "e": 12.7399,
+    "p": 0.976,
+    "source_start": 15.2,
+    "source_end": 15.48
+  },
+  {
+    "w": "taxes,",
+    "s": 12.7399,
+    "e": 13.2199,
+    "p": 0.999,
+    "source_start": 15.48,
+    "source_end": 15.96
+  },
+  {
+    "w": "and",
+    "s": 13.4651,
+    "e": 13.6251,
+    "p": 0.98,
+    "source_start": 16.34,
+    "source_end": 16.5
+  },
+  {
+    "w": "running",
+    "s": 13.6251,
+    "e": 13.8651,
+    "p": 0.998,
+    "source_start": 16.5,
+    "source_end": 16.74
+  },
+  {
+    "w": "their",
+    "s": 13.8651,
+    "e": 13.9851,
+    "p": 0.998,
+    "source_start": 16.74,
+    "source_end": 16.86
+  },
+  {
+    "w": "own",
+    "s": 13.9851,
+    "e": 14.1451,
+    "p": 0.989,
+    "source_start": 16.86,
+    "source_end": 17.02
+  },
+  {
+    "w": "markets",
+    "s": 14.1451,
+    "e": 14.4851,
+    "p": 0.998,
+    "source_start": 17.02,
+    "source_end": 17.36
+  },
+  {
+    "w": "and",
+    "s": 14.4851,
+    "e": 14.6851,
+    "p": 0.685,
+    "source_start": 17.36,
+    "source_end": 17.56
+  },
+  {
+    "w": "even",
+    "s": 14.6851,
+    "e": 14.8651,
+    "p": 0.997,
+    "source_start": 17.56,
+    "source_end": 17.74
+  },
+  {
+    "w": "kingdoms.",
+    "s": 14.8651,
+    "e": 15.2051,
+    "p": 0.992,
+    "source_start": 17.74,
+    "source_end": 18.08
+  },
+  {
+    "w": "And",
+    "s": 15.6281,
+    "e": 15.7881,
+    "p": 0.989,
+    "source_start": 18.98,
+    "source_end": 19.14
+  },
+  {
+    "w": "some",
+    "s": 15.7881,
+    "e": 15.9681,
+    "p": 0.997,
+    "source_start": 19.14,
+    "source_end": 19.32
+  },
+  {
+    "w": "are",
+    "s": 15.9681,
+    "e": 16.1081,
+    "p": 0.997,
+    "source_start": 19.32,
+    "source_end": 19.46
+  },
+  {
+    "w": "starting",
+    "s": 16.1081,
+    "e": 16.3281,
+    "p": 0.998,
+    "source_start": 19.46,
+    "source_end": 19.68
+  },
+  {
+    "w": "their",
+    "s": 16.3281,
+    "e": 16.4881,
+    "p": 0.997,
+    "source_start": 19.68,
+    "source_end": 19.84
+  },
+  {
+    "w": "own",
+    "s": 16.4881,
+    "e": 16.6481,
+    "p": 0.998,
+    "source_start": 19.84,
+    "source_end": 20.0
+  },
+  {
+    "w": "guilds",
+    "s": 16.6481,
+    "e": 17.0881,
+    "p": 0.998,
+    "source_start": 20.0,
+    "source_end": 20.44
+  },
+  {
+    "w": "and",
+    "s": 17.0881,
+    "e": 17.1881,
+    "p": 0.987,
+    "source_start": 20.44,
+    "source_end": 20.54
+  },
+  {
+    "w": "religions.",
+    "s": 17.1881,
+    "e": 17.4881,
+    "p": 0.998,
+    "source_start": 20.54,
+    "source_end": 20.84
+  },
+  {
+    "w": "The",
+    "s": 18.2934,
+    "e": 18.5934,
+    "p": 0.995,
+    "source_start": 21.98,
+    "source_end": 22.28
+  },
+  {
+    "w": "player",
+    "s": 18.5934,
+    "e": 18.7934,
+    "p": 0.839,
+    "source_start": 22.28,
+    "source_end": 22.48
+  },
+  {
+    "w": "-run",
+    "s": 18.7934,
+    "e": 18.9534,
+    "p": 0.92,
+    "source_start": 22.48,
+    "source_end": 22.64
+  },
+  {
+    "w": "economy",
+    "s": 18.9534,
+    "e": 19.3534,
+    "p": 0.998,
+    "source_start": 22.64,
+    "source_end": 23.04
+  },
+  {
+    "w": "has",
+    "s": 19.3534,
+    "e": 19.6334,
+    "p": 0.998,
+    "source_start": 23.04,
+    "source_end": 23.32
+  },
+  {
+    "w": "everyone",
+    "s": 19.6334,
+    "e": 20.0934,
+    "p": 0.997,
+    "source_start": 23.32,
+    "source_end": 23.78
+  },
+  {
+    "w": "scrambling",
+    "s": 20.0934,
+    "e": 20.4734,
+    "p": 0.992,
+    "source_start": 23.78,
+    "source_end": 24.16
+  },
+  {
+    "w": "for",
+    "s": 20.4734,
+    "e": 20.8134,
+    "p": 0.998,
+    "source_start": 24.16,
+    "source_end": 24.5
+  },
+  {
+    "w": "the",
+    "s": 20.8134,
+    "e": 20.9134,
+    "p": 0.996,
+    "source_start": 24.5,
+    "source_end": 24.6
+  },
+  {
+    "w": "elusive",
+    "s": 20.9134,
+    "e": 21.3334,
+    "p": 0.977,
+    "source_start": 24.6,
+    "source_end": 25.02
+  },
+  {
+    "w": "star",
+    "s": 21.3334,
+    "e": 21.7934,
+    "p": 0.375,
+    "source_start": 25.02,
+    "source_end": 25.48
+  },
+  {
+    "w": "iron.",
+    "s": 21.7934,
+    "e": 22.1334,
+    "p": 0.927,
+    "source_start": 25.48,
+    "source_end": 25.82
+  },
+  {
+    "w": "There's",
+    "s": 22.3872,
+    "e": 22.6072,
+    "p": 0.973,
+    "source_start": 26.2,
+    "source_end": 26.42
+  },
+  {
+    "w": "so",
+    "s": 22.6072,
+    "e": 22.7872,
+    "p": 0.999,
+    "source_start": 26.42,
+    "source_end": 26.6
+  },
+  {
+    "w": "little,",
+    "s": 22.7872,
+    "e": 23.0472,
+    "p": 1.0,
+    "source_start": 26.6,
+    "source_end": 26.86
+  },
+  {
+    "w": "someone's",
+    "s": 23.2872,
+    "e": 23.6272,
+    "p": 0.978,
+    "source_start": 27.1,
+    "source_end": 27.44
+  },
+  {
+    "w": "offering",
+    "s": 23.6272,
+    "e": 23.9472,
+    "p": 0.998,
+    "source_start": 27.44,
+    "source_end": 27.76
+  },
+  {
+    "w": "a",
+    "s": 23.9472,
+    "e": 24.1072,
+    "p": 0.622,
+    "source_start": 27.76,
+    "source_end": 27.92
+  },
+  {
+    "w": "thousand",
+    "s": 24.1072,
+    "e": 24.3872,
+    "p": 0.973,
+    "source_start": 27.92,
+    "source_end": 28.2
+  },
+  {
+    "w": "gold",
+    "s": 24.3872,
+    "e": 24.7272,
+    "p": 0.995,
+    "source_start": 28.2,
+    "source_end": 28.54
+  },
+  {
+    "w": "for",
+    "s": 24.7272,
+    "e": 24.9872,
+    "p": 0.995,
+    "source_start": 28.54,
+    "source_end": 28.8
+  },
+  {
+    "w": "a",
+    "s": 24.9872,
+    "e": 25.1472,
+    "p": 0.998,
+    "source_start": 28.8,
+    "source_end": 28.96
+  },
+  {
+    "w": "single",
+    "s": 25.1472,
+    "e": 25.3472,
+    "p": 0.999,
+    "source_start": 28.96,
+    "source_end": 29.16
+  },
+  {
+    "w": "piece.",
+    "s": 25.3472,
+    "e": 25.6872,
+    "p": 0.999,
+    "source_start": 29.16,
+    "source_end": 29.5
+  },
+  {
+    "w": "This",
+    "s": 26.2128,
+    "e": 26.6128,
+    "p": 0.703,
+    "source_start": 30.5,
+    "source_end": 30.9
+  },
+  {
+    "w": "totally",
+    "s": 26.6128,
+    "e": 27.0128,
+    "p": 0.976,
+    "source_start": 30.9,
+    "source_end": 31.3
+  },
+  {
+    "w": "caught",
+    "s": 27.0128,
+    "e": 27.2928,
+    "p": 0.987,
+    "source_start": 31.3,
+    "source_end": 31.58
+  },
+  {
+    "w": "me",
+    "s": 27.2928,
+    "e": 27.4328,
+    "p": 0.996,
+    "source_start": 31.58,
+    "source_end": 31.72
+  },
+  {
+    "w": "off",
+    "s": 27.4328,
+    "e": 27.5928,
+    "p": 0.998,
+    "source_start": 31.72,
+    "source_end": 31.88
+  },
+  {
+    "w": "-guard,",
+    "s": 27.5928,
+    "e": 27.7928,
+    "p": 0.638,
+    "source_start": 31.88,
+    "source_end": 32.08
+  },
+  {
+    "w": "and",
+    "s": 28.0223,
+    "e": 28.1023,
+    "p": 0.986,
+    "source_start": 32.44,
+    "source_end": 32.52
+  },
+  {
+    "w": "I've",
+    "s": 28.1023,
+    "e": 28.2423,
+    "p": 0.963,
+    "source_start": 32.52,
+    "source_end": 32.66
+  },
+  {
+    "w": "been",
+    "s": 28.2423,
+    "e": 28.3223,
+    "p": 0.98,
+    "source_start": 32.66,
+    "source_end": 32.74
+  },
+  {
+    "w": "spending",
+    "s": 28.3223,
+    "e": 28.5823,
+    "p": 0.999,
+    "source_start": 32.74,
+    "source_end": 33.0
+  },
+  {
+    "w": "the",
+    "s": 28.5823,
+    "e": 28.7423,
+    "p": 0.994,
+    "source_start": 33.0,
+    "source_end": 33.16
+  },
+  {
+    "w": "last",
+    "s": 28.7423,
+    "e": 28.9023,
+    "p": 0.993,
+    "source_start": 33.16,
+    "source_end": 33.32
+  },
+  {
+    "w": "few",
+    "s": 28.9023,
+    "e": 29.0823,
+    "p": 0.99,
+    "source_start": 33.32,
+    "source_end": 33.5
+  },
+  {
+    "w": "days",
+    "s": 29.0823,
+    "e": 29.3023,
+    "p": 0.999,
+    "source_start": 33.5,
+    "source_end": 33.72
+  },
+  {
+    "w": "scrambling",
+    "s": 29.3023,
+    "e": 29.7623,
+    "p": 0.969,
+    "source_start": 33.72,
+    "source_end": 34.18
+  },
+  {
+    "w": "to",
+    "s": 29.7623,
+    "e": 30.0623,
+    "p": 0.993,
+    "source_start": 34.18,
+    "source_end": 34.48
+  },
+  {
+    "w": "get",
+    "s": 30.0623,
+    "e": 30.1423,
+    "p": 0.998,
+    "source_start": 34.48,
+    "source_end": 34.56
+  },
+  {
+    "w": "the",
+    "s": 30.1423,
+    "e": 30.2823,
+    "p": 0.97,
+    "source_start": 34.56,
+    "source_end": 34.7
+  },
+  {
+    "w": "servers",
+    "s": 30.2823,
+    "e": 30.5023,
+    "p": 0.978,
+    "source_start": 34.7,
+    "source_end": 34.92
+  },
+  {
+    "w": "upgraded",
+    "s": 30.5023,
+    "e": 30.9423,
+    "p": 0.992,
+    "source_start": 34.92,
+    "source_end": 35.36
+  },
+  {
+    "w": "to",
+    "s": 30.9423,
+    "e": 31.1802,
+    "p": 0.968,
+    "source_start": 35.36,
+    "source_end": 35.76
+  },
+  {
+    "w": "handle",
+    "s": 31.1802,
+    "e": 31.4202,
+    "p": 0.998,
+    "source_start": 35.76,
+    "source_end": 36.0
+  },
+  {
+    "w": "all",
+    "s": 31.4202,
+    "e": 31.6002,
+    "p": 0.978,
+    "source_start": 36.0,
+    "source_end": 36.18
+  },
+  {
+    "w": "the",
+    "s": 31.6002,
+    "e": 31.7002,
+    "p": 0.96,
+    "source_start": 36.18,
+    "source_end": 36.28
+  },
+  {
+    "w": "new",
+    "s": 31.7002,
+    "e": 31.8202,
+    "p": 0.987,
+    "source_start": 36.28,
+    "source_end": 36.4
+  },
+  {
+    "w": "players.",
+    "s": 31.8202,
+    "e": 32.0802,
+    "p": 0.997,
+    "source_start": 36.4,
+    "source_end": 36.66
+  },
+  {
+    "w": "I",
+    "s": 32.2497,
+    "e": 32.5097,
+    "p": 0.997,
+    "source_start": 37.9,
+    "source_end": 38.16
+  },
+  {
+    "w": "asked",
+    "s": 32.5097,
+    "e": 32.7497,
+    "p": 0.993,
+    "source_start": 38.16,
+    "source_end": 38.4
+  },
+  {
+    "w": "what",
+    "s": 32.7497,
+    "e": 32.9697,
+    "p": 0.986,
+    "source_start": 38.4,
+    "source_end": 38.62
+  },
+  {
+    "w": "to",
+    "s": 32.9697,
+    "e": 33.0697,
+    "p": 0.974,
+    "source_start": 38.62,
+    "source_end": 38.72
+  },
+  {
+    "w": "add",
+    "s": 33.0697,
+    "e": 33.2297,
+    "p": 0.999,
+    "source_start": 38.72,
+    "source_end": 38.88
+  },
+  {
+    "w": "next",
+    "s": 33.2297,
+    "e": 33.4297,
+    "p": 0.992,
+    "source_start": 38.88,
+    "source_end": 39.08
+  },
+  {
+    "w": "to",
+    "s": 33.4297,
+    "e": 33.5697,
+    "p": 0.97,
+    "source_start": 39.08,
+    "source_end": 39.22
+  },
+  {
+    "w": "the",
+    "s": 33.5697,
+    "e": 33.6497,
+    "p": 0.994,
+    "source_start": 39.22,
+    "source_end": 39.3
+  },
+  {
+    "w": "game,",
+    "s": 33.6497,
+    "e": 33.8497,
+    "p": 0.999,
+    "source_start": 39.3,
+    "source_end": 39.5
+  },
+  {
+    "w": "and",
+    "s": 34.0874,
+    "e": 34.1474,
+    "p": 0.995,
+    "source_start": 39.86,
+    "source_end": 39.92
+  },
+  {
+    "w": "improvements",
+    "s": 34.1474,
+    "e": 34.5074,
+    "p": 0.992,
+    "source_start": 39.92,
+    "source_end": 40.28
+  },
+  {
+    "w": "to",
+    "s": 34.5074,
+    "e": 34.7874,
+    "p": 0.998,
+    "source_start": 40.28,
+    "source_end": 40.56
+  },
+  {
+    "w": "smithing",
+    "s": 34.7874,
+    "e": 35.0674,
+    "p": 0.707,
+    "source_start": 40.56,
+    "source_end": 40.84
+  },
+  {
+    "w": "and",
+    "s": 35.0674,
+    "e": 35.2474,
+    "p": 0.819,
+    "source_start": 40.84,
+    "source_end": 41.02
+  },
+  {
+    "w": "exploration",
+    "s": 35.2474,
+    "e": 35.6074,
+    "p": 0.905,
+    "source_start": 41.02,
+    "source_end": 41.38
+  },
+  {
+    "w": "won.",
+    "s": 35.6074,
+    "e": 36.0074,
+    "p": 0.85,
+    "source_start": 41.38,
+    "source_end": 41.78
+  },
+  {
+    "w": "They're",
+    "s": 36.3203,
+    "e": 36.4203,
+    "p": 0.957,
+    "source_start": 42.18,
+    "source_end": 42.28
+  },
+  {
+    "w": "already",
+    "s": 36.4203,
+    "e": 36.7003,
+    "p": 0.993,
+    "source_start": 42.28,
+    "source_end": 42.56
+  },
+  {
+    "w": "coming",
+    "s": 36.7003,
+    "e": 36.9603,
+    "p": 0.998,
+    "source_start": 42.56,
+    "source_end": 42.82
+  },
+  {
+    "w": "along.",
+    "s": 36.9603,
+    "e": 37.3003,
+    "p": 0.998,
+    "source_start": 42.82,
+    "source_end": 43.16
+  },
+  {
+    "w": "I've",
+    "s": 37.8402,
+    "e": 38.0602,
+    "p": 0.981,
+    "source_start": 44.1,
+    "source_end": 44.32
+  },
+  {
+    "w": "just",
+    "s": 38.0602,
+    "e": 38.1602,
+    "p": 0.991,
+    "source_start": 44.32,
+    "source_end": 44.42
+  },
+  {
+    "w": "about",
+    "s": 38.1602,
+    "e": 38.3202,
+    "p": 0.988,
+    "source_start": 44.42,
+    "source_end": 44.58
+  },
+  {
+    "w": "started",
+    "s": 38.3202,
+    "e": 38.6002,
+    "p": 0.998,
+    "source_start": 44.58,
+    "source_end": 44.86
+  },
+  {
+    "w": "on",
+    "s": 38.6002,
+    "e": 38.7802,
+    "p": 0.986,
+    "source_start": 44.86,
+    "source_end": 45.04
+  },
+  {
+    "w": "sailing,",
+    "s": 38.7802,
+    "e": 39.0202,
+    "p": 0.871,
+    "source_start": 45.04,
+    "source_end": 45.28
+  },
+  {
+    "w": "too,",
+    "s": 39.2602,
+    "e": 39.3602,
+    "p": 0.922,
+    "source_start": 45.52,
+    "source_end": 45.62
+  },
+  {
+    "w": "which",
+    "s": 39.546,
+    "e": 39.646,
+    "p": 0.997,
+    "source_start": 45.86,
+    "source_end": 45.96
+  },
+  {
+    "w": "should",
+    "s": 39.646,
+    "e": 39.786,
+    "p": 0.909,
+    "source_start": 45.96,
+    "source_end": 46.1
+  },
+  {
+    "w": "be",
+    "s": 39.786,
+    "e": 39.866,
+    "p": 0.999,
+    "source_start": 46.1,
+    "source_end": 46.18
+  },
+  {
+    "w": "fun.",
+    "s": 39.866,
+    "e": 40.106,
+    "p": 0.996,
+    "source_start": 46.18,
+    "source_end": 46.42
+  },
+  {
+    "w": "Comment",
+    "s": 40.3719,
+    "e": 40.5719,
+    "p": 0.99,
+    "source_start": 47.58,
+    "source_end": 47.78
+  },
+  {
+    "w": "below",
+    "s": 40.5719,
+    "e": 40.8919,
+    "p": 0.991,
+    "source_start": 47.78,
+    "source_end": 48.1
+  },
+  {
+    "w": "what",
+    "s": 40.8919,
+    "e": 41.0919,
+    "p": 0.985,
+    "source_start": 48.1,
+    "source_end": 48.3
+  },
+  {
+    "w": "you",
+    "s": 41.0919,
+    "e": 41.2119,
+    "p": 0.998,
+    "source_start": 48.3,
+    "source_end": 48.42
+  },
+  {
+    "w": "think",
+    "s": 41.2119,
+    "e": 41.3319,
+    "p": 0.998,
+    "source_start": 48.42,
+    "source_end": 48.54
+  },
+  {
+    "w": "of",
+    "s": 41.3319,
+    "e": 41.4319,
+    "p": 0.994,
+    "source_start": 48.54,
+    "source_end": 48.64
+  },
+  {
+    "w": "the",
+    "s": 41.4319,
+    "e": 41.5519,
+    "p": 0.996,
+    "source_start": 48.64,
+    "source_end": 48.76
+  },
+  {
+    "w": "game",
+    "s": 41.5519,
+    "e": 41.7519,
+    "p": 0.999,
+    "source_start": 48.76,
+    "source_end": 48.96
+  },
+  {
+    "w": "and",
+    "s": 41.7519,
+    "e": 41.9719,
+    "p": 0.506,
+    "source_start": 48.96,
+    "source_end": 49.18
+  },
+  {
+    "w": "what",
+    "s": 41.9719,
+    "e": 42.1319,
+    "p": 0.982,
+    "source_start": 49.18,
+    "source_end": 49.34
+  },
+  {
+    "w": "you",
+    "s": 42.1319,
+    "e": 42.2519,
+    "p": 0.994,
+    "source_start": 49.34,
+    "source_end": 49.46
+  },
+  {
+    "w": "want",
+    "s": 42.2519,
+    "e": 42.3719,
+    "p": 0.945,
+    "source_start": 49.46,
+    "source_end": 49.58
+  },
+  {
+    "w": "to",
+    "s": 42.3719,
+    "e": 42.4519,
+    "p": 0.999,
+    "source_start": 49.58,
+    "source_end": 49.66
+  },
+  {
+    "w": "see",
+    "s": 42.4519,
+    "e": 42.5519,
+    "p": 0.999,
+    "source_start": 49.66,
+    "source_end": 49.76
+  },
+  {
+    "w": "next.",
+    "s": 42.5519,
+    "e": 42.8719,
+    "p": 0.999,
+    "source_start": 49.76,
+    "source_end": 50.08
+  }
+]

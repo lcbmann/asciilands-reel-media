@@ -1,0 +1,49 @@
+[
+  {
+    "shot": "Last week",
+    "mode": "steps",
+    "source": [
+      6.0,
+      8.6333
+    ],
+    "measured_lufs": -50.62,
+    "gain_db": -7.41
+  },
+  {
+    "shot": "and running their",
+    "mode": "steps",
+    "source": [
+      47.2,
+      48.2
+    ],
+    "measured_lufs": -46.75,
+    "gain_db": -11.28
+  },
+  {
+    "shot": "This totally caught",
+    "mode": "steps",
+    "source": [
+      3.0,
+      6.5667
+    ],
+    "measured_lufs": -50.48,
+    "gain_db": -7.55
+  },
+  {
+    "shot": "to get the servers",
+    "mode": "steps",
+    "source": [
+      26.0,
+      28.4667
+    ],
+    "measured_lufs": -49.81,
+    "gain_db": -8.22
+  },
+  {
+    "music": {
+      "gain_db": -34.92,
+      "line7_cut": 26.133,
+      "beats_from_start": 60.978
+    }
+  }
+]

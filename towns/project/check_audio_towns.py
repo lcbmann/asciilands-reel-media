@@ -4,7 +4,7 @@ from pathlib import Path
 import json, re, subprocess, os
 import numpy as np
 R = Path(__file__).resolve().parent
-O = R / 'edit-v2'
+O = R / 'edit-v3'
 SR = 48000
 
 

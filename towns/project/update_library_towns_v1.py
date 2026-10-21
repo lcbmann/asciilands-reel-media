@@ -65,10 +65,15 @@ NEW = [
      'UI clicks'),
     ('raft', [(3.0, 6.0, 'Bringing the raft up to the dock and stopping; Moor raft prompt', OWNER),
               (0.0, 0.9, 'REJECT: Build menu open', PROV), (6.4, 7.4, 'REJECT: Build menu open', PROV)], 'no sound'),
+    ('2026-10-21 22-37-13', [(18.0, 28.5, 'York from across the river: the Great York Bridge, the stone tower and the new houses, orbit (used at 1.5x)', OWNER),
+                             (0.0, 1.5, 'REJECT: HUD and settings visible', PROV),
+                             (0.0, 28.5, 'NOTE: Chrome tab and bookmark bars at the top (keep crops below y 232)', PROV)], 'quiet ambience'),
 ]
 SUPPLIED = [
     dict(file='followup.wav', path='towns/media/audio/followup.wav', kind='voice',
          description='They built this narration, 51.3 s, 48 kHz mono. Whisper hears "exploration won. They\'re" as "exploration 1 that are"; fixed by context.'),
+    dict(file='followup2.wav', path='towns/media/audio/followup2.wav', kind='voice',
+         description='They built this narration, second take (2026-10-21), 50.9 s. Adds "left and right". Used from towns-v3.'),
     dict(file='discord-poll-final.png', path='towns/assets/stills/discord-poll-final.png', kind='owner screenshot',
          description='Where should Asciilands go next? poll, 1,506 votes: Smithing 24 %, Exploration and Sailing 19 %.'),
     dict(file='discord-cult-of-akton.png', path='towns/assets/stills/discord-cult-of-akton.png', kind='owner screenshot',

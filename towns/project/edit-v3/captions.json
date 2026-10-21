@@ -1,0 +1,562 @@
+[
+  {
+    "text": "LAST WEEK,",
+    "start": 0.0,
+    "end": 0.838,
+    "x": 306,
+    "y": 1279,
+    "w": 478,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "MY GAME",
+    "start": 0.838,
+    "end": 1.298,
+    "x": 345,
+    "y": 1279,
+    "w": 400,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "HAD ONE TOWN.",
+    "start": 1.298,
+    "end": 2.559,
+    "x": 223,
+    "y": 1279,
+    "w": 643,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "AND NOW",
+    "start": 2.559,
+    "end": 3.019,
+    "x": 340,
+    "y": 1279,
+    "w": 408,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "IT LOOKS LIKE THIS.",
+    "start": 3.019,
+    "end": 4.353,
+    "x": 139,
+    "y": 1279,
+    "w": 813,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "IT'S NOT THE ONLY",
+    "start": 4.353,
+    "end": 5.013,
+    "x": 165,
+    "y": 1279,
+    "w": 761,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TOWN ANYMORE,",
+    "start": 5.013,
+    "end": 5.673,
+    "x": 203,
+    "y": 1279,
+    "w": 681,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "EITHER.",
+    "start": 5.673,
+    "end": 6.151,
+    "x": 377,
+    "y": 1280,
+    "w": 335,
+    "h": 109,
+    "lines": 1
+  },
+  {
+    "text": "ALL ACROSS THE WORLD,",
+    "start": 6.151,
+    "end": 7.011,
+    "x": 208,
+    "y": 1279,
+    "w": 672,
+    "h": 193,
+    "lines": 2
+  },
+  {
+    "text": "NEW ONES HAVE BEEN",
+    "start": 7.011,
+    "end": 7.511,
+    "x": 114,
+    "y": 1279,
+    "w": 860,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "SPRINGING UP,",
+    "start": 7.511,
+    "end": 8.151,
+    "x": 240,
+    "y": 1279,
+    "w": 609,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "LEFT AND RIGHT.",
+    "start": 8.151,
+    "end": 8.829,
+    "x": 208,
+    "y": 1279,
+    "w": 673,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "IT'S BEEN A SIGHT",
+    "start": 8.829,
+    "end": 9.269,
+    "x": 180,
+    "y": 1279,
+    "w": 732,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TO BEHOLD.",
+    "start": 9.269,
+    "end": 9.869,
+    "x": 300,
+    "y": 1279,
+    "w": 488,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "PEOPLE HAVE BEEN",
+    "start": 9.869,
+    "end": 10.449,
+    "x": 168,
+    "y": 1279,
+    "w": 753,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "FOUNDING VILLAGES,",
+    "start": 10.449,
+    "end": 11.5,
+    "x": 125,
+    "y": 1279,
+    "w": 839,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "SELLING PLOTS",
+    "start": 11.5,
+    "end": 12.2,
+    "x": 234,
+    "y": 1279,
+    "w": 621,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "AND LEVYING TAXES,",
+    "start": 12.2,
+    "end": 13.465,
+    "x": 126,
+    "y": 1279,
+    "w": 835,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "AND RUNNING",
+    "start": 13.465,
+    "end": 13.865,
+    "x": 257,
+    "y": 1279,
+    "w": 573,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "THEIR OWN MARKETS",
+    "start": 13.865,
+    "end": 14.485,
+    "x": 122,
+    "y": 1279,
+    "w": 843,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "AND EVEN KINGDOMS.",
+    "start": 14.485,
+    "end": 15.628,
+    "x": 111,
+    "y": 1279,
+    "w": 866,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "AND SOME ARE",
+    "start": 15.628,
+    "end": 16.108,
+    "x": 240,
+    "y": 1279,
+    "w": 608,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "STARTING THEIR OWN",
+    "start": 16.108,
+    "end": 16.648,
+    "x": 108,
+    "y": 1279,
+    "w": 872,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "GUILDS AND RELIGIONS.",
+    "start": 16.648,
+    "end": 17.738,
+    "x": 293,
+    "y": 1279,
+    "w": 503,
+    "h": 191,
+    "lines": 2
+  },
+  {
+    "text": "THE PLAYER-RUN",
+    "start": 18.293,
+    "end": 18.953,
+    "x": 207,
+    "y": 1280,
+    "w": 673,
+    "h": 109,
+    "lines": 1
+  },
+  {
+    "text": "ECONOMY HAS EVERYONE",
+    "start": 18.953,
+    "end": 20.093,
+    "x": 247,
+    "y": 1279,
+    "w": 596,
+    "h": 191,
+    "lines": 2
+  },
+  {
+    "text": "SCRAMBLING FOR THE ELUSIVE",
+    "start": 20.093,
+    "end": 21.333,
+    "x": 110,
+    "y": 1279,
+    "w": 870,
+    "h": 191,
+    "lines": 2
+  },
+  {
+    "text": "STAR IRON.",
+    "start": 21.333,
+    "end": 22.387,
+    "x": 305,
+    "y": 1279,
+    "w": 478,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "THERE'S SO LITTLE,",
+    "start": 22.387,
+    "end": 23.287,
+    "x": 161,
+    "y": 1279,
+    "w": 765,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "SOMEONE'S OFFERING",
+    "start": 23.287,
+    "end": 23.947,
+    "x": 111,
+    "y": 1279,
+    "w": 867,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "A THOUSAND GOLD",
+    "start": 23.947,
+    "end": 24.727,
+    "x": 165,
+    "y": 1279,
+    "w": 756,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "FOR A SINGLE PIECE.",
+    "start": 24.727,
+    "end": 25.937,
+    "x": 133,
+    "y": 1279,
+    "w": 823,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "THIS TOTALLY",
+    "start": 26.213,
+    "end": 27.013,
+    "x": 251,
+    "y": 1279,
+    "w": 587,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "CAUGHT ME OFF-GUARD,",
+    "start": 27.013,
+    "end": 28.022,
+    "x": 301,
+    "y": 1279,
+    "w": 488,
+    "h": 193,
+    "lines": 2
+  },
+  {
+    "text": "AND I'VE BEEN SPENDING",
+    "start": 28.022,
+    "end": 28.582,
+    "x": 252,
+    "y": 1280,
+    "w": 583,
+    "h": 190,
+    "lines": 2
+  },
+  {
+    "text": "THE LAST FEW",
+    "start": 28.582,
+    "end": 29.082,
+    "x": 257,
+    "y": 1279,
+    "w": 574,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "DAYS SCRAMBLING",
+    "start": 29.082,
+    "end": 29.762,
+    "x": 165,
+    "y": 1279,
+    "w": 759,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TO GET THE SERVERS UPGRADED",
+    "start": 29.762,
+    "end": 30.942,
+    "x": 127,
+    "y": 1279,
+    "w": 834,
+    "h": 191,
+    "lines": 2
+  },
+  {
+    "text": "TO HANDLE ALL",
+    "start": 30.942,
+    "end": 31.6,
+    "x": 232,
+    "y": 1279,
+    "w": 625,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "THE NEW PLAYERS.",
+    "start": 31.6,
+    "end": 32.25,
+    "x": 171,
+    "y": 1279,
+    "w": 745,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "I ASKED WHAT",
+    "start": 32.25,
+    "end": 32.97,
+    "x": 252,
+    "y": 1279,
+    "w": 587,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TO ADD NEXT",
+    "start": 32.97,
+    "end": 33.43,
+    "x": 268,
+    "y": 1279,
+    "w": 553,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TO THE GAME,",
+    "start": 33.43,
+    "end": 34.087,
+    "x": 258,
+    "y": 1279,
+    "w": 572,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "AND IMPROVEMENTS",
+    "start": 34.087,
+    "end": 34.507,
+    "x": 133,
+    "y": 1279,
+    "w": 821,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TO SMITHING",
+    "start": 34.507,
+    "end": 35.067,
+    "x": 264,
+    "y": 1279,
+    "w": 559,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "AND EXPLORATION WON.",
+    "start": 35.067,
+    "end": 36.32,
+    "x": 164,
+    "y": 1279,
+    "w": 758,
+    "h": 191,
+    "lines": 2
+  },
+  {
+    "text": "THEY'RE ALREADY COMING ALONG.",
+    "start": 36.32,
+    "end": 37.55,
+    "x": 188,
+    "y": 1280,
+    "w": 712,
+    "h": 190,
+    "lines": 2
+  },
+  {
+    "text": "I'VE JUST ABOUT",
+    "start": 37.84,
+    "end": 38.32,
+    "x": 208,
+    "y": 1279,
+    "w": 675,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "STARTED ON SAILING,",
+    "start": 38.32,
+    "end": 39.26,
+    "x": 109,
+    "y": 1279,
+    "w": 870,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "TOO,",
+    "start": 39.26,
+    "end": 39.546,
+    "x": 427,
+    "y": 1279,
+    "w": 233,
+    "h": 112,
+    "lines": 1
+  },
+  {
+    "text": "WHICH SHOULD BE FUN.",
+    "start": 39.546,
+    "end": 40.372,
+    "x": 176,
+    "y": 1279,
+    "w": 736,
+    "h": 191,
+    "lines": 2
+  },
+  {
+    "text": "COMMENT BELOW",
+    "start": 40.372,
+    "end": 40.892,
+    "x": 194,
+    "y": 1279,
+    "w": 702,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "WHAT YOU THINK",
+    "start": 40.892,
+    "end": 41.332,
+    "x": 192,
+    "y": 1279,
+    "w": 704,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "OF THE GAME",
+    "start": 41.332,
+    "end": 41.752,
+    "x": 272,
+    "y": 1279,
+    "w": 547,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "AND WHAT YOU WANT",
+    "start": 41.752,
+    "end": 42.372,
+    "x": 112,
+    "y": 1279,
+    "w": 865,
+    "h": 110,
+    "lines": 1
+  },
+  {
+    "text": "TO SEE NEXT.",
+    "start": 42.372,
+    "end": 45.56666666666667,
+    "x": 269,
+    "y": 1279,
+    "w": 549,
+    "h": 110,
+    "lines": 1
+  }
+]

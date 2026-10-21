@@ -1,0 +1,456 @@
+[
+  {
+    "at": "Last week",
+    "v": "yorkarrival",
+    "t": 6.0,
+    "label": "YORK",
+    "sound": [
+      "steps"
+    ],
+    "note": "York last week. Walk from behind starts 6.00. The turn ends 5.93.",
+    "word": 0,
+    "start": 0.0,
+    "end": 2.6333333333333333,
+    "duration": 2.6333,
+    "frames": 79,
+    "speed": 1,
+    "t_out": 8.6333,
+    "srcs": [
+      {
+        "v": "yorkarrival",
+        "t": 6.0,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\yorkarrival.mkv"
+      }
+    ]
+  },
+  {
+    "at": "And [now]",
+    "v": "2026-10-21 22-37-13",
+    "t": 18.0,
+    "speed": 1.5,
+    "label": "YORK",
+    "note": "York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).",
+    "word": 8,
+    "start": 2.6333333333333333,
+    "end": 4.266666666666667,
+    "duration": 1.6333,
+    "frames": 49,
+    "t_out": 20.45,
+    "srcs": [
+      {
+        "v": "2026-10-21 22-37-13",
+        "t": 18.0,
+        "speed": 1.5,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\2026-10-21 22-37-13.mkv"
+      }
+    ]
+  },
+  {
+    "at": "It's not the",
+    "srcs": [
+      {
+        "frame": [
+          "world zoom",
+          2.0
+        ],
+        "mapbox": [
+          435,
+          430,
+          1889,
+          1224
+        ]
+      },
+      {
+        "frame": [
+          "world zoom",
+          2.85
+        ],
+        "mapbox": [
+          768,
+          430,
+          1556,
+          1224
+        ]
+      },
+      {
+        "frame": [
+          "world zoom",
+          4.05
+        ],
+        "mapbox": [
+          435,
+          387,
+          1812,
+          1311
+        ]
+      },
+      {
+        "frame": [
+          "world zoom",
+          4.55
+        ],
+        "mapbox": [
+          435,
+          387,
+          1812,
+          1311
+        ]
+      },
+      {
+        "frame": [
+          "world zoom",
+          5.5
+        ],
+        "mapbox": [
+          435,
+          387,
+          1812,
+          1311
+        ]
+      }
+    ],
+    "note": "One smooth zoom from the York local map to the whole island, made from the held zoom levels.",
+    "word": 13,
+    "start": 4.266666666666667,
+    "end": 6.933333333333334,
+    "duration": 2.6667,
+    "frames": 80
+  },
+  {
+    "at": "new ones have",
+    "v": "fortredleaf",
+    "t": 31.5,
+    "speed": 1.5,
+    "flip": true,
+    "label": "FORT REDLEAF",
+    "note": "Fort Redleaf orbit (owner select 0:31), mirrored, gatehouse centred.",
+    "word": 24,
+    "start": 6.933333333333334,
+    "end": 8.766666666666667,
+    "duration": 1.8333,
+    "frames": 55,
+    "t_out": 34.2499,
+    "srcs": [
+      {
+        "v": "fortredleaf",
+        "t": 31.5,
+        "speed": 1.5,
+        "flip": true,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\fortredleaf.mkv"
+      }
+    ]
+  },
+  {
+    "at": "It's been a",
+    "v": "aphelionorbit",
+    "t": 33.0,
+    "speed": 1.5,
+    "label": "APHELION",
+    "note": "Aphelion from afar (owner select from 0:23): the town across the snow.",
+    "word": 33,
+    "start": 8.766666666666667,
+    "end": 11.433333333333334,
+    "duration": 2.6667,
+    "frames": 80,
+    "t_out": 37.0001,
+    "srcs": [
+      {
+        "v": "aphelionorbit",
+        "t": 33.0,
+        "speed": 1.5,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\aphelionorbit.mkv"
+      }
+    ]
+  },
+  {
+    "at": "selling plots and",
+    "v": "plotforsale",
+    "t": 14.3,
+    "note": "Real plot UI: For sale 50 gold, Buy for 50 gold, the plot grid. Starts after the 14.08 jump.",
+    "word": 44,
+    "start": 11.433333333333334,
+    "end": 13.4,
+    "duration": 1.9667,
+    "frames": 59,
+    "speed": 1,
+    "t_out": 16.2667,
+    "srcs": [
+      {
+        "v": "plotforsale",
+        "t": 14.3,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\plotforsale.mkv"
+      }
+    ]
+  },
+  {
+    "at": "and running their",
+    "v": "driftwoodmarket",
+    "t": 47.2,
+    "label": "DRIFTWOOD",
+    "sound": [
+      "steps"
+    ],
+    "note": "Driftwood market street, centred on the player walking (owner select from 0:42).",
+    "word": 49,
+    "start": 13.4,
+    "end": 14.4,
+    "duration": 1.0,
+    "frames": 30,
+    "speed": 1,
+    "t_out": 48.2,
+    "srcs": [
+      {
+        "v": "driftwoodmarket",
+        "t": 47.2,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\driftwoodmarket.mkv"
+      }
+    ]
+  },
+  {
+    "at": "and even kingdoms.",
+    "v": "nordheim",
+    "t": 17.5,
+    "speed": 1.5,
+    "label": "NORDHEIM",
+    "note": "Nordheim from the mountain, the walled town in view (owner select from 0:08).",
+    "word": 54,
+    "start": 14.4,
+    "end": 16.566666666666666,
+    "duration": 2.1667,
+    "frames": 65,
+    "t_out": 20.7501,
+    "srcs": [
+      {
+        "v": "nordheim",
+        "t": 17.5,
+        "speed": 1.5,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\nordheim.mkv"
+      }
+    ]
+  },
+  {
+    "at": "[guilds] and religions.",
+    "srcs": [
+      {
+        "still": "cult"
+      }
+    ],
+    "note": "Cleptomane's Cult of Akton post (owner screenshot).",
+    "word": 63,
+    "start": 16.566666666666666,
+    "end": 18.233333333333334,
+    "duration": 1.6667,
+    "frames": 50
+  },
+  {
+    "at": "The player -run",
+    "v": "orbitdesertmeteor",
+    "t": 12.0,
+    "speed": 1.5,
+    "note": "Star iron meteor crater (library select 12 to 25).",
+    "word": 66,
+    "start": 18.233333333333334,
+    "end": 22.333333333333332,
+    "duration": 4.1,
+    "frames": 123,
+    "t_out": 18.15,
+    "srcs": [
+      {
+        "v": "orbitdesertmeteor",
+        "t": 12.0,
+        "speed": 1.5,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\orbitdesertmeteor.mkv"
+      }
+    ]
+  },
+  {
+    "at": "There's so little",
+    "srcs": [
+      {
+        "frame": [
+          "orbitdesertmeteor",
+          13.5
+        ]
+      },
+      {
+        "still": "wiki"
+      }
+    ],
+    "note": "Wiki market row: Star Iron, best buy order 1000g (owner screenshot).",
+    "word": 78,
+    "start": 22.333333333333332,
+    "end": 26.133333333333333,
+    "duration": 3.8,
+    "frames": 114
+  },
+  {
+    "at": "This totally caught",
+    "v": "york4",
+    "t": 3.0,
+    "label": "YORK",
+    "sound": [
+      "steps"
+    ],
+    "note": "Walking through York full of players (owner select 0:03).",
+    "word": 90,
+    "start": 26.133333333333333,
+    "end": 29.7,
+    "duration": 3.5667,
+    "frames": 107,
+    "speed": 1,
+    "t_out": 6.5667,
+    "srcs": [
+      {
+        "v": "york4",
+        "t": 3.0,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\york4.mkv"
+      }
+    ]
+  },
+  {
+    "at": "to get the servers",
+    "v": "york4",
+    "t": 26.0,
+    "label": "YORK",
+    "sound": [
+      "steps"
+    ],
+    "note": "Another player crosses in front (owner select 0:26 to 0:31).",
+    "word": 105,
+    "start": 29.7,
+    "end": 32.166666666666664,
+    "duration": 2.4667,
+    "frames": 74,
+    "speed": 1,
+    "t_out": 28.4667,
+    "srcs": [
+      {
+        "v": "york4",
+        "t": 26.0,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\york4.mkv"
+      }
+    ]
+  },
+  {
+    "at": "I asked what",
+    "srcs": [
+      {
+        "still": "poll"
+      },
+      {
+        "still": "poll",
+        "rows": [
+          "smithing"
+        ]
+      },
+      {
+        "still": "poll",
+        "rows": [
+          "smithing",
+          "exploration"
+        ]
+      }
+    ],
+    "note": "Final poll: Smithing then Exploration and Sailing lift out as they are named.",
+    "word": 116,
+    "start": 32.166666666666664,
+    "end": 36.266666666666666,
+    "duration": 4.1,
+    "frames": 123
+  },
+  {
+    "at": "[They're] already coming",
+    "srcs": [
+      {
+        "frame": [
+          "awesomesmithing",
+          4.5
+        ]
+      },
+      {
+        "frame": [
+          "awesomesmithing",
+          4.5
+        ]
+      },
+      {
+        "frame": [
+          "awesomesmithing",
+          17.0
+        ]
+      },
+      {
+        "frame": [
+          "awesomesmithing",
+          24.5
+        ]
+      }
+    ],
+    "note": "Three new swords: Masterwork Blacksteel, Needle, Quick Dirk.",
+    "word": 132,
+    "start": 36.266666666666666,
+    "end": 37.766666666666666,
+    "duration": 1.5,
+    "frames": 45
+  },
+  {
+    "at": "I've just about",
+    "v": "raft",
+    "t": 3.0,
+    "note": "Bringing the raft up to the dock (owner select 0:03). The recording has no sound.",
+    "word": 136,
+    "start": 37.766666666666666,
+    "end": 40.233333333333334,
+    "duration": 2.4667,
+    "frames": 74,
+    "speed": 1,
+    "t_out": 5.4667,
+    "srcs": [
+      {
+        "v": "raft",
+        "t": 3.0,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\raft.mkv"
+      }
+    ]
+  },
+  {
+    "at": "Comment below what",
+    "v": "fortredleaf",
+    "t": 36.5,
+    "endcard": true,
+    "lead": 0.15,
+    "note": "Fort Redleaf orbit under the end card (owner select from 0:31), unmirrored.",
+    "word": 147,
+    "start": 40.233333333333334,
+    "end": 45.56666666666667,
+    "duration": 5.3333,
+    "frames": 160,
+    "speed": 1,
+    "t_out": 41.8333,
+    "srcs": [
+      {
+        "v": "fortredleaf",
+        "t": 36.5,
+        "speed": 1,
+        "flip": false,
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\fortredleaf.mkv"
+      }
+    ]
+  }
+]
