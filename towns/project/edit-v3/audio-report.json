@@ -1,28 +1,28 @@
 {
   "before": {
     "input_i": -30.27,
-    "input_tp": -11.29,
-    "input_lra": 3.6,
-    "input_thresh": -41.15,
+    "input_tp": -11.17,
+    "input_lra": 3.3,
+    "input_thresh": -41.12,
     "output_i": -14.69,
     "output_tp": -1.0,
-    "output_lra": 2.7,
-    "output_thresh": -25.33,
+    "output_lra": 2.6,
+    "output_thresh": -25.29,
     "normalization_type": "dynamic",
     "target_offset": 0.69
   },
   "fixed_gain_db": 16.96,
   "master": {
-    "input_i": -14.04,
+    "input_i": -14.05,
     "input_tp": -1.51,
     "input_lra": 3.0,
-    "input_thresh": -24.89,
-    "output_i": -14.03,
-    "output_tp": -1.16,
-    "output_lra": 2.7,
-    "output_thresh": -24.68,
+    "input_thresh": -24.86,
+    "output_i": -14.02,
+    "output_tp": -1.15,
+    "output_lra": 2.5,
+    "output_thresh": -24.63,
     "normalization_type": "dynamic",
-    "target_offset": 0.03
+    "target_offset": 0.02
   },
-  "voice_lufs": -33.08
+  "voice_lufs": -33.05
 }

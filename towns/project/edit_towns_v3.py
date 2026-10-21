@@ -593,11 +593,20 @@ SPEECH_DUCK_DB = 6.0
 GAME_MAX_GAIN_DB = 8.0
 STEP_GATE_DB = 9.0        # a transient must stand this far above the local floor
 # Music: the one theme, from its first note, at one level under the narration (measured in LU).
-MUSIC_FILE = ASSETS / 'music/asciilands-theme-loop.ogg'
+# Music: "meebles", one of the game's own day tracks (owner asked for a piece other than the main
+# theme). The reel starts on its first note (0.50 s into the file) and it plays at one level.
+MUSIC_FILE = ASSETS / 'music/meebles.ogg'
+MUSIC_START = 0.50
 MUSIC_UNDER_VOICE = 23.0
-# The loop is 68.57 s: 160 beats at 140 bpm. The line 7 cut lands on a beat of the theme by
-# lengthening the pause before it (never more than one beat).
-BEAT = 60 / 140
+# Its beats (about 89 bpm, tracked once with librosa and cached) let the line 7 cut land on a
+# beat by lengthening the pause before it (never more than one beat).
+MUSIC_BEATS = [t - MUSIC_START for t in json.loads((R / 'music-beats-meebles.json').read_text())['beats']]
+
+
+def next_beat(t):
+    return min(b for b in MUSIC_BEATS if b >= t - 1e-6)
+
+
 SYNC_CUT = dict(at='This totally caught', pause_after='for a single piece.')
 LABEL_SIZE, LABEL_X, LABEL_Y = 54, 84, 285
 LABEL_DELAY, LABEL_FIRST_DELAY, LABEL_FADE = 0.30, 0.90, 0.25
@@ -1192,12 +1201,13 @@ def mix(tl, total, words):
     out += game
     # The one theme from its first note at one fixed level for the whole reel: no fade-in, no dips.
     # Its level is set against the narration's measured loudness.
-    music = read_audio(MUSIC_FILE)
+    music = read_audio(MUSIC_FILE, ss=MUSIC_START)
     music_db = voice_lufs - MUSIC_UNDER_VOICE - lufs_of(music[:, 0])
-    music = np.tile(music, (int(np.ceil(n / len(music))), 1))[:n]
+    assert len(music) >= n, 'the track is shorter than the reel'
+    music = music[:n]
     cut = next(s['start'] for s in tl if s['at'] == SYNC_CUT['at'])
     events.append(dict(music=dict(gain_db=round(float(music_db), 2), line7_cut=round(cut, 3),
-                                  beats_from_start=round(cut / BEAT, 3))))
+                                  nearest_beat=round(min(MUSIC_BEATS, key=lambda b: abs(b - cut)), 3))))
     env = np.full(n, 10 ** (music_db / 20), np.float32)
     k = int(0.4 * SR)
     c = np.concatenate([[0], np.cumsum(env, dtype=np.float64)])
@@ -1348,9 +1358,11 @@ if __name__ == '__main__':
     jobs = int(sys.argv[sys.argv.index('--jobs') + 1]) if '--jobs' in sys.argv else 3
     words, voice_len = prepare_audio()
     i = anchor_index(words, SYNC_CUT['at'])
+    pause = 0.22                                                 # the shortest pause we allow there
+    PAUSES[SYNC_CUT['pause_after']] = pause
+    words, voice_len = prepare_audio()
     cut = words[i]['s'] - CUT_LEAD
-    target = np.ceil(cut / BEAT - 1e-6) * BEAT                  # the next beat of the theme
-    pause = PAUSE_DEFAULT['.']
+    target = next_beat(cut)                                      # the first beat the sentence can reach
     for _ in range(4):
         if abs(cut - target) < 0.5 / FPS:
             break
@@ -1358,7 +1370,7 @@ if __name__ == '__main__':
         PAUSES[SYNC_CUT['pause_after']] = pause
         words, voice_len = prepare_audio()
         cut = words[i]['s'] - CUT_LEAD
-    print(f'line 7 cut at {cut:.3f} s, beat {cut / BEAT:.3f} (pause {pause:.3f} s)', flush=True)
+    print(f'line 7 cut at {cut:.3f} s, beat at {target:.3f} (pause {pause:.3f} s)', flush=True)
     tl, total = build_timeline(words, voice_len)
     caps = build_caption_layers(group_captions(words, total))
     (O / 'captions.json').write_text(json.dumps([{k: v for k, v in c.items() if k != 'image'} for c in caps], indent=2))
