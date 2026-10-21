@@ -1,0 +1,20 @@
+# Raw media, assets and renders stay out of Git.
+*/media/
+*/assets/
+*/library/stills/
+*/project/edit-*/shots/
+*/project/edit-*/stills/
+*/project/edit-*/qa/
+*/project/edit-*/review/
+*/project/edit-*/audio/*.wav
+*/project/edit-*/*.wav
+*/project/edit-*/*.mp4
+*/project/edit-*/*.png
+*/project/models/
+*.mp4
+*.mkv
+*.wav
+__pycache__/
+*/project/edit-*/preview/
+*/project/edit-*/concat.txt
+*.log

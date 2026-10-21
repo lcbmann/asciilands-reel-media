@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-21",
  "policy": "Append new recordings and selects here. Preserve original files and owner notes. A sampled still is not full motion/audio approval.",
  "recordings": [
   {
@@ -2718,6 +2718,20 @@
       "sound": null,
       "still": false
      }
+    ],
+    "towns-v1": [
+     {
+      "shot": "for the elusive",
+      "source": [
+       12.0,
+       14.567
+      ],
+      "output": [
+       19.8,
+       22.366666666666667
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitdesertmeteor.mkv",
@@ -3164,6 +3178,20 @@
       "sound": null,
       "still": false
      }
+    ],
+    "towns-v1": [
+     {
+      "shot": "Last week",
+      "source": [
+       6.0,
+       8.733
+      ],
+      "output": [
+       0.0,
+       2.7333333333333334
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\yorkarrival.mkv",
@@ -3518,6 +3546,798 @@
    ],
    "source_available_in_bundle": true,
    "used_in": {}
+  },
+  {
+   "index": 95,
+   "path": null,
+   "duration": 72.2,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 19.0,
+     "end": 26.5,
+     "description": "York now: walk synced to last week (yorkarrival 6.00), pergola town hall ahead",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 26.0,
+     "end": 34.0,
+     "description": "Walking back into York, wider view",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 55.0,
+     "end": 72.0,
+     "description": "York orbit over the bridge and tower; used under the end card",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 0.0,
+     "end": 1.0,
+     "description": "REJECT: settings menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "And [now]",
+      "source": [
+       19.0,
+       20.767
+      ],
+      "output": [
+       2.7333333333333334,
+       4.5
+      ],
+      "mirrored": false
+     },
+     {
+      "shot": "Comment below what",
+      "source": [
+       55.0,
+       60.2
+      ],
+      "output": [
+       38.96666666666667,
+       44.166666666666664
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\york1.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "game sound, a few UI clicks"
+  },
+  {
+   "index": 96,
+   "path": null,
+   "duration": 23.2,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 16.0,
+     "end": 22.5,
+     "description": "The York walk again with players around",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 0.0,
+     "end": 1.0,
+     "description": "REJECT: settings menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 23.0,
+     "end": 23.2,
+     "description": "REJECT: settings menu opens",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "and I've been",
+      "source": [
+       16.0,
+       18.7
+      ],
+      "output": [
+       26.566666666666666,
+       29.266666666666666
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\york2.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "broadband ambience"
+  },
+  {
+   "index": 97,
+   "path": null,
+   "duration": 22.6,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 3.0,
+     "end": 20.0,
+     "description": "Walking into the York Lawhouse, each law sign in turn",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 8.3,
+     "end": 10.0,
+     "description": "First Law: Louie is to be recognized as King of York and its region",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 12.0,
+     "end": 17.5,
+     "description": "Fourth Law: builds near waterways must not block water",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 22.0,
+     "end": 22.6,
+     "description": "REJECT: settings menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "And some are",
+      "source": [
+       8.3,
+       9.767
+      ],
+      "output": [
+       15.333333333333334,
+       16.8
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\york3.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "footsteps, door"
+  },
+  {
+   "index": 98,
+   "path": null,
+   "duration": 34.7,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 3.0,
+     "end": 25.0,
+     "description": "Walking through York, lots of different players around",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 26.0,
+     "end": 31.0,
+     "description": "Another player crosses in front of the camera",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 0.0,
+     "end": 1.0,
+     "description": "REJECT: settings menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 34.0,
+     "end": 34.7,
+     "description": "REJECT: settings menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "This totally caught",
+      "source": [
+       3.0,
+       4.633
+      ],
+      "output": [
+       24.933333333333334,
+       26.566666666666666
+      ],
+      "mirrored": false
+     },
+     {
+      "shot": "to handle all",
+      "source": [
+       26.0,
+       27.5
+      ],
+      "output": [
+       29.266666666666666,
+       30.766666666666666
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\york4.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "broadband ambience"
+  },
+  {
+   "index": 99,
+   "path": null,
+   "duration": 7.034,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 0.0,
+     "end": 2.3,
+     "description": "Local map of Moss Whitefall Woods (York), closest zoom",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 2.35,
+     "end": 3.05,
+     "description": "Local map zooming out",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 3.1,
+     "end": 3.45,
+     "description": "REJECT: dark frames while switching Local to World",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 3.5,
+     "end": 5.0,
+     "description": "World map zooming out to the whole island",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "It's not the",
+      "source": [
+       2.45,
+       3.05
+      ],
+      "output": [
+       4.5,
+       5.4
+      ],
+      "mirrored": false
+     },
+     {
+      "shot": "anymore, either.",
+      "source": [
+       3.5,
+       5.0
+      ],
+      "output": [
+       5.4,
+       6.3
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\world zoom.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "no sound"
+  },
+  {
+   "index": 100,
+   "path": null,
+   "duration": 18.284,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 9.0,
+     "end": 17.5,
+     "description": "Asterisk, mayor of Aphelion, walks up and greets: Hello wanderer! Welcome to Aphelion!",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 0.0,
+     "end": 1.0,
+     "description": "REJECT: settings menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 17.6,
+     "end": 18.3,
+     "description": "REJECT: Pet panel opens",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "People have been",
+      "source": [
+       13.0,
+       14.667
+      ],
+      "output": [
+       9.6,
+       11.266666666666667
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\asterisk.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "ambience"
+  },
+  {
+   "index": 101,
+   "path": null,
+   "duration": 48.35,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 23.0,
+     "end": 48.3,
+     "description": "Aphelion from afar, orbit",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 36.5,
+     "end": 40.0,
+     "description": "Best panorama: town across the top, one pine at the left",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "It's been a",
+      "source": [
+       36.5,
+       37.6
+      ],
+      "output": [
+       8.5,
+       9.6
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\aphelionorbit.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "ambience"
+  },
+  {
+   "index": 102,
+   "path": null,
+   "duration": 18.734,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 7.0,
+     "end": 18.7,
+     "description": "Wandermere orbit, newer town",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "All across the",
+      "source": [
+       7.2,
+       7.767
+      ],
+      "output": [
+       6.3,
+       6.866666666666666
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\wandermere.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "ambience"
+  },
+  {
+   "index": 103,
+   "path": null,
+   "duration": 12.458,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 6.0,
+     "end": 12.4,
+     "description": "Castle Northmost orbit, stone walls and stall",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "[springing] up.",
+      "source": [
+       6.1,
+       6.933
+      ],
+      "output": [
+       7.666666666666667,
+       8.5
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\northmost.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "near silent"
+  },
+  {
+   "index": 104,
+   "path": null,
+   "duration": 43.184,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 31.0,
+     "end": 43.1,
+     "description": "Fort Redleaf orbit, gatehouse visible (used mirrored in towns-v1)",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "[world,] new ones",
+      "source": [
+       31.5,
+       32.3
+      ],
+      "output": [
+       6.866666666666666,
+       7.666666666666667
+      ],
+      "mirrored": true
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\fortredleaf.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "quiet ambience"
+  },
+  {
+   "index": 105,
+   "path": null,
+   "duration": 26.367,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 8.0,
+     "end": 26.3,
+     "description": "Nordheim coming into view from the mountain",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 0.0,
+     "end": 26.3,
+     "description": "NOTE: Chrome tab and bookmark bars at the top (keep crops below y 212)",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "and even kingdoms.",
+      "source": [
+       8.0,
+       9.133
+      ],
+      "output": [
+       14.2,
+       15.333333333333334
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\nordheim.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "ambience"
+  },
+  {
+   "index": 106,
+   "path": null,
+   "duration": 56.784,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 42.0,
+     "end": 56.0,
+     "description": "Walking down the Driftwood market street at night",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 48.0,
+     "end": 53.0,
+     "description": "Stall rows fill the upper frame",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 16.0,
+     "end": 21.5,
+     "description": "REJECT for picture: stall menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "and running their",
+      "source": [
+       48.0,
+       49.033
+      ],
+      "output": [
+       13.166666666666666,
+       14.2
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\driftwoodmarket.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "footsteps, clicks"
+  },
+  {
+   "index": 107,
+   "path": null,
+   "duration": 21.0,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 18.0,
+     "end": 21.0,
+     "description": "Regional market (Drift Foxglove Meadows): Buy tab, real listings with sellers",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 1.0,
+     "end": 17.5,
+     "description": "Walking among the market stalls at night before opening the market",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "The player -run",
+      "source": [
+       18.4,
+       20.6
+      ],
+      "output": [
+       17.6,
+       19.8
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\market.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "ambience"
+  },
+  {
+   "index": 108,
+   "path": null,
+   "duration": 16.784,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 12.0,
+     "end": 14.0,
+     "description": "Walking onto a plot for sale, edges lit, Buy plot prompt",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 14.08,
+     "end": 14.2,
+     "description": "REJECT: Town panel jumps from the treasury view to the plots (the flash)",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 14.25,
+     "end": 16.7,
+     "description": "Plot UI: For sale 50 gold, Anyone can buy, Buy for 50 gold, plot grid",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "selling plots and",
+      "source": [
+       14.3,
+       16.2
+      ],
+      "output": [
+       11.266666666666667,
+       13.166666666666666
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\plotforsale.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "ambience"
+  },
+  {
+   "index": 109,
+   "path": null,
+   "duration": 64.319,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 3.0,
+     "end": 6.5,
+     "description": "Inspect: Masterwork Blacksteel Sword (Master Smith, Masterwork 96)",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 10.0,
+     "end": 13.0,
+     "description": "Inspect: Rapier Lunge",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 16.0,
+     "end": 18.5,
+     "description": "Inspect: Needle (Rapier, Etched, Steel, Light Tip-Heavy Long Curved Slack-Quenched)",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 23.0,
+     "end": 26.5,
+     "description": "Inspect: Quick Dirk (Masterwork 100)",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 42.0,
+     "end": 64.0,
+     "description": "New Design your blade interface, clicking shape buttons",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 0.0,
+     "end": 64.0,
+     "description": "NOTE: local build; Chrome tab and bookmark bars at the top (keep crops below y 212)",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "[along.]",
+      "source": [
+       46.0,
+       46.9
+      ],
+      "output": [
+       35.63333333333333,
+       36.53333333333333
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\awesomesmithing.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "UI clicks"
+  },
+  {
+   "index": 110,
+   "path": null,
+   "duration": 7.434,
+   "width": 2560,
+   "height": 1440,
+   "fps": "60/1",
+   "review_status": "Claude contact sheets at 1 s or 0.5 s plus key frames (2026-10-21)",
+   "selects": [
+    {
+     "start": 3.0,
+     "end": 6.0,
+     "description": "Bringing the raft up to the dock and stopping; Moor raft prompt",
+     "provenance": "Owner timestamp notes 2026-10-21"
+    },
+    {
+     "start": 0.0,
+     "end": 0.9,
+     "description": "REJECT: Build menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    },
+    {
+     "start": 6.4,
+     "end": 7.4,
+     "description": "REJECT: Build menu open",
+     "provenance": "Claude frame/audio review 2026-10-21 (verified select)"
+    }
+   ],
+   "used_in": {
+    "towns-v1": [
+     {
+      "shot": "I've just about",
+      "source": [
+       3.0,
+       5.433
+      ],
+      "output": [
+       36.53333333333333,
+       38.96666666666667
+      ],
+      "mirrored": false
+     }
+    ]
+   },
+   "original_windows_path": "C:\\Users\\liamb\\Videos\\raft.mkv",
+   "source_available_in_bundle": false,
+   "audio_review": "no sound"
   }
  ],
  "pickups": [
@@ -3536,7 +4356,8 @@
  ],
  "history": [
   "2026-10-16: smithing v2 verified selects, audio review, used_in.smithing-v2, pickup list (Claude). Nothing removed.",
-  "2026-10-16: smithing v3 pickups received, new selects, rejected take, voice pickup and owner still, used_in.smithing-v3 (Claude). Nothing removed."
+  "2026-10-16: smithing v3 pickups received, new selects, rejected take, voice pickup and owner still, used_in.smithing-v3 (Claude). Nothing removed.",
+  "2026-10-21: towns-v1 recordings (16 new), verified selects and used_in.towns-v1 (Claude). Nothing removed."
  ],
  "supplied": [
   {
@@ -3550,6 +4371,30 @@
    "path": "assets/stills/swordy-john-smith-inspect.png",
    "kind": "owner screenshot",
    "description": "Swordy Inspect, maker John_Smith (2000x1224). Used for the sword, METAL and MAKER emphasis in v3."
+  },
+  {
+   "file": "followup.wav",
+   "path": "towns/media/audio/followup.wav",
+   "kind": "voice",
+   "description": "They built this narration, 51.3 s, 48 kHz mono. Whisper hears \"exploration won. They're\" as \"exploration 1 that are\"; fixed by context."
+  },
+  {
+   "file": "discord-poll-final.png",
+   "path": "towns/assets/stills/discord-poll-final.png",
+   "kind": "owner screenshot",
+   "description": "Where should Asciilands go next? poll, 1,506 votes: Smithing 24 %, Exploration and Sailing 19 %."
+  },
+  {
+   "file": "discord-cult-of-akton.png",
+   "path": "towns/assets/stills/discord-cult-of-akton.png",
+   "kind": "owner screenshot",
+   "description": "Cleptomane's Cult of Akton forum post (permission given 2026-10-21)."
+  },
+  {
+   "file": "wiki-star-iron-order.png",
+   "path": "towns/assets/stills/wiki-star-iron-order.png",
+   "kind": "owner screenshot",
+   "description": "awiki.yi5.dev Market row: Star Iron, best buy order 1000g. The live order was gone by filming time."
   }
  ]
 }

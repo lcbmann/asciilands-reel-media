@@ -174,3 +174,49 @@ oneclickstonepickaxe.mkv,False,,,,"PICKUP RECORDED 2026-10-16: smithing ""click 
 2026-10-04 17-31-45.mkv,True,media/video/2026-10-04 17-31-45.mkv,60,168,Group by the cabin from several orbit angles; same characters,Owner selects plus frame-level review of used ranges (2026-10-16 v2/v3); motion of unused ranges sampled only,Claude frame/audio review 2026-10-16 (verified select),Audio not used in v3.
 mapzoomout.mkv,False,,,,"PICKUP RECORDED 2026-10-16: smithing ""cross a massive map"". Used 6.45 to 8.85 s.",Not recorded,Claude v2 pickup list,
 oneclickstonepickaxe.mkv,False,,,,"PICKUP RECORDED 2026-10-16: smithing ""click a button and make exactly the same sword"". A real one-click Stone Pickaxe craft. The earlier take (oneclick-stonepickaxe-packfull.mkv) failed with Pack full.",Not recorded,Claude v2 pickup list,
+york1.mkv,False,,19.0,26.5,"York now: walk synced to last week (yorkarrival 6.00), pergola town hall ahead",verified 2026-10-21,Owner timestamp notes 2026-10-21,"game sound, a few UI clicks"
+york1.mkv,False,,26.0,34.0,"Walking back into York, wider view",verified 2026-10-21,Owner timestamp notes 2026-10-21,"game sound, a few UI clicks"
+york1.mkv,False,,55.0,72.0,York orbit over the bridge and tower; used under the end card,verified 2026-10-21,Owner timestamp notes 2026-10-21,"game sound, a few UI clicks"
+york1.mkv,False,,0.0,1.0,REJECT: settings menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),"game sound, a few UI clicks"
+york2.mkv,False,,16.0,22.5,The York walk again with players around,verified 2026-10-21,Owner timestamp notes 2026-10-21,broadband ambience
+york2.mkv,False,,0.0,1.0,REJECT: settings menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),broadband ambience
+york2.mkv,False,,23.0,23.2,REJECT: settings menu opens,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),broadband ambience
+york3.mkv,False,,3.0,20.0,"Walking into the York Lawhouse, each law sign in turn",verified 2026-10-21,Owner timestamp notes 2026-10-21,"footsteps, door"
+york3.mkv,False,,8.3,10.0,First Law: Louie is to be recognized as King of York and its region,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),"footsteps, door"
+york3.mkv,False,,12.0,17.5,Fourth Law: builds near waterways must not block water,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),"footsteps, door"
+york3.mkv,False,,22.0,22.6,REJECT: settings menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),"footsteps, door"
+york4.mkv,False,,3.0,25.0,"Walking through York, lots of different players around",verified 2026-10-21,Owner timestamp notes 2026-10-21,broadband ambience
+york4.mkv,False,,26.0,31.0,Another player crosses in front of the camera,verified 2026-10-21,Owner timestamp notes 2026-10-21,broadband ambience
+york4.mkv,False,,0.0,1.0,REJECT: settings menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),broadband ambience
+york4.mkv,False,,34.0,34.7,REJECT: settings menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),broadband ambience
+world zoom.mkv,False,,0.0,2.3,"Local map of Moss Whitefall Woods (York), closest zoom",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
+world zoom.mkv,False,,2.35,3.05,Local map zooming out,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
+world zoom.mkv,False,,3.1,3.45,REJECT: dark frames while switching Local to World,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
+world zoom.mkv,False,,3.5,5.0,World map zooming out to the whole island,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
+asterisk.mkv,False,,9.0,17.5,"Asterisk, mayor of Aphelion, walks up and greets: Hello wanderer! Welcome to Aphelion!",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+asterisk.mkv,False,,0.0,1.0,REJECT: settings menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+asterisk.mkv,False,,17.6,18.3,REJECT: Pet panel opens,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+aphelionorbit.mkv,False,,23.0,48.3,"Aphelion from afar, orbit",verified 2026-10-21,Owner timestamp notes 2026-10-21,ambience
+aphelionorbit.mkv,False,,36.5,40.0,"Best panorama: town across the top, one pine at the left",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+wandermere.mkv,False,,7.0,18.7,"Wandermere orbit, newer town",verified 2026-10-21,Owner timestamp notes 2026-10-21,ambience
+northmost.mkv,False,,6.0,12.4,"Castle Northmost orbit, stone walls and stall",verified 2026-10-21,Owner timestamp notes 2026-10-21,near silent
+fortredleaf.mkv,False,,31.0,43.1,"Fort Redleaf orbit, gatehouse visible (used mirrored in towns-v1)",verified 2026-10-21,Owner timestamp notes 2026-10-21,quiet ambience
+nordheim.mkv,False,,8.0,26.3,Nordheim coming into view from the mountain,verified 2026-10-21,Owner timestamp notes 2026-10-21,ambience
+nordheim.mkv,False,,0.0,26.3,NOTE: Chrome tab and bookmark bars at the top (keep crops below y 212),verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+driftwoodmarket.mkv,False,,42.0,56.0,Walking down the Driftwood market street at night,verified 2026-10-21,Owner timestamp notes 2026-10-21,"footsteps, clicks"
+driftwoodmarket.mkv,False,,48.0,53.0,Stall rows fill the upper frame,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),"footsteps, clicks"
+driftwoodmarket.mkv,False,,16.0,21.5,REJECT for picture: stall menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),"footsteps, clicks"
+market.mkv,False,,18.0,21.0,"Regional market (Drift Foxglove Meadows): Buy tab, real listings with sellers",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+market.mkv,False,,1.0,17.5,Walking among the market stalls at night before opening the market,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+plotforsale.mkv,False,,12.0,14.0,"Walking onto a plot for sale, edges lit, Buy plot prompt",verified 2026-10-21,Owner timestamp notes 2026-10-21,ambience
+plotforsale.mkv,False,,14.08,14.2,REJECT: Town panel jumps from the treasury view to the plots (the flash),verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+plotforsale.mkv,False,,14.25,16.7,"Plot UI: For sale 50 gold, Anyone can buy, Buy for 50 gold, plot grid",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),ambience
+awesomesmithing.mkv,False,,3.0,6.5,"Inspect: Masterwork Blacksteel Sword (Master Smith, Masterwork 96)",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),UI clicks
+awesomesmithing.mkv,False,,10.0,13.0,Inspect: Rapier Lunge,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),UI clicks
+awesomesmithing.mkv,False,,16.0,18.5,"Inspect: Needle (Rapier, Etched, Steel, Light Tip-Heavy Long Curved Slack-Quenched)",verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),UI clicks
+awesomesmithing.mkv,False,,23.0,26.5,Inspect: Quick Dirk (Masterwork 100),verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),UI clicks
+awesomesmithing.mkv,False,,42.0,64.0,"New Design your blade interface, clicking shape buttons",verified 2026-10-21,Owner timestamp notes 2026-10-21,UI clicks
+awesomesmithing.mkv,False,,0.0,64.0,NOTE: local build; Chrome tab and bookmark bars at the top (keep crops below y 212),verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),UI clicks
+raft.mkv,False,,3.0,6.0,Bringing the raft up to the dock and stopping; Moor raft prompt,verified 2026-10-21,Owner timestamp notes 2026-10-21,no sound
+raft.mkv,False,,0.0,0.9,REJECT: Build menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound
+raft.mkv,False,,6.4,7.4,REJECT: Build menu open,verified 2026-10-21,Claude frame/audio review 2026-10-21 (verified select),no sound

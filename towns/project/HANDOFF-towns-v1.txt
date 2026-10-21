@@ -1,0 +1,81 @@
+ASCIILANDS "THEY BUILT THIS" SHORT. FIRST DRAFT (v1). HANDOFF
+
+FILES
+towns-v1.mp4            1080x1920, 30 fps, H.264/AAC, 44.2 s.
+towns-v1-review.mp4     The same cut at a lower bitrate, 20.7 MB.
+edit_towns_v1.py        The renderer, built on the smithing v3 renderer. Editorial data at the top:
+                        WORD_FIXES, PAUSES, CLEAN, SHOTS, looks, GAME_UNDER_VOICE, MUSIC, ACCENTS.
+update_library_towns_v1.py  Appends the 16 new recordings, 46 verified selects and used_in.towns-v1
+                        to smithing/library (catalogue.json, shot-log.csv). Removes nothing.
+check_audio_towns.py    Stem measurements and spectrograms (edit-v1/audio-stems.json, qa/spectrograms.png).
+footage_sheets.py       Contact sheets for footage review.
+post-caption-v1.txt     Caption, credits, cover frame.
+
+REBUILD
+python project/edit_towns_v1.py            (full render, shots cached)
+python project/edit_towns_v1.py --prepare  (timing only)
+python project/edit_towns_v1.py --preview  (first, middle and last frame of every shot, no encode)
+python project/check_audio_towns.py
+python project/update_library_towns_v1.py
+Inputs: media/video is a junction to C:\Users\liamb\Videos. media/audio/followup.wav is the narration.
+assets/ holds the font, wordmark, theme, the E major theme and the three owner screenshots.
+
+PIPELINE (as the smithing reel)
+Every frame is rendered in Python and piped as raw RGB into ffmpeg/libx264. Cuts and captions anchor to
+the cached word times. Silences over 0.25 s at -35 dB are trimmed to 0.30 s after a sentence and
+0.20 s after a comma. Two pauses are kept longer: after "religions." (0.55 s, to read the post) and
+after "coming along." (0.70 s, the recorded gap was 0.76 s).
+
+NARRATION
+followup.wav (51.3 s) follows the script word for word. Whisper heard "exploration won. They're" as
+"exploration 1 that are". The spectrogram shows "won" then a short gap, so it is corrected by context.
+No rerecord needed.
+
+SHOTS
+ 1 "Last week, my game had one town."   yorkarrival 6.00 (turn ends 5.93)
+ 2 "And now it looks like this."        york1 19.00, same framing as last week
+ 3 "It's not the only town anymore"     world zoom 2.45 to 5.00, the dark switch at 3.10 to 3.45 skipped
+   "All across the world, new ones have been springing up. It's been a sight to behold."
+                                        Wandermere 7.2, Fort Redleaf 31.5 (mirrored, gatehouse centred),
+                                        Castle Northmost 6.1, Aphelion 36.5 panned across the town
+ 4 "People have been founding villages" asterisk 13.0: "Hello wanderer! Welcome to Aphelion!"
+   "selling plots and levying taxes"    plotforsale 14.30, after the 14.08 panel jump (the flash)
+   "running their own markets"          Driftwood street 48.0 (stall rows), from your 0:42 select
+   "and even kingdoms."                 Nordheim 8.0, panning from the mountain to the town
+ 5 "guilds and religions!"              York Lawhouse, First Law sign; then the Cult of Akton post
+ 6 "The player-run economy"             Regional market listings (Amber, Berries, Damoclyse with sellers)
+   "the elusive star iron"              star iron crater (orbitdesertmeteor 12.0, library)
+   "a thousand gold for a single piece" your wiki screenshot: Star Iron, BEST BUY ORDER 1000g
+ 7 "This totally caught me off guard"   york4 3.0, york2 16.0, york4 26.0 (busy York). The theme lifts.
+ 8 "I asked what to add next"           the poll. On "smithing" and "exploration" those rows lift out large.
+   "They're already coming along."      three new swords, then the Design your blade interface
+ 9 "I've just about started on sailing" raft 3.0 coming up to the dock
+10 "Comment below..."                   York orbit (york1 55.0) under the end card
+
+YOUR NOTES
+- Orbits alternate direction. Fort Redleaf is mirrored, and so is its stereo sound.
+- plotforsale: the flash is the Town panel jumping from its treasury view to the plots at 14.08 to 14.20.
+  The shot starts at 14.30.
+- The star iron buy order was gone, so the wiki screenshot carries it. Nothing is simulated.
+- Chrome's debugging bar, and the tab and bookmark bars on nordheim, awesomesmithing and raft, are kept out of
+  every crop (CLEAN boxes).
+
+SOUND
+- Theme from its first note at one level. At "This totally caught me off guard" it switches on a beat
+  (24.86 s, 0.08 s before the picture cut) to the game's E major version: a whole step up
+  and the same measured loudness (-18.1 LUFS). No fades, except the 1 s fade with the picture at the end.
+- Game sound is calibrated per shot (11 LU under the voice) and ducks 6 dB under every word. Short or near
+  silent windows are calibrated on RMS, lifted by no more than 20 dB.
+- Measured: master -14.1 LUFS, -1.5 dBTP (fixed gain plus limiter). Voice -30.2 LUFS before gain. Game
+  14 to 26 dB under the voice while words are spoken. Fort Redleaf, Castle Northmost and the Aphelion window
+  have no recorded sound to use (-99 to -105 dB RMS). The raft and world zoom recordings have no sound.
+- I can't listen. Please check the music lift and the overall balance by ear.
+
+PERMISSION (from the Qaz posts, 2026-10-21)
+Yes: York (Louie), Aphelion (asterisk), Kingdom of Nordheim (Bill), Castle Northmost (Dirtmole), Cult of Akton
+(Cleptomane), Council of Wizards, Hellheim, WE FARM, Riverview, Copper Coast, Raven Frontier (Truly's builds).
+Not yet: Fort Redleaf (Cazaj, Enki), Driftwood (Logman). Never asked: Wandermere (DELVE_S, maxhalotjess),
+River side glen, the plot town (owner Zack).
+
+STILL TO DO
+- The TikTok cut (captions and end card clear of the right 140 px and the bottom 400 px) once the picture is approved.

@@ -1,0 +1,1963 @@
+{
+"source": "https://awiki.yi5.dev/api/map?realm=na (unofficial fan wiki, built from the game public API)",
+"recordedAt": 1792591391437,
+"pieces": 84436,
+"zones": [
+{
+"id": "explore-p21-m10",
+"name": "Bracken Moss Meadows",
+"biome": "plains",
+"pieces": 1057
+},
+{
+"id": "explore-p20-m10",
+"name": "Cloudrest Silver Meadows",
+"biome": "plains",
+"pieces": 525
+},
+{
+"id": "explore-p21-m11",
+"name": "Hollowmere Crow Meadows",
+"biome": "plains",
+"pieces": 881
+},
+{
+"id": "explore-p21-m9",
+"name": "Briar Hearth Meadows",
+"biome": "plains",
+"pieces": 1192
+},
+{
+"id": "explore-p22-m10",
+"name": "Hearth Alder Meadows",
+"biome": "plains",
+"pieces": 991
+},
+{
+"id": "explore-p19-m10",
+"name": "Amber Hearth Woods",
+"biome": "forest",
+"pieces": 966
+},
+{
+"id": "explore-p20-m11",
+"name": "Hearth Longshadow Meadows",
+"biome": "plains",
+"pieces": 412
+},
+{
+"id": "explore-p20-m9",
+"name": "Alder Longshadow Meadows",
+"biome": "plains",
+"pieces": 1214
+},
+{
+"id": "explore-p21-m12",
+"name": "Raven Bracken Heights",
+"biome": "highlands",
+"pieces": 1356
+},
+{
+"id": "explore-p21-m8",
+"name": "Longshadow Dawn Meadows",
+"biome": "plains",
+"pieces": 594
+},
+{
+"id": "explore-p22-m11",
+"name": "Dawn Cloudrest Meadows",
+"biome": "plains",
+"pieces": 595
+},
+{
+"id": "explore-p22-m9",
+"name": "Drift Foxglove Meadows",
+"biome": "plains",
+"pieces": 3027
+},
+{
+"id": "explore-p23-m10",
+"name": "Cloudrest Longshadow Crags",
+"biome": "limestone_karst",
+"pieces": 736
+},
+{
+"id": "explore-p18-m10",
+"name": "Raven Alder Woods",
+"biome": "forest",
+"pieces": 703
+},
+{
+"id": "explore-p19-m11",
+"name": "Dawn Hollowmere Woods",
+"biome": "forest",
+"pieces": 387
+},
+{
+"id": "explore-p19-m9",
+"name": "Windmere Sunward Meadows",
+"biome": "plains",
+"pieces": 542
+},
+{
+"id": "explore-p20-m12",
+"name": "Dawn Hearth Heights",
+"biome": "highlands",
+"pieces": 620
+},
+{
+"id": "explore-p20-m8",
+"name": "Dawn Silver Meadows",
+"biome": "plains",
+"pieces": 609
+},
+{
+"id": "explore-p21-m13",
+"name": "Dawn Elder Heights",
+"biome": "highlands",
+"pieces": 1094
+},
+{
+"id": "explore-p21-m7",
+"name": "Drift Crow Groves",
+"biome": "bamboo_forest",
+"pieces": 194
+},
+{
+"id": "explore-p22-m12",
+"name": "Elder Cloudrest Heights",
+"biome": "highlands",
+"pieces": 397
+},
+{
+"id": "explore-p22-m8",
+"name": "Foxglove Cloudrest Meadows",
+"biome": "plains",
+"pieces": 900
+},
+{
+"id": "explore-p23-m11",
+"name": "Windmere Stonehaven Crags",
+"biome": "limestone_karst",
+"pieces": 2084
+},
+{
+"id": "explore-p23-m9",
+"name": "Redleaf Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 924
+},
+{
+"id": "explore-p24-m10",
+"name": "Cloudrest Stonehaven Crags",
+"biome": "limestone_karst",
+"pieces": 208
+},
+{
+"id": "explore-p18-m11",
+"name": "Hearth Foxglove Woods",
+"biome": "forest",
+"pieces": 512
+},
+{
+"id": "explore-p18-m9",
+"name": "Silver Cloudrest Woods",
+"biome": "forest",
+"pieces": 247
+},
+{
+"id": "explore-p19-m12",
+"name": "Hollowmere Redleaf Woods",
+"biome": "forest",
+"pieces": 904
+},
+{
+"id": "explore-p19-m8",
+"name": "Dawn Raven Meadows",
+"biome": "plains",
+"pieces": 601
+},
+{
+"id": "explore-p20-m13",
+"name": "Dawn Silver Heights",
+"biome": "highlands",
+"pieces": 1376
+},
+{
+"id": "explore-p20-m7",
+"name": "Windmere Westwind Groves",
+"biome": "bamboo_forest",
+"pieces": 151
+},
+{
+"id": "explore-p21-m14",
+"name": "Hearth Briar Heights",
+"biome": "highlands",
+"pieces": 723
+},
+{
+"id": "explore-p21-m6",
+"name": "Hollowmere Stonehaven Groves",
+"biome": "bamboo_forest",
+"pieces": 120
+},
+{
+"id": "explore-p22-m13",
+"name": "Stonehaven Foxglove Heights",
+"biome": "highlands",
+"pieces": 1620
+},
+{
+"id": "explore-p22-m7",
+"name": "Whitefall Amber Fen",
+"biome": "cypress_swamp",
+"pieces": 237
+},
+{
+"id": "explore-p23-m12",
+"name": "Cloudrest Silver Crags",
+"biome": "limestone_karst",
+"pieces": 618
+},
+{
+"id": "explore-p23-m8",
+"name": "Raven Briar Fen",
+"biome": "cypress_swamp",
+"pieces": 301
+},
+{
+"id": "explore-p24-m11",
+"name": "Dawn Elder Crags",
+"biome": "limestone_karst",
+"pieces": 140
+},
+{
+"id": "explore-p24-m9",
+"name": "Hollowmere Amber Crags",
+"biome": "limestone_karst",
+"pieces": 90
+},
+{
+"id": "explore-p25-m10",
+"name": "Dawn Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 86
+},
+{
+"id": "explore-p17-m9",
+"name": "Hearth Windmere Woods",
+"biome": "forest",
+"pieces": 1641
+},
+{
+"id": "explore-p18-m12",
+"name": "Drift Moss Woods",
+"biome": "forest",
+"pieces": 663
+},
+{
+"id": "explore-p18-m8",
+"name": "Silver Hearth Meadows",
+"biome": "plains",
+"pieces": 585
+},
+{
+"id": "explore-p19-m13",
+"name": "Dawn Hearth Woods",
+"biome": "forest",
+"pieces": 742
+},
+{
+"id": "explore-p19-m7",
+"name": "Redleaf Bracken Groves",
+"biome": "bamboo_forest",
+"pieces": 271
+},
+{
+"id": "explore-p20-m14",
+"name": "Bracken Crow Woods",
+"biome": "forest",
+"pieces": 973
+},
+{
+"id": "explore-p20-m6",
+"name": "Silver Drift Groves",
+"biome": "bamboo_forest",
+"pieces": 574
+},
+{
+"id": "explore-p21-m15",
+"name": "Westwind Elder Snowfields",
+"biome": "snow_alpine",
+"pieces": 879
+},
+{
+"id": "explore-p21-m5",
+"name": "Moss Dawn Coast",
+"biome": "tropical_coast",
+"pieces": 72
+},
+{
+"id": "explore-p22-m14",
+"name": "Crow Bracken Heights",
+"biome": "highlands",
+"pieces": 3655
+},
+{
+"id": "explore-p22-m6",
+"name": "Silver Elder Fen",
+"biome": "cypress_swamp",
+"pieces": 3
+},
+{
+"id": "explore-p23-m13",
+"name": "Sunward Alder Heights",
+"biome": "highlands",
+"pieces": 3156
+},
+{
+"id": "explore-p23-m7",
+"name": "Raven Moss Fen",
+"biome": "cypress_swamp",
+"pieces": 76
+},
+{
+"id": "explore-p24-m12",
+"name": "Sunward Silver Crags",
+"biome": "limestone_karst",
+"pieces": 194
+},
+{
+"id": "explore-p24-m8",
+"name": "Drift Moss Fen",
+"biome": "cypress_swamp",
+"pieces": 13
+},
+{
+"id": "explore-p25-m11",
+"name": "Crow Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 253
+},
+{
+"id": "explore-p16-m9",
+"name": "Elder Bracken Woods",
+"biome": "forest",
+"pieces": 720
+},
+{
+"id": "explore-p17-m12",
+"name": "Amber Windmere Woods",
+"biome": "forest",
+"pieces": 650
+},
+{
+"id": "explore-p17-m8",
+"name": "Dawn Redleaf Woods",
+"biome": "forest",
+"pieces": 869
+},
+{
+"id": "explore-p18-m13",
+"name": "Briar Cloudrest Woods",
+"biome": "forest",
+"pieces": 650
+},
+{
+"id": "explore-p18-m7",
+"name": "Dawn Westwind Meadows",
+"biome": "plains",
+"pieces": 1061
+},
+{
+"id": "explore-p19-m14",
+"name": "Moss Whitefall Woods",
+"biome": "forest",
+"pieces": 2830
+},
+{
+"id": "explore-p19-m6",
+"name": "Briar Raven Groves",
+"biome": "bamboo_forest",
+"pieces": 61
+},
+{
+"id": "explore-p20-m5",
+"name": "Drift Hearth Groves",
+"biome": "bamboo_forest",
+"pieces": 56
+},
+{
+"id": "explore-p21-m16",
+"name": "Whitefall Bracken Snowfields",
+"biome": "snow_alpine",
+"pieces": 45
+},
+{
+"id": "explore-p21-m4",
+"name": "Bracken Westwind Coast",
+"biome": "tropical_coast",
+"pieces": 1
+},
+{
+"id": "explore-p22-m15",
+"name": "Stonehaven Cloudrest Snowfields",
+"biome": "snow_alpine",
+"pieces": 746
+},
+{
+"id": "explore-p22-m5",
+"name": "Redleaf Alder Coast",
+"biome": "tropical_coast",
+"pieces": 41
+},
+{
+"id": "explore-p23-m14",
+"name": "Briar Silver Heights",
+"biome": "highlands",
+"pieces": 540
+},
+{
+"id": "explore-p23-m6",
+"name": "Bracken Raven Fen",
+"biome": "cypress_swamp",
+"pieces": 0
+},
+{
+"id": "explore-p24-m13",
+"name": "Cloudrest Foxglove Crags",
+"biome": "limestone_karst",
+"pieces": 1283
+},
+{
+"id": "explore-p24-m7",
+"name": "Briar Westwind Fen",
+"biome": "cypress_swamp",
+"pieces": 397
+},
+{
+"id": "explore-p25-m12",
+"name": "Foxglove Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 88
+},
+{
+"id": "explore-p26-m11",
+"name": "Elder Dawn Crags",
+"biome": "limestone_karst",
+"pieces": 102
+},
+{
+"id": "explore-p16-m12",
+"name": "Moss Redleaf Woods",
+"biome": "forest",
+"pieces": 323
+},
+{
+"id": "explore-p16-m8",
+"name": "Stonehaven Redleaf Woods",
+"biome": "forest",
+"pieces": 666
+},
+{
+"id": "explore-p17-m13",
+"name": "Dawn Alder Woods",
+"biome": "forest",
+"pieces": 1432
+},
+{
+"id": "explore-p17-m7",
+"name": "Briar Bracken Dunes",
+"biome": "hot_sand_desert",
+"pieces": 43
+},
+{
+"id": "explore-p18-m14",
+"name": "Briar Drift Woods",
+"biome": "forest",
+"pieces": 1136
+},
+{
+"id": "explore-p18-m6",
+"name": "Crow Briar Groves",
+"biome": "bamboo_forest",
+"pieces": 178
+},
+{
+"id": "explore-p19-m5",
+"name": "Hollowmere Bracken Groves",
+"biome": "bamboo_forest",
+"pieces": 20
+},
+{
+"id": "explore-p20-m4",
+"name": "Stonehaven Longshadow Coast",
+"biome": "tropical_coast",
+"pieces": 2
+},
+{
+"id": "explore-p21-m3",
+"name": "Foxglove Amber Coast",
+"biome": "tropical_coast",
+"pieces": 21
+},
+{
+"id": "explore-p22-m16",
+"name": "Briar Crow Snowfields",
+"biome": "snow_alpine",
+"pieces": 324
+},
+{
+"id": "explore-p22-m4",
+"name": "Hollowmere Whitefall Coast",
+"biome": "tropical_coast",
+"pieces": 0
+},
+{
+"id": "explore-p23-m15",
+"name": "Raven Dawn Snowfields",
+"biome": "snow_alpine",
+"pieces": 185
+},
+{
+"id": "explore-p23-m5",
+"name": "Crow Redleaf Coast",
+"biome": "tropical_coast",
+"pieces": 0
+},
+{
+"id": "explore-p24-m14",
+"name": "Whitefall Briar Crags",
+"biome": "limestone_karst",
+"pieces": 590
+},
+{
+"id": "explore-p24-m6",
+"name": "Windmere Moss Coast",
+"biome": "tropical_coast",
+"pieces": 46
+},
+{
+"id": "explore-p25-m13",
+"name": "Hollowmere Foxglove Crags",
+"biome": "limestone_karst",
+"pieces": 1115
+},
+{
+"id": "explore-p25-m7",
+"name": "Sunward Crow Fen",
+"biome": "cypress_swamp",
+"pieces": 2
+},
+{
+"id": "explore-p26-m12",
+"name": "Silver Drift Crags",
+"biome": "limestone_karst",
+"pieces": 554
+},
+{
+"id": "explore-p27-m11",
+"name": "Sunward Moss Crags",
+"biome": "limestone_karst",
+"pieces": 192
+},
+{
+"id": "explore-p15-m8",
+"name": "Bracken Amber Dunes",
+"biome": "hot_sand_desert",
+"pieces": 31
+},
+{
+"id": "explore-p16-m13",
+"name": "Dawn Bracken Woods",
+"biome": "forest",
+"pieces": 561
+},
+{
+"id": "explore-p16-m7",
+"name": "Briar Redleaf Dunes",
+"biome": "hot_sand_desert",
+"pieces": 2
+},
+{
+"id": "explore-p17-m14",
+"name": "Westwind Silver Woods",
+"biome": "forest",
+"pieces": 1535
+},
+{
+"id": "explore-p17-m6",
+"name": "Elder Hearth Grasslands",
+"biome": "savanna",
+"pieces": 136
+},
+{
+"id": "explore-p18-m15",
+"name": "Amber Moss Woods",
+"biome": "forest",
+"pieces": 1858
+},
+{
+"id": "explore-p18-m5",
+"name": "Alder Longshadow Groves",
+"biome": "bamboo_forest",
+"pieces": 32
+},
+{
+"id": "explore-p19-m4",
+"name": "Alder Bracken Groves",
+"biome": "bamboo_forest",
+"pieces": 38
+},
+{
+"id": "explore-p20-m3",
+"name": "Hollowmere Crow Coast",
+"biome": "tropical_coast",
+"pieces": 133
+},
+{
+"id": "explore-p22-m17",
+"name": "Windmere Moss Snowfields",
+"biome": "snow_alpine",
+"pieces": 114
+},
+{
+"id": "explore-p23-m16",
+"name": "Sunward Raven Snowfields",
+"biome": "snow_alpine",
+"pieces": 5
+},
+{
+"id": "explore-p23-m4",
+"name": "Elder Amber Coast",
+"biome": "tropical_coast",
+"pieces": 0
+},
+{
+"id": "explore-p24-m15",
+"name": "Foxglove Whitefall Snowfields",
+"biome": "snow_alpine",
+"pieces": 65
+},
+{
+"id": "explore-p24-m5",
+"name": "Cloudrest Briar Coast",
+"biome": "tropical_coast",
+"pieces": 2
+},
+{
+"id": "explore-p25-m14",
+"name": "Foxglove Windmere Crags",
+"biome": "limestone_karst",
+"pieces": 187
+},
+{
+"id": "explore-p26-m13",
+"name": "Westwind Sunward Crags",
+"biome": "limestone_karst",
+"pieces": 38
+},
+{
+"id": "explore-p27-m12",
+"name": "Hearth Dawn Crags",
+"biome": "limestone_karst",
+"pieces": 119
+},
+{
+"id": "explore-p15-m7",
+"name": "Drift Whitefall Dunes",
+"biome": "hot_sand_desert",
+"pieces": 1
+},
+{
+"id": "explore-p16-m6",
+"name": "Crow Raven Dunes",
+"biome": "hot_sand_desert",
+"pieces": 10
+},
+{
+"id": "explore-p17-m15",
+"name": "Whitefall Redleaf Woods",
+"biome": "forest",
+"pieces": 461
+},
+{
+"id": "explore-p17-m5",
+"name": "Stonehaven Hearth Grasslands",
+"biome": "savanna",
+"pieces": 200
+},
+{
+"id": "explore-p18-m4",
+"name": "Alder Hollowmere Groves",
+"biome": "bamboo_forest",
+"pieces": 11
+},
+{
+"id": "explore-p19-m3",
+"name": "Windmere Sunward Coast",
+"biome": "tropical_coast",
+"pieces": 0
+},
+{
+"id": "explore-p22-m18",
+"name": "Alder Amber Snowfields",
+"biome": "snow_alpine",
+"pieces": 116
+},
+{
+"id": "explore-p23-m17",
+"name": "Hearth Alder Snowfields",
+"biome": "snow_alpine",
+"pieces": 140
+},
+{
+"id": "explore-p24-m16",
+"name": "Hearth Crow Snowfields",
+"biome": "snow_alpine",
+"pieces": 8
+},
+{
+"id": "explore-p25-m15",
+"name": "Longshadow Elder Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 535
+},
+{
+"id": "explore-p26-m14",
+"name": "Sunward Crow Crags",
+"biome": "limestone_karst",
+"pieces": 686
+},
+{
+"id": "explore-p27-m13",
+"name": "Moss Amber Crags",
+"biome": "limestone_karst",
+"pieces": 153
+},
+{
+"id": "explore-p28-m12",
+"name": "Drift Hollowmere Crags",
+"biome": "limestone_karst",
+"pieces": 14
+},
+{
+"id": "explore-p14-m7",
+"name": "Cloudrest Whitefall Dunes",
+"biome": "hot_sand_desert",
+"pieces": 65
+},
+{
+"id": "explore-p15-m6",
+"name": "Raven Hollowmere Dunes",
+"biome": "hot_sand_desert",
+"pieces": 585
+},
+{
+"id": "explore-p16-m5",
+"name": "Alder Sunward Grasslands",
+"biome": "savanna",
+"pieces": 146
+},
+{
+"id": "explore-p17-m4",
+"name": "Hearth Whitefall Grasslands",
+"biome": "savanna",
+"pieces": 33
+},
+{
+"id": "explore-p23-m18",
+"name": "Raven Sunward Snowfields",
+"biome": "snow_alpine",
+"pieces": 604
+},
+{
+"id": "explore-p24-m17",
+"name": "Raven Moss Snowfields",
+"biome": "snow_alpine",
+"pieces": 41
+},
+{
+"id": "explore-p25-m16",
+"name": "Moss Briar Snowfields",
+"biome": "snow_alpine",
+"pieces": 233
+},
+{
+"id": "explore-p26-m15",
+"name": "Sunward Briar Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 865
+},
+{
+"id": "explore-p27-m14",
+"name": "Sunward Windmere Crags",
+"biome": "limestone_karst",
+"pieces": 334
+},
+{
+"id": "explore-p28-m13",
+"name": "Stonehaven Drift Crags",
+"biome": "limestone_karst",
+"pieces": 46
+},
+{
+"id": "explore-p14-m6",
+"name": "Whitefall Amber Dunes",
+"biome": "hot_sand_desert",
+"pieces": 352
+},
+{
+"id": "explore-p15-m5",
+"name": "Drift Elder Grasslands",
+"biome": "savanna",
+"pieces": 2
+},
+{
+"id": "explore-p16-m4",
+"name": "Amber Sunward Grasslands",
+"biome": "savanna",
+"pieces": 26
+},
+{
+"id": "explore-p23-m19",
+"name": "Redleaf Westwind Snowfields",
+"biome": "snow_alpine",
+"pieces": 206
+},
+{
+"id": "explore-p24-m18",
+"name": "Longshadow Amber Snowfields",
+"biome": "snow_alpine",
+"pieces": 119
+},
+{
+"id": "explore-p25-m17",
+"name": "Bracken Windmere Snowfields",
+"biome": "snow_alpine",
+"pieces": 6
+},
+{
+"id": "explore-p26-m16",
+"name": "Hollowmere Hearth Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 240
+},
+{
+"id": "explore-p27-m15",
+"name": "Redleaf Amber Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 128
+},
+{
+"id": "explore-p28-m14",
+"name": "Windmere Foxglove Crags",
+"biome": "limestone_karst",
+"pieces": 119
+},
+{
+"id": "explore-p29-m13",
+"name": "Hearth Bracken Crags",
+"biome": "limestone_karst",
+"pieces": 37
+},
+{
+"id": "explore-p13-m6",
+"name": "Amber Redleaf Dunes",
+"biome": "hot_sand_desert",
+"pieces": 1
+},
+{
+"id": "explore-p14-m5",
+"name": "Dawn Briar Dunes",
+"biome": "hot_sand_desert",
+"pieces": 2
+},
+{
+"id": "explore-p15-m4",
+"name": "Raven Dawn Grasslands",
+"biome": "savanna",
+"pieces": 42
+},
+{
+"id": "explore-p16-m3",
+"name": "Westwind Cloudrest Grasslands",
+"biome": "savanna",
+"pieces": 0
+},
+{
+"id": "explore-p24-m19",
+"name": "Elder Amber Snowfields",
+"biome": "snow_alpine",
+"pieces": 355
+},
+{
+"id": "explore-p25-m18",
+"name": "Drift Silver Snowfields",
+"biome": "snow_alpine",
+"pieces": 163
+},
+{
+"id": "explore-p27-m16",
+"name": "Alder Moss Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 3
+},
+{
+"id": "explore-p28-m15",
+"name": "Longshadow Amber Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 0
+},
+{
+"id": "explore-p29-m14",
+"name": "Hearth Moss Crags",
+"biome": "limestone_karst",
+"pieces": 29
+},
+{
+"id": "explore-p13-m5",
+"name": "Dawn Raven Dunes",
+"biome": "hot_sand_desert",
+"pieces": 1
+},
+{
+"id": "explore-p14-m4",
+"name": "Hollowmere Amber Dunes",
+"biome": "hot_sand_desert",
+"pieces": 4
+},
+{
+"id": "explore-p15-m3",
+"name": "Moss Cloudrest Grasslands",
+"biome": "savanna",
+"pieces": 111
+},
+{
+"id": "explore-p24-m20",
+"name": "Dawn Hollowmere Snowfields",
+"biome": "snow_alpine",
+"pieces": 167
+},
+{
+"id": "explore-p25-m19",
+"name": "Hearth Briar Snowfields",
+"biome": "snow_alpine",
+"pieces": 86
+},
+{
+"id": "explore-p27-m17",
+"name": "Hearth Amber Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 127
+},
+{
+"id": "explore-p28-m16",
+"name": "Raven Crow Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 131
+},
+{
+"id": "explore-p13-m4",
+"name": "Silver Bracken Dunes",
+"biome": "hot_sand_desert",
+"pieces": 77
+},
+{
+"id": "explore-p14-m3",
+"name": "Drift Moss Grasslands",
+"biome": "savanna",
+"pieces": 10
+},
+{
+"id": "explore-p25-m20",
+"name": "Cloudrest Amber Snowfields",
+"biome": "snow_alpine",
+"pieces": 54
+},
+{
+"id": "explore-p28-m17",
+"name": "Foxglove Silver Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 14
+},
+{
+"id": "explore-p29-m16",
+"name": "Drift Briar Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 146
+},
+{
+"id": "explore-p29-m17",
+"name": "Silver Crow Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 0
+},
+{
+"id": "explore-p17-m10",
+"name": "Foxglove Stonehaven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p17-m11",
+"name": "Hearth Longshadow Sea",
+"biome": "ocean",
+"pieces": 335
+},
+{
+"id": "explore-p26-m10",
+"name": "Bracken Foxglove Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p16-m11",
+"name": "Briar Silver Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p20-m15",
+"name": "Whitefall Windmere Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p25-m8",
+"name": "Hollowmere Dawn Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p15-m9",
+"name": "Westwind Dawn Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p19-m15",
+"name": "Dawn Longshadow Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p21-m17",
+"name": "Westwind Briar Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p22-m3",
+"name": "Elder Silver Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p25-m6",
+"name": "Whitefall Amber Woods",
+"biome": "forest",
+"pieces": 401
+},
+{
+"id": "explore-p28-m11",
+"name": "Dawn Whitefall Woods",
+"biome": "forest",
+"pieces": 71
+},
+{
+"id": "explore-p14-m8",
+"name": "Bracken Amber Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p16-m14",
+"name": "Hearth Windmere Sea",
+"biome": "ocean",
+"pieces": 911
+},
+{
+"id": "explore-p18-m3",
+"name": "Whitefall Crow Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p29-m12",
+"name": "Elder Alder Snowfields",
+"biome": "snow_alpine",
+"pieces": 12
+},
+{
+"id": "explore-p13-m7",
+"name": "Cloudrest Windmere Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p17-m3",
+"name": "Crow Whitefall Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p23-m20",
+"name": "Amber Moss Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p26-m17",
+"name": "Stonehaven Amber Sea",
+"biome": "ocean",
+"pieces": 1
+},
+{
+"id": "explore-p29-m15",
+"name": "Raven Redleaf Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p30-m14",
+"name": "Bracken Longshadow Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p26-m19",
+"name": "Moss Whitefall Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p27-m18",
+"name": "Silver Drift Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p13-m3",
+"name": "Whitefall Alder Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 74
+},
+{
+"id": "explore-p26-m20",
+"name": "Raven Amber Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p28-m18",
+"name": "Amber Longshadow Sea",
+"biome": "ocean",
+"pieces": 50
+},
+{
+"id": "explore-p6-p0",
+"name": "Dawn Briar Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p6-p1",
+"name": "Stonehaven Raven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p6-p2",
+"name": "Foxglove Silver Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p7-m2",
+"name": "Windmere Silver Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p7-m1",
+"name": "Crow Longshadow Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p7-p0",
+"name": "Bracken Stonehaven Dunes",
+"biome": "hot_sand_desert",
+"pieces": 0
+},
+{
+"id": "explore-p7-p1",
+"name": "Moss Foxglove Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p7-p2",
+"name": "Windmere Stonehaven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p7-p3",
+"name": "Whitefall Stonehaven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p8-m3",
+"name": "Dawn Briar Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p8-m2",
+"name": "Foxglove Elder Woods",
+"biome": "forest",
+"pieces": 0
+},
+{
+"id": "explore-p8-m1",
+"name": "Windmere Hollowmere Woods",
+"biome": "forest",
+"pieces": 0
+},
+{
+"id": "explore-p8-p0",
+"name": "Hollowmere Longshadow Dunes",
+"biome": "hot_sand_desert",
+"pieces": 96
+},
+{
+"id": "explore-p8-p1",
+"name": "Raven Redleaf Meadows",
+"biome": "plains",
+"pieces": 7
+},
+{
+"id": "explore-p8-p2",
+"name": "Sunward Hearth Groves",
+"biome": "bamboo_forest",
+"pieces": 0
+},
+{
+"id": "explore-p8-p3",
+"name": "Amber Whitefall Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p9-m4",
+"name": "Elder Windmere Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p9-m3",
+"name": "Cloudrest Briar Woods",
+"biome": "forest",
+"pieces": 0
+},
+{
+"id": "explore-p9-m2",
+"name": "Whitefall Amber Woods",
+"biome": "forest",
+"pieces": 133
+},
+{
+"id": "explore-p9-m1",
+"name": "Windmere Hollowmere Woods",
+"biome": "forest",
+"pieces": 143
+},
+{
+"id": "explore-p9-p0",
+"name": "Westwind Silver Meadows",
+"biome": "plains",
+"pieces": 237
+},
+{
+"id": "explore-p9-p1",
+"name": "Stonehaven Elder Groves",
+"biome": "bamboo_forest",
+"pieces": 133
+},
+{
+"id": "explore-p9-p2",
+"name": "Windmere Hearth Groves",
+"biome": "bamboo_forest",
+"pieces": 123
+},
+{
+"id": "explore-p9-p3",
+"name": "Westwind Redleaf Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p10-m5",
+"name": "Briar Windmere Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p10-m4",
+"name": "Cloudrest Redleaf Woods",
+"biome": "forest",
+"pieces": 95
+},
+{
+"id": "explore-p10-m3",
+"name": "Silver Westwind Woods",
+"biome": "forest",
+"pieces": 4
+},
+{
+"id": "explore-p10-m2",
+"name": "Bracken Alder Heights",
+"biome": "highlands",
+"pieces": 8
+},
+{
+"id": "explore-p10-m1",
+"name": "Foxglove Bracken Meadows",
+"biome": "plains",
+"pieces": 183
+},
+{
+"id": "explore-p10-p0",
+"name": "Raven Cloudrest Grasslands",
+"biome": "savanna",
+"pieces": 201
+},
+{
+"id": "explore-p10-p1",
+"name": "Foxglove Longshadow Fen",
+"biome": "cypress_swamp",
+"pieces": 346
+},
+{
+"id": "explore-p10-p2",
+"name": "Alder Amber Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p10-p3",
+"name": "Whitefall Raven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p11-m5",
+"name": "Moss Stonehaven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p11-m4",
+"name": "Windmere Briar Snowfields",
+"biome": "snow_alpine",
+"pieces": 1
+},
+{
+"id": "explore-p11-m3",
+"name": "Windmere Bracken Heights",
+"biome": "highlands",
+"pieces": 113
+},
+{
+"id": "explore-p11-m2",
+"name": "Hearth Drift Heights",
+"biome": "highlands",
+"pieces": 87
+},
+{
+"id": "explore-p11-m1",
+"name": "Redleaf Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 21
+},
+{
+"id": "explore-p11-p0",
+"name": "Drift Briar Crags",
+"biome": "limestone_karst",
+"pieces": 43
+},
+{
+"id": "explore-p11-p1",
+"name": "Longshadow Drift Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p11-p2",
+"name": "Hearth Raven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p12-m6",
+"name": "Elder Windmere Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p12-m5",
+"name": "Bracken Drift Isle",
+"biome": "forest",
+"pieces": 93
+},
+{
+"id": "explore-p12-m4",
+"name": "Bracken Windmere Snowfields",
+"biome": "snow_alpine",
+"pieces": 0
+},
+{
+"id": "explore-p12-m3",
+"name": "Longshadow Stonehaven Snowfields",
+"biome": "snow_alpine",
+"pieces": 51
+},
+{
+"id": "explore-p12-m2",
+"name": "Redleaf Moss Crags",
+"biome": "limestone_karst",
+"pieces": 6
+},
+{
+"id": "explore-p12-m1",
+"name": "Amber Elder Crags",
+"biome": "limestone_karst",
+"pieces": 59
+},
+{
+"id": "explore-p12-p0",
+"name": "Silver Meadow Isle",
+"biome": "plains",
+"pieces": 296
+},
+{
+"id": "explore-p12-p1",
+"name": "Silver Whitefall Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p13-m2",
+"name": "Foxglove Briar Crags",
+"biome": "limestone_karst",
+"pieces": 7
+},
+{
+"id": "explore-p13-m1",
+"name": "Moss Dawn Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p13-p0",
+"name": "Westwind Drift Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p14-m2",
+"name": "Whitefall Foxglove Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p22-m2",
+"name": "Amber Dawn Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p23-m3",
+"name": "Elder Redleaf Meadows",
+"biome": "plains",
+"pieces": 0
+},
+{
+"id": "explore-p23-m2",
+"name": "Cloudrest Redleaf Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p23-m1",
+"name": "Whitefall Cloudrest Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p24-m4",
+"name": "Crow Stonehaven Grasslands",
+"biome": "savanna",
+"pieces": 10
+},
+{
+"id": "explore-p24-m3",
+"name": "Dawn Crow Meadows",
+"biome": "plains",
+"pieces": 39
+},
+{
+"id": "explore-p24-m2",
+"name": "Redleaf Briar Fen",
+"biome": "cypress_swamp",
+"pieces": 0
+},
+{
+"id": "explore-p24-m1",
+"name": "Silver Elder Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p25-m5",
+"name": "Windmere Silver Woods",
+"biome": "forest",
+"pieces": 174
+},
+{
+"id": "explore-p25-m4",
+"name": "Bracken Westwind Meadows",
+"biome": "plains",
+"pieces": 230
+},
+{
+"id": "explore-p25-m3",
+"name": "Hollowmere Alder Meadows",
+"biome": "plains",
+"pieces": 0
+},
+{
+"id": "explore-p25-m2",
+"name": "Drift Elder Fen",
+"biome": "cypress_swamp",
+"pieces": 137
+},
+{
+"id": "explore-p25-m1",
+"name": "Cloudrest Dawn Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p26-m9",
+"name": "Dawn Elder Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p26-m8",
+"name": "Cloudrest Hollowmere Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p26-m7",
+"name": "Foxglove Sunward Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p26-m6",
+"name": "Drift Sunward Heights",
+"biome": "highlands",
+"pieces": 159
+},
+{
+"id": "explore-p26-m5",
+"name": "Silver Hearth Heights",
+"biome": "highlands",
+"pieces": 61
+},
+{
+"id": "explore-p26-m4",
+"name": "Raven Stonehaven Crags",
+"biome": "limestone_karst",
+"pieces": 328
+},
+{
+"id": "explore-p26-m3",
+"name": "Silver Longshadow Crags",
+"biome": "limestone_karst",
+"pieces": 192
+},
+{
+"id": "explore-p26-m2",
+"name": "Alder Westwind Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p27-m10",
+"name": "Whitefall Moss Woods",
+"biome": "forest",
+"pieces": 35
+},
+{
+"id": "explore-p27-m9",
+"name": "Amber Briar Woods",
+"biome": "forest",
+"pieces": 1
+},
+{
+"id": "explore-p27-m8",
+"name": "Longshadow Alder Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p27-m7",
+"name": "Westwind Foxglove Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p27-m6",
+"name": "Bracken Raven Heights",
+"biome": "highlands",
+"pieces": 2
+},
+{
+"id": "explore-p27-m5",
+"name": "Bracken Stonehaven Heights",
+"biome": "highlands",
+"pieces": 119
+},
+{
+"id": "explore-p27-m4",
+"name": "Bracken Moss Crags",
+"biome": "limestone_karst",
+"pieces": 367
+},
+{
+"id": "explore-p27-m3",
+"name": "Sunward Clover Isle",
+"biome": "plains",
+"pieces": 852
+},
+{
+"id": "explore-p27-m2",
+"name": "Westwind Moss Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p28-m10",
+"name": "Whitefall Dawn Woods",
+"biome": "forest",
+"pieces": 341
+},
+{
+"id": "explore-p28-m9",
+"name": "Crow Moss Woods",
+"biome": "forest",
+"pieces": 201
+},
+{
+"id": "explore-p28-m8",
+"name": "Alder Moss Isle",
+"biome": "forest",
+"pieces": 291
+},
+{
+"id": "explore-p28-m7",
+"name": "Drift Redleaf Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p28-m6",
+"name": "Bracken Alder Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p28-m5",
+"name": "Amber Longshadow Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p28-m4",
+"name": "Elder Bracken Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p28-m3",
+"name": "Stonehaven Longshadow Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p29-m11",
+"name": "Westwind Hollowmere Heights",
+"biome": "highlands",
+"pieces": 2
+},
+{
+"id": "explore-p29-m10",
+"name": "Hearth Longshadow Woods",
+"biome": "forest",
+"pieces": 38
+},
+{
+"id": "explore-p29-m9",
+"name": "Briar Alder Meadows",
+"biome": "plains",
+"pieces": 157
+},
+{
+"id": "explore-p29-m8",
+"name": "Hearth Cloudrest Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p29-m7",
+"name": "Longshadow Sunward Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p30-m13",
+"name": "Dawn Bracken Snowfields",
+"biome": "snow_alpine",
+"pieces": 19
+},
+{
+"id": "explore-p30-m12",
+"name": "Crow Dawn Heights",
+"biome": "highlands",
+"pieces": 108
+},
+{
+"id": "explore-p30-m11",
+"name": "Longshadow Redleaf Heights",
+"biome": "highlands",
+"pieces": 1747
+},
+{
+"id": "explore-p30-m10",
+"name": "Sunward Silver Meadows",
+"biome": "plains",
+"pieces": 40
+},
+{
+"id": "explore-p30-m9",
+"name": "Sunward Longshadow Grasslands",
+"biome": "savanna",
+"pieces": 184
+},
+{
+"id": "explore-p30-m8",
+"name": "Silver Briar Groves",
+"biome": "bamboo_forest",
+"pieces": 0
+},
+{
+"id": "explore-p30-m7",
+"name": "Sunward Redleaf Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p31-m15",
+"name": "Windmere Alder Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p31-m14",
+"name": "Briar Redleaf Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 0
+},
+{
+"id": "explore-p31-m13",
+"name": "Cloudrest Whitefall Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 19
+},
+{
+"id": "explore-p31-m12",
+"name": "Windmere Crow Crags",
+"biome": "limestone_karst",
+"pieces": 4
+},
+{
+"id": "explore-p31-m11",
+"name": "Alder Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 44
+},
+{
+"id": "explore-p31-m10",
+"name": "Sunward Bracken Meadows",
+"biome": "plains",
+"pieces": 150
+},
+{
+"id": "explore-p31-m9",
+"name": "Foxglove Crow Groves",
+"biome": "bamboo_forest",
+"pieces": 141
+},
+{
+"id": "explore-p31-m8",
+"name": "Amber Alder Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p32-m15",
+"name": "Silver Foxglove Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p32-m14",
+"name": "Alder Briar Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 0
+},
+{
+"id": "explore-p32-m13",
+"name": "Elder Westwind Crags",
+"biome": "limestone_karst",
+"pieces": 39
+},
+{
+"id": "explore-p32-m12",
+"name": "Bracken Elder Crags",
+"biome": "limestone_karst",
+"pieces": 157
+},
+{
+"id": "explore-p32-m11",
+"name": "Bracken Hollowmere Crags",
+"biome": "limestone_karst",
+"pieces": 19
+},
+{
+"id": "explore-p32-m10",
+"name": "Whitefall Westwind Fen",
+"biome": "cypress_swamp",
+"pieces": 30
+},
+{
+"id": "explore-p32-m9",
+"name": "Dawn Amber Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p33-m15",
+"name": "Amber Silver Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p33-m14",
+"name": "Longshadow Briar Ashlands",
+"biome": "volcanic_wastes",
+"pieces": 0
+},
+{
+"id": "explore-p33-m13",
+"name": "Alder Foxglove Crags",
+"biome": "limestone_karst",
+"pieces": 0
+},
+{
+"id": "explore-p33-m12",
+"name": "Windmere Longshadow Crags",
+"biome": "limestone_karst",
+"pieces": 104
+},
+{
+"id": "explore-p33-m11",
+"name": "Sunward Moss Fen",
+"biome": "cypress_swamp",
+"pieces": 0
+},
+{
+"id": "explore-p33-m10",
+"name": "Whitefall Raven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p33-m9",
+"name": "Stonehaven Briar Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p34-m15",
+"name": "Redleaf Whitefall Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p34-m14",
+"name": "Hollowmere Sunward Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p34-m13",
+"name": "Redleaf Westwind Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p34-m12",
+"name": "Hollowmere Whitefall Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p34-m11",
+"name": "Amber Briar Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p34-m10",
+"name": "Moss Raven Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p35-m14",
+"name": "Westwind Briar Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p35-m13",
+"name": "Hearth Cloudrest Sea",
+"biome": "ocean",
+"pieces": 0
+},
+{
+"id": "explore-p25-m9",
+"name": "Moss Hollowmere Sea",
+"biome": "ocean",
+"pieces": 0
+}
+]
+}

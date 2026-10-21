@@ -1,0 +1,129 @@
+{
+  "voice": {
+    "lufs": -30.2,
+    "true_peak": -8.7,
+    "rms_db": -33.42,
+    "peak_db": -8.73
+  },
+  "game": {
+    "lufs": -47.1,
+    "true_peak": -22.5,
+    "rms_db": -55.48,
+    "peak_db": -22.48
+  },
+  "music": {
+    "lufs": -45.6,
+    "true_peak": -33.2,
+    "rms_db": -48.09,
+    "peak_db": -33.2
+  },
+  "master": {
+    "lufs": -14.1,
+    "true_peak": -1.5,
+    "rms_db": -17.16,
+    "peak_db": -1.51
+  },
+  "shots": [
+    {
+      "shot": "Last week",
+      "game_rms_db": -52.87,
+      "game_under_voice_db": 24.3,
+      "game_peak_vs_voice_peak_db": -12.4
+    },
+    {
+      "shot": "And [now]",
+      "game_rms_db": -49.99,
+      "game_under_voice_db": 14.2,
+      "game_peak_vs_voice_peak_db": -7.0
+    },
+    {
+      "shot": "It's not the",
+      "game_rms_db": -59.03,
+      "game_under_voice_db": 36.6,
+      "game_peak_vs_voice_peak_db": -10.6
+    },
+    {
+      "shot": "All across the",
+      "game_rms_db": -48.14,
+      "game_under_voice_db": 15.7,
+      "game_peak_vs_voice_peak_db": -20.5
+    },
+    {
+      "shot": "[world,] new ones",
+      "game_rms_db": -56.96,
+      "game_under_voice_db": 23.1,
+      "game_peak_vs_voice_peak_db": -19.5
+    },
+    {
+      "shot": "[springing] up.",
+      "game_rms_db": -88.41,
+      "game_under_voice_db": 46.3,
+      "game_peak_vs_voice_peak_db": -54.0
+    },
+    {
+      "shot": "People have been",
+      "game_rms_db": -48.42,
+      "game_under_voice_db": 15.6,
+      "game_peak_vs_voice_peak_db": -19.1
+    },
+    {
+      "shot": "selling plots and",
+      "game_rms_db": -66.89,
+      "game_under_voice_db": 33.4,
+      "game_peak_vs_voice_peak_db": -29.2
+    },
+    {
+      "shot": "and running their",
+      "game_rms_db": -49.51,
+      "game_under_voice_db": 19.0,
+      "game_peak_vs_voice_peak_db": -12.4
+    },
+    {
+      "shot": "and even kingdoms.",
+      "game_rms_db": -49.26,
+      "game_under_voice_db": 24.8,
+      "game_peak_vs_voice_peak_db": -12.2
+    },
+    {
+      "shot": "And some are",
+      "game_rms_db": -55.04,
+      "game_under_voice_db": 26.3,
+      "game_peak_vs_voice_peak_db": -23.1
+    },
+    {
+      "shot": "[religions.]",
+      "game_rms_db": -56.95,
+      "game_under_voice_db": 21.1,
+      "game_peak_vs_voice_peak_db": -15.0
+    },
+    {
+      "shot": "This totally caught",
+      "game_rms_db": -55.23,
+      "game_under_voice_db": 21.7,
+      "game_peak_vs_voice_peak_db": -6.3
+    },
+    {
+      "shot": "and I've been",
+      "game_rms_db": -54.62,
+      "game_under_voice_db": 20.3,
+      "game_peak_vs_voice_peak_db": -9.3
+    },
+    {
+      "shot": "to handle all",
+      "game_rms_db": -52.53,
+      "game_under_voice_db": 14.3,
+      "game_peak_vs_voice_peak_db": -5.0
+    },
+    {
+      "shot": "I asked what",
+      "game_rms_db": -62.92,
+      "game_under_voice_db": 34.9,
+      "game_peak_vs_voice_peak_db": -17.5
+    }
+  ],
+  "music_rms_per_0.4s": {
+    "min": -62.93,
+    "max": -44.95,
+    "first": -46.42
+  }
+}

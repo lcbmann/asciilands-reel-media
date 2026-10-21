@@ -1,0 +1,142 @@
+[
+  {
+    "shot": "Last week",
+    "mode": "live",
+    "source": [
+      6.0,
+      8.7333
+    ],
+    "measured_lufs": -50.84,
+    "gain_db": 6.71
+  },
+  {
+    "shot": "And [now]",
+    "mode": "live",
+    "source": [
+      19.0,
+      20.7667
+    ],
+    "measured_lufs": -49.9,
+    "gain_db": 5.77
+  },
+  {
+    "shot": "All across the",
+    "mode": "live",
+    "source": [
+      7.2,
+      7.7667
+    ],
+    "measured_lufs": -43.27,
+    "gain_db": -0.86
+  },
+  {
+    "shot": "[world,] new ones",
+    "mode": "live",
+    "source": [
+      31.5,
+      32.3
+    ],
+    "measured_rms_db": -98.73,
+    "gain_db": 20.0
+  },
+  {
+    "shot": "[springing] up.",
+    "mode": "live",
+    "source": [
+      6.1,
+      6.9333
+    ],
+    "measured_rms_db": -104.84,
+    "gain_db": 20.0
+  },
+  {
+    "shot": "It's been a",
+    "mode": "live",
+    "source": [
+      36.5,
+      37.6
+    ]
+  },
+  {
+    "shot": "People have been",
+    "mode": "live",
+    "source": [
+      13.0,
+      14.6667
+    ],
+    "measured_lufs": -63.56,
+    "gain_db": 19.43
+  },
+  {
+    "shot": "and running their",
+    "mode": "live",
+    "source": [
+      48.0,
+      49.0333
+    ],
+    "measured_lufs": -46.46,
+    "gain_db": 2.33
+  },
+  {
+    "shot": "and even kingdoms.",
+    "mode": "live",
+    "source": [
+      8.0,
+      9.1333
+    ],
+    "measured_lufs": -56.65,
+    "gain_db": 12.52
+  },
+  {
+    "shot": "And some are",
+    "mode": "live",
+    "source": [
+      8.3,
+      9.7667
+    ],
+    "measured_rms_db": -73.41,
+    "gain_db": 20.0
+  },
+  {
+    "shot": "This totally caught",
+    "mode": "live",
+    "source": [
+      3.0,
+      4.6333
+    ],
+    "measured_lufs": -52.38,
+    "gain_db": 8.25
+  },
+  {
+    "shot": "and I've been",
+    "mode": "live",
+    "source": [
+      16.0,
+      18.7
+    ],
+    "measured_lufs": -46.46,
+    "gain_db": 2.33
+  },
+  {
+    "shot": "to handle all",
+    "mode": "live",
+    "source": [
+      26.0,
+      27.5
+    ],
+    "measured_lufs": -48.58,
+    "gain_db": 4.45
+  },
+  {
+    "shot": "[along.]",
+    "mode": "clicks",
+    "placed_output": []
+  },
+  {
+    "music_lift": {
+      "picture_cut": 24.933,
+      "music_switch": 24.857,
+      "offset": -0.076
+    }
+  }
+]
