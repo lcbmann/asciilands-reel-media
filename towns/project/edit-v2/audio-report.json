@@ -1,0 +1,28 @@
+{
+  "before": {
+    "input_i": -30.29,
+    "input_tp": -8.69,
+    "input_lra": 5.5,
+    "input_thresh": -41.07,
+    "output_i": -14.7,
+    "output_tp": -1.0,
+    "output_lra": 3.2,
+    "output_thresh": -25.18,
+    "normalization_type": "dynamic",
+    "target_offset": 0.7
+  },
+  "fixed_gain_db": 16.83,
+  "master": {
+    "input_i": -14.11,
+    "input_tp": -1.51,
+    "input_lra": 4.3,
+    "input_thresh": -24.87,
+    "output_i": -13.97,
+    "output_tp": -1.0,
+    "output_lra": 3.2,
+    "output_thresh": -24.46,
+    "normalization_type": "dynamic",
+    "target_offset": -0.03
+  },
+  "voice_lufs": -33.17
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "shot": "Last week",
+    "mode": "steps",
+    "source": [
+      6.0,
+      8.7333
+    ],
+    "measured_lufs": -50.66,
+    "gain_db": -4.51
+  },
+  {
+    "shot": "And [now]",
+    "mode": "steps",
+    "source": [
+      51.55,
+      53.3167
+    ],
+    "measured_rms_db": -82.84,
+    "gain_db": 8.0
+  },
+  {
+    "shot": "new ones have",
+    "mode": "steps",
+    "source": [
+      31.5,
+      33.9667
+    ],
+    "measured_rms_db": -117.47,
+    "gain_db": 8.0
+  },
+  {
+    "shot": "People have been",
+    "mode": "steps",
+    "source": [
+      12.4,
+      14.0667
+    ]
+  },
+  {
+    "shot": "and running their",
+    "mode": "steps",
+    "source": [
+      47.2,
+      48.2333
+    ],
+    "measured_lufs": -46.69,
+    "gain_db": -8.48
+  },
+  {
+    "shot": "and even kingdoms.",
+    "mode": "steps",
+    "source": [
+      8.0,
+      9.1333
+    ],
+    "measured_lufs": -60.33,
+    "gain_db": 5.16
+  },
+  {
+    "shot": "This totally caught",
+    "mode": "steps",
+    "source": [
+      3.0,
+      8.9
+    ],
+    "measured_lufs": -49.37,
+    "gain_db": -5.8
+  },
+  {
+    "music": {
+      "gain_db": -32.06,
+      "line7_cut": 25.3,
+      "beats_from_start": 59.033
+    }
+  }
+]

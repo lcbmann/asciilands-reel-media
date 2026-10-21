@@ -11,7 +11,8 @@ import csv, json, subprocess
 R = Path(__file__).resolve().parent
 LIB = R.parent.parent / 'smithing/library'
 V = R.parent / 'media/video'
-TAG = 'towns-v1'
+import sys
+TAG = sys.argv[1] if len(sys.argv) > 1 else 'towns-v1'
 PROV = 'Claude frame/audio review 2026-10-21 (verified select)'
 OWNER = 'Owner timestamp notes 2026-10-21'
 
@@ -86,7 +87,7 @@ def probe(p):
 
 
 def used_ranges():
-    tl = json.loads((R / 'edit-v1/timeline.json').read_text())
+    tl = json.loads((R / f"edit-{TAG.split('-')[-1]}/timeline.json").read_text())
     out = {}
     for s in tl:
         for sp in s['srcs']:
@@ -116,7 +117,9 @@ def main():
             if (a, b, desc) not in have:
                 rec['selects'].append(dict(start=a, end=b, description=desc, provenance=prov))
         rec.setdefault('used_in', {})[TAG] = used.get(name, [])
-    for name in ('yorkarrival', 'orbitdesertmeteor'):
+    NEW_ONLY = TAG == 'towns-v1'
+    for name in ('yorkarrival', 'orbitdesertmeteor', 'york1', 'york4', 'world zoom', 'fortredleaf', 'asterisk',
+                 'plotforsale', 'driftwoodmarket', 'nordheim', 'aphelionorbit', 'awesomesmithing', 'raft'):
         rec = by_path.get(f'C:\\Users\\liamb\\Videos\\{name}.mkv')
         if rec is not None:
             rec.setdefault('used_in', {})[TAG] = used.get(name, [])

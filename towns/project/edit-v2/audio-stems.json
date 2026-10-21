@@ -1,0 +1,87 @@
+{
+  "voice": {
+    "lufs": -30.2,
+    "true_peak": -8.7,
+    "rms_db": -33.46,
+    "peak_db": -8.73
+  },
+  "game": {
+    "lufs": -57.4,
+    "true_peak": -33.5,
+    "rms_db": -69.24,
+    "peak_db": -33.55
+  },
+  "music": {
+    "lufs": -50.3,
+    "true_peak": -38.5,
+    "rms_db": -52.65,
+    "peak_db": -38.53
+  },
+  "master": {
+    "lufs": -14.1,
+    "true_peak": -1.5,
+    "rms_db": -17.29,
+    "peak_db": -1.51
+  },
+  "shots": [
+    {
+      "shot": "Last week",
+      "game_rms_db": -64.1,
+      "game_under_voice_db": 35.5,
+      "game_peak_vs_voice_peak_db": -23.6
+    },
+    {
+      "shot": "And [now]",
+      "game_rms_db": -79.86,
+      "game_under_voice_db": 43.9,
+      "game_peak_vs_voice_peak_db": -37.2
+    },
+    {
+      "shot": "It's not the",
+      "game_rms_db": -112.02,
+      "game_under_voice_db": 91.1,
+      "game_peak_vs_voice_peak_db": -65.6
+    },
+    {
+      "shot": "new ones have",
+      "game_rms_db": -112.85,
+      "game_under_voice_db": 99.9,
+      "game_peak_vs_voice_peak_db": -75.3
+    },
+    {
+      "shot": "and running their",
+      "game_rms_db": -60.4,
+      "game_under_voice_db": 29.9,
+      "game_peak_vs_voice_peak_db": -23.3
+    },
+    {
+      "shot": "and even kingdoms.",
+      "game_rms_db": -58.34,
+      "game_under_voice_db": 39.9,
+      "game_peak_vs_voice_peak_db": -20.1
+    },
+    {
+      "shot": "And some are",
+      "game_rms_db": -80.76,
+      "game_under_voice_db": 57.9,
+      "game_peak_vs_voice_peak_db": -42.4
+    },
+    {
+      "shot": "This totally caught",
+      "game_rms_db": -65.89,
+      "game_under_voice_db": 31.1,
+      "game_peak_vs_voice_peak_db": -17.3
+    },
+    {
+      "shot": "I asked what",
+      "game_rms_db": -87.17,
+      "game_under_voice_db": 54.8,
+      "game_peak_vs_voice_peak_db": -40.3
+    }
+  ],
+  "music_rms_per_0.4s": {
+    "min": -67.99,
+    "max": -50.01,
+    "first": -51.48
+  }
+}

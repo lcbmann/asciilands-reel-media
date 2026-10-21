@@ -2732,6 +2732,20 @@
       ],
       "mirrored": false
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "The player -run",
+      "source": [
+       12.0,
+       16.767
+      ],
+      "output": [
+       17.6,
+       22.366666666666667
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\orbitdesertmeteor.mkv",
@@ -3192,6 +3206,20 @@
       ],
       "mirrored": false
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "Last week",
+      "source": [
+       6.0,
+       8.733
+      ],
+      "output": [
+       0.0,
+       2.7333333333333334
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\yorkarrival.mkv",
@@ -3607,6 +3635,20 @@
       ],
       "mirrored": false
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "And [now]",
+      "source": [
+       51.55,
+       53.317
+      ],
+      "output": [
+       2.7333333333333334,
+       4.5
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\york1.mkv",
@@ -3655,7 +3697,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\york2.mkv",
    "source_available_in_bundle": false,
@@ -3709,7 +3752,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\york3.mkv",
    "source_available_in_bundle": false,
@@ -3772,6 +3816,20 @@
       "output": [
        29.266666666666666,
        30.766666666666666
+      ],
+      "mirrored": false
+     }
+    ],
+    "towns-v2": [
+     {
+      "shot": "This totally caught",
+      "source": [
+       3.0,
+       8.9
+      ],
+      "output": [
+       25.3,
+       31.2
       ],
       "mirrored": false
      }
@@ -3841,7 +3899,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\world zoom.mkv",
    "source_available_in_bundle": false,
@@ -3882,6 +3941,20 @@
       "source": [
        13.0,
        14.667
+      ],
+      "output": [
+       9.6,
+       11.266666666666667
+      ],
+      "mirrored": false
+     }
+    ],
+    "towns-v2": [
+     {
+      "shot": "People have been",
+      "source": [
+       12.4,
+       14.067
       ],
       "output": [
        9.6,
@@ -3931,6 +4004,20 @@
       ],
       "mirrored": false
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "Comment below what",
+      "source": [
+       38.0,
+       43.2
+      ],
+      "output": [
+       39.4,
+       44.6
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\aphelionorbit.mkv",
@@ -3967,7 +4054,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\wandermere.mkv",
    "source_available_in_bundle": false,
@@ -4003,7 +4091,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\northmost.mkv",
    "source_available_in_bundle": false,
@@ -4039,6 +4128,20 @@
       ],
       "mirrored": true
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "new ones have",
+      "source": [
+       31.5,
+       33.967
+      ],
+      "output": [
+       7.133333333333334,
+       9.6
+      ],
+      "mirrored": true
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\fortredleaf.mkv",
@@ -4069,6 +4172,20 @@
    ],
    "used_in": {
     "towns-v1": [
+     {
+      "shot": "and even kingdoms.",
+      "source": [
+       8.0,
+       9.133
+      ],
+      "output": [
+       14.2,
+       15.333333333333334
+      ],
+      "mirrored": false
+     }
+    ],
+    "towns-v2": [
      {
       "shot": "and even kingdoms.",
       "source": [
@@ -4129,6 +4246,20 @@
       ],
       "mirrored": false
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "and running their",
+      "source": [
+       47.2,
+       48.233
+      ],
+      "output": [
+       13.166666666666666,
+       14.2
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\driftwoodmarket.mkv",
@@ -4171,7 +4302,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\market.mkv",
    "source_available_in_bundle": false,
@@ -4207,6 +4339,20 @@
    ],
    "used_in": {
     "towns-v1": [
+     {
+      "shot": "selling plots and",
+      "source": [
+       14.3,
+       16.2
+      ],
+      "output": [
+       11.266666666666667,
+       13.166666666666666
+      ],
+      "mirrored": false
+     }
+    ],
+    "towns-v2": [
      {
       "shot": "selling plots and",
       "source": [
@@ -4285,7 +4431,8 @@
       ],
       "mirrored": false
      }
-    ]
+    ],
+    "towns-v2": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\awesomesmithing.mkv",
    "source_available_in_bundle": false,
@@ -4333,6 +4480,20 @@
       ],
       "mirrored": false
      }
+    ],
+    "towns-v2": [
+     {
+      "shot": "I've just about",
+      "source": [
+       3.0,
+       5.433
+      ],
+      "output": [
+       36.96666666666667,
+       39.4
+      ],
+      "mirrored": false
+     }
     ]
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\raft.mkv",
@@ -4357,7 +4518,8 @@
  "history": [
   "2026-10-16: smithing v2 verified selects, audio review, used_in.smithing-v2, pickup list (Claude). Nothing removed.",
   "2026-10-16: smithing v3 pickups received, new selects, rejected take, voice pickup and owner still, used_in.smithing-v3 (Claude). Nothing removed.",
-  "2026-10-21: towns-v1 recordings (16 new), verified selects and used_in.towns-v1 (Claude). Nothing removed."
+  "2026-10-21: towns-v1 recordings (16 new), verified selects and used_in.towns-v1 (Claude). Nothing removed.",
+  "2026-10-21: towns-v2 recordings (0 new), verified selects and used_in.towns-v2 (Claude). Nothing removed."
  ],
  "supplied": [
   {
