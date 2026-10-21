@@ -355,9 +355,9 @@
     "note": "Collage of player screenshots from Discord over the York crowd, which carries on from the shot before: Nordheim (Bill), Castle Northmost (Dirtmole), pyramids (Truly), Hellheim (Monsterrubberduck), York (Craeb), WE FARM (goRogue).",
     "word": 105,
     "start": 30.133333333333333,
-    "end": 32.63333333333333,
-    "duration": 2.5,
-    "frames": 75
+    "end": 32.766666666666666,
+    "duration": 2.6333,
+    "frames": 79
   },
   {
     "at": "I asked what",
@@ -381,10 +381,10 @@
     ],
     "note": "Final poll: Smithing then Exploration and Sailing lift out as they are named.",
     "word": 116,
-    "start": 32.63333333333333,
-    "end": 36.7,
-    "duration": 4.0667,
-    "frames": 122
+    "start": 32.766666666666666,
+    "end": 36.86666666666667,
+    "duration": 4.1,
+    "frames": 123
   },
   {
     "at": "[They're] already coming",
@@ -416,10 +416,10 @@
     ],
     "note": "Three new swords: Masterwork Blacksteel, Needle, Quick Dirk.",
     "word": 132,
-    "start": 36.7,
-    "end": 38.233333333333334,
-    "duration": 1.5333,
-    "frames": 46
+    "start": 36.86666666666667,
+    "end": 38.36666666666667,
+    "duration": 1.5,
+    "frames": 45
   },
   {
     "at": "I've just about",
@@ -427,12 +427,12 @@
     "t": 3.0,
     "note": "Bringing the raft up to the dock (owner select 0:03). The recording has no sound.",
     "word": 136,
-    "start": 38.233333333333334,
-    "end": 40.666666666666664,
-    "duration": 2.4333,
-    "frames": 73,
+    "start": 38.36666666666667,
+    "end": 40.833333333333336,
+    "duration": 2.4667,
+    "frames": 74,
     "speed": 1,
-    "t_out": 5.4333,
+    "t_out": 5.4667,
     "srcs": [
       {
         "v": "raft",
@@ -445,25 +445,25 @@
   },
   {
     "at": "Comment below what",
-    "v": "2026-10-21 22-37-13",
-    "t": 22.0,
+    "v": "yorkend-smooth",
+    "t": 0.1,
     "endcard": true,
     "lead": 0.15,
-    "note": "York bridge orbit under the end card (owner recording from 0:18).",
+    "note": "York bridge orbit under the end card (owner recording 22 to 28 s, smoothed to 30 fps; blurred under the card).",
     "word": 147,
-    "start": 40.666666666666664,
-    "end": 46.03333333333333,
-    "duration": 5.3667,
-    "frames": 161,
+    "start": 40.833333333333336,
+    "end": 46.166666666666664,
+    "duration": 5.3333,
+    "frames": 160,
     "speed": 1,
-    "t_out": 27.3667,
+    "t_out": 5.4333,
     "srcs": [
       {
-        "v": "2026-10-21 22-37-13",
-        "t": 22.0,
+        "v": "yorkend-smooth",
+        "t": 0.1,
         "speed": 1,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\2026-10-21 22-37-13.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\yorkend-smooth.mkv"
       }
     ]
   }

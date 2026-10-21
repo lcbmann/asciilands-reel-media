@@ -83,6 +83,7 @@ PAUSES = {
     'looks like this.': 0.60,          # a beat on York now
     'left and right.': 0.46,
     'sight to behold.': 0.60,
+    'all the new players.': 0.45,     # a touch slower into the poll
     'coming along.': 0.70,             # room for the blade designer before sailing (0.76 s as recorded)
     'guilds and religions.': 0.85,     # time to read the Cult of Akton post
 }
@@ -315,7 +316,7 @@ def load_source(spec):
 # Clean source area per recording: everything outside it (the Chrome debugging bar, tab and
 # bookmark bars on the local-build clips, the window's bottom edge) can never enter a crop.
 CLEAN_DEFAULT = (0, 100, 2560, 1406)    # below the Chrome debugging bar and the Admin tools badge
-CLEAN = {'yorkbridge-smooth': (450, 240, 2150, 1406), 'nordheim-smooth': (500, 240, 2100, 1406),
+CLEAN = {'yorkend-smooth': (0, 240, 2560, 1406), 'yorkbridge-smooth': (450, 240, 2150, 1406), 'nordheim-smooth': (500, 240, 2100, 1406),
          '2026-10-21 22-37-13': (0, 240, 2560, 1406), 'world zoom': (0, 240, 2560, 1406), 'nordheim': (0, 240, 2560, 1406), 'awesomesmithing': (0, 240, 2560, 1406), 'raft': (0, 240, 2560, 1406),
          'yorkarrival': (0, 0, 2560, 1440), 'orbitdesertmeteor': (0, 0, 2560, 1440)}
 
@@ -630,8 +631,8 @@ SHOTS = [
          look=swords_static(), note='Three new swords: Masterwork Blacksteel, Needle, Quick Dirk.'),
     dict(at="I've just about", v='raft', t=3.00, look=still_frame(1400, 800, 1180),
          note='Bringing the raft up to the dock (owner select 0:03). The recording has no sound.'),
-    dict(at='Comment below what', v=YB, t=22.00, look=still_frame(1300, 819, 1174), endcard=True, lead=0.15,
-         note='York bridge orbit under the end card (owner recording from 0:18).'),
+    dict(at='Comment below what', v='yorkend-smooth', t=0.10, look=still_frame(1300, 819, 1174), endcard=True, lead=0.15,
+         note='York bridge orbit under the end card (owner recording 22 to 28 s, smoothed to 30 fps; blurred under the card).'),
 ]
 END_TAIL = 2.5
 # Real game sound: only its transients (footsteps, barks, clicks) pass the gate; the steady wind

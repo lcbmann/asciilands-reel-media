@@ -20,6 +20,8 @@ JOBS = {
     # Light interpolation only: one generated frame between each pair of real frames.
     'yorkbridge-smooth': ('2026-10-21 22-37-13', 17.8, 6.4, 450, 240, 1700, 1166, 8),   # about 4 real fps
     'nordheim-smooth': ('nordheim', 17.3, 5.0, 500, 240, 1600, 1166, 18),               # about 9 real fps
+    # Under the end card (blur 14, 74 % ink) interpolation artefacts cannot show, so this one is full.
+    'yorkend-smooth': ('2026-10-21 22-37-13', 22.0, 6.2, 0, 240, 2560, 1166, 30),
 }
 
 

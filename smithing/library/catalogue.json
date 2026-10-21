@@ -3882,11 +3882,11 @@
       "shot": "to get the servers",
       "source": [
        6.5,
-       9.0
+       9.133
       ],
       "output": [
        30.133333333333333,
-       32.63333333333333
+       32.766666666666666
       ],
       "mirrored": false
      }
@@ -4620,11 +4620,11 @@
       "shot": "I've just about",
       "source": [
        3.0,
-       5.433
+       5.467
       ],
       "output": [
-       38.233333333333334,
-       40.666666666666664
+       38.36666666666667,
+       40.833333333333336
       ],
       "mirrored": false
      }
@@ -4663,20 +4663,7 @@
     }
    ],
    "used_in": {
-    "towns-v3": [
-     {
-      "shot": "Comment below what",
-      "source": [
-       22.0,
-       27.367
-      ],
-      "output": [
-       40.666666666666664,
-       46.03333333333333
-      ],
-      "mirrored": false
-     }
-    ]
+    "towns-v3": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-21 22-37-13.mkv",
    "source_available_in_bundle": false,

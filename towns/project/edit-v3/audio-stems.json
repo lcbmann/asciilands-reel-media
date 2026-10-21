@@ -2,17 +2,17 @@
   "voice": {
     "lufs": -30.2,
     "true_peak": -11.3,
-    "rms_db": -33.76,
+    "rms_db": -33.77,
     "peak_db": -11.27
   },
   "game": {
-    "lufs": -62.4,
+    "lufs": -62.7,
     "true_peak": -38.1,
-    "rms_db": -75.74,
+    "rms_db": -75.7,
     "peak_db": -38.14
   },
   "music": {
-    "lufs": -52.9,
+    "lufs": -53.0,
     "true_peak": -41.8,
     "rms_db": -54.82,
     "peak_db": -41.81
@@ -20,7 +20,7 @@
   "master": {
     "lufs": -14.0,
     "true_peak": -1.5,
-    "rms_db": -17.46,
+    "rms_db": -17.47,
     "peak_db": -1.51
   },
   "shots": [
@@ -56,15 +56,15 @@
     },
     {
       "shot": "to get the servers",
-      "game_rms_db": -75.15,
+      "game_rms_db": -74.58,
       "game_under_voice_db": 38.1,
-      "game_peak_vs_voice_peak_db": -28.2
+      "game_peak_vs_voice_peak_db": -26.9
     },
     {
       "shot": "I asked what",
-      "game_rms_db": -91.42,
-      "game_under_voice_db": 59.8,
-      "game_peak_vs_voice_peak_db": -39.1
+      "game_rms_db": -96.54,
+      "game_under_voice_db": 78.3,
+      "game_peak_vs_voice_peak_db": -44.3
     }
   ],
   "music_rms_per_0.4s": {

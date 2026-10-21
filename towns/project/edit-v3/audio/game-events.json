@@ -34,10 +34,10 @@
     "mode": "steps",
     "source": [
       6.5,
-      9.0
+      9.1333
     ],
-    "measured_lufs": -49.18,
-    "gain_db": -16.87
+    "measured_lufs": -49.13,
+    "gain_db": -16.92
   },
   {
     "music": {
