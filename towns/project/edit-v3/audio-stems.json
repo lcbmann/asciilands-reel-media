@@ -1,75 +1,75 @@
 {
   "voice": {
-    "lufs": -30.1,
+    "lufs": -30.2,
     "true_peak": -11.3,
-    "rms_db": -33.72,
+    "rms_db": -33.8,
     "peak_db": -11.27
   },
   "game": {
-    "lufs": -60.8,
-    "true_peak": -35.6,
-    "rms_db": -73.61,
-    "peak_db": -35.83
+    "lufs": -62.3,
+    "true_peak": -38.2,
+    "rms_db": -75.82,
+    "peak_db": -38.17
   },
   "music": {
     "lufs": -53.2,
-    "true_peak": -41.4,
+    "true_peak": -41.3,
     "rms_db": -55.49,
-    "peak_db": -41.39
+    "peak_db": -41.3
   },
   "master": {
     "lufs": -14.0,
     "true_peak": -1.5,
-    "rms_db": -17.4,
+    "rms_db": -17.5,
     "peak_db": -1.51
   },
   "shots": [
     {
       "shot": "Last week",
-      "game_rms_db": -66.79,
+      "game_rms_db": -66.84,
       "game_under_voice_db": 36.6,
       "game_peak_vs_voice_peak_db": -25.2
     },
     {
       "shot": "And [now]",
-      "game_rms_db": -106.41,
+      "game_rms_db": -107.19,
       "game_under_voice_db": 71.2,
-      "game_peak_vs_voice_peak_db": -61.9
+      "game_peak_vs_voice_peak_db": -62.0
     },
     {
       "shot": "and running their",
-      "game_rms_db": -64.58,
-      "game_under_voice_db": 33.8,
-      "game_peak_vs_voice_peak_db": -24.6
+      "game_rms_db": -63.31,
+      "game_under_voice_db": 32.4,
+      "game_peak_vs_voice_peak_db": -24.7
     },
     {
       "shot": "and even kingdoms.",
-      "game_rms_db": -71.66,
-      "game_under_voice_db": 39.0,
-      "game_peak_vs_voice_peak_db": -28.1
+      "game_rms_db": -83.43,
+      "game_under_voice_db": 50.8,
+      "game_peak_vs_voice_peak_db": -45.4
     },
     {
       "shot": "This totally caught",
-      "game_rms_db": -69.09,
-      "game_under_voice_db": 35.7,
-      "game_peak_vs_voice_peak_db": -23.6
+      "game_rms_db": -77.14,
+      "game_under_voice_db": 43.8,
+      "game_peak_vs_voice_peak_db": -31.5
     },
     {
       "shot": "to get the servers",
-      "game_rms_db": -67.41,
-      "game_under_voice_db": 30.4,
-      "game_peak_vs_voice_peak_db": -19.5
+      "game_rms_db": -75.53,
+      "game_under_voice_db": 38.5,
+      "game_peak_vs_voice_peak_db": -27.6
     },
     {
       "shot": "I asked what",
-      "game_rms_db": -84.21,
-      "game_under_voice_db": 50.3,
-      "game_peak_vs_voice_peak_db": -33.0
+      "game_rms_db": -89.56,
+      "game_under_voice_db": 55.7,
+      "game_peak_vs_voice_peak_db": -38.6
     }
   ],
   "music_rms_per_0.4s": {
-    "min": -70.85,
-    "max": -52.87,
-    "first": -54.34
+    "min": -70.9,
+    "max": -52.92,
+    "first": -54.39
   }
 }

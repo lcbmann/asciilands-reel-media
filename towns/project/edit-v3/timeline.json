@@ -29,20 +29,20 @@
     "at": "And [now]",
     "v": "2026-10-21 22-37-13",
     "t": 18.0,
-    "speed": 1.5,
+    "speed": 2.0,
     "label": "YORK",
     "note": "York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).",
     "word": 8,
     "start": 2.6333333333333333,
-    "end": 4.266666666666667,
-    "duration": 1.6333,
-    "frames": 49,
-    "t_out": 20.45,
+    "end": 4.566666666666666,
+    "duration": 1.9333,
+    "frames": 58,
+    "t_out": 21.8666,
     "srcs": [
       {
         "v": "2026-10-21 22-37-13",
         "t": 18.0,
-        "speed": 1.5,
+        "speed": 2.0,
         "flip": false,
         "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\2026-10-21 22-37-13.mkv"
       }
@@ -114,8 +114,8 @@
     ],
     "note": "One smooth zoom from the York local map to the whole island, made from the held zoom levels.",
     "word": 13,
-    "start": 4.266666666666667,
-    "end": 6.933333333333334,
+    "start": 4.566666666666666,
+    "end": 7.233333333333333,
     "duration": 2.6667,
     "frames": 80
   },
@@ -128,11 +128,11 @@
     "label": "FORT REDLEAF",
     "note": "Fort Redleaf orbit (owner select 0:31), mirrored, gatehouse centred.",
     "word": 24,
-    "start": 6.933333333333334,
-    "end": 8.766666666666667,
-    "duration": 1.8333,
-    "frames": 55,
-    "t_out": 34.2499,
+    "start": 7.233333333333333,
+    "end": 9.233333333333333,
+    "duration": 2.0,
+    "frames": 60,
+    "t_out": 34.5,
     "srcs": [
       {
         "v": "fortredleaf",
@@ -151,11 +151,11 @@
     "label": "APHELION",
     "note": "Aphelion from afar (owner select from 0:23): the town across the snow.",
     "word": 33,
-    "start": 8.766666666666667,
-    "end": 11.433333333333334,
-    "duration": 2.6667,
-    "frames": 80,
-    "t_out": 37.0001,
+    "start": 9.233333333333333,
+    "end": 12.2,
+    "duration": 2.9667,
+    "frames": 89,
+    "t_out": 37.45,
     "srcs": [
       {
         "v": "aphelionorbit",
@@ -172,8 +172,8 @@
     "t": 14.3,
     "note": "Real plot UI: For sale 50 gold, Buy for 50 gold, the plot grid. Starts after the 14.08 jump.",
     "word": 44,
-    "start": 11.433333333333334,
-    "end": 13.4,
+    "start": 12.2,
+    "end": 14.166666666666666,
     "duration": 1.9667,
     "frames": 59,
     "speed": 1,
@@ -198,12 +198,12 @@
     ],
     "note": "Driftwood market street, centred on the player walking (owner select from 0:42).",
     "word": 49,
-    "start": 13.4,
-    "end": 14.4,
-    "duration": 1.0,
-    "frames": 30,
+    "start": 14.166666666666666,
+    "end": 15.2,
+    "duration": 1.0333,
+    "frames": 31,
     "speed": 1,
-    "t_out": 48.2,
+    "t_out": 48.2333,
     "srcs": [
       {
         "v": "driftwoodmarket",
@@ -222,8 +222,8 @@
     "label": "NORDHEIM",
     "note": "Nordheim from the mountain, the walled town in view (owner select from 0:08).",
     "word": 54,
-    "start": 14.4,
-    "end": 16.566666666666666,
+    "start": 15.2,
+    "end": 17.366666666666667,
     "duration": 2.1667,
     "frames": 65,
     "t_out": 20.7501,
@@ -246,10 +246,10 @@
     ],
     "note": "Cleptomane's Cult of Akton post (owner screenshot).",
     "word": 63,
-    "start": 16.566666666666666,
-    "end": 18.233333333333334,
-    "duration": 1.6667,
-    "frames": 50
+    "start": 17.366666666666667,
+    "end": 19.0,
+    "duration": 1.6333,
+    "frames": 49
   },
   {
     "at": "The player -run",
@@ -258,8 +258,8 @@
     "speed": 1.5,
     "note": "Star iron meteor crater (library select 12 to 25).",
     "word": 66,
-    "start": 18.233333333333334,
-    "end": 22.333333333333332,
+    "start": 19.0,
+    "end": 23.1,
     "duration": 4.1,
     "frames": 123,
     "t_out": 18.15,
@@ -288,10 +288,10 @@
     ],
     "note": "Wiki market row: Star Iron, best buy order 1000g (owner screenshot).",
     "word": 78,
-    "start": 22.333333333333332,
-    "end": 26.133333333333333,
-    "duration": 3.8,
-    "frames": 114
+    "start": 23.1,
+    "end": 27.0,
+    "duration": 3.9,
+    "frames": 117
   },
   {
     "at": "This totally caught",
@@ -299,16 +299,17 @@
     "t": 3.0,
     "label": "YORK",
     "sound": [
-      "steps"
+      "steps",
+      8.0
     ],
     "note": "Walking through York full of players (owner select 0:03).",
     "word": 90,
-    "start": 26.133333333333333,
-    "end": 29.7,
-    "duration": 3.5667,
-    "frames": 107,
+    "start": 27.0,
+    "end": 30.533333333333335,
+    "duration": 3.5333,
+    "frames": 106,
     "speed": 1,
-    "t_out": 6.5667,
+    "t_out": 6.5333,
     "srcs": [
       {
         "v": "york4",
@@ -325,16 +326,17 @@
     "t": 26.0,
     "label": "YORK",
     "sound": [
-      "steps"
+      "steps",
+      8.0
     ],
     "note": "Another player crosses in front (owner select 0:26 to 0:31).",
     "word": 105,
-    "start": 29.7,
-    "end": 32.166666666666664,
-    "duration": 2.4667,
-    "frames": 74,
+    "start": 30.533333333333335,
+    "end": 33.03333333333333,
+    "duration": 2.5,
+    "frames": 75,
     "speed": 1,
-    "t_out": 28.4667,
+    "t_out": 28.5,
     "srcs": [
       {
         "v": "york4",
@@ -367,10 +369,10 @@
     ],
     "note": "Final poll: Smithing then Exploration and Sailing lift out as they are named.",
     "word": 116,
-    "start": 32.166666666666664,
-    "end": 36.266666666666666,
-    "duration": 4.1,
-    "frames": 123
+    "start": 33.03333333333333,
+    "end": 37.1,
+    "duration": 4.0667,
+    "frames": 122
   },
   {
     "at": "[They're] already coming",
@@ -402,10 +404,10 @@
     ],
     "note": "Three new swords: Masterwork Blacksteel, Needle, Quick Dirk.",
     "word": 132,
-    "start": 36.266666666666666,
-    "end": 37.766666666666666,
-    "duration": 1.5,
-    "frames": 45
+    "start": 37.1,
+    "end": 38.63333333333333,
+    "duration": 1.5333,
+    "frames": 46
   },
   {
     "at": "I've just about",
@@ -413,12 +415,12 @@
     "t": 3.0,
     "note": "Bringing the raft up to the dock (owner select 0:03). The recording has no sound.",
     "word": 136,
-    "start": 37.766666666666666,
-    "end": 40.233333333333334,
-    "duration": 2.4667,
-    "frames": 74,
+    "start": 38.63333333333333,
+    "end": 41.06666666666667,
+    "duration": 2.4333,
+    "frames": 73,
     "speed": 1,
-    "t_out": 5.4667,
+    "t_out": 5.4333,
     "srcs": [
       {
         "v": "raft",
@@ -437,12 +439,12 @@
     "lead": 0.15,
     "note": "Fort Redleaf orbit under the end card (owner select from 0:31), unmirrored.",
     "word": 147,
-    "start": 40.233333333333334,
-    "end": 45.56666666666667,
-    "duration": 5.3333,
-    "frames": 160,
+    "start": 41.06666666666667,
+    "end": 46.43333333333333,
+    "duration": 5.3667,
+    "frames": 161,
     "speed": 1,
-    "t_out": 41.8333,
+    "t_out": 41.8667,
     "srcs": [
       {
         "v": "fortredleaf",

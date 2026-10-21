@@ -2755,8 +2755,8 @@
        18.15
       ],
       "output": [
-       18.233333333333334,
-       22.333333333333332
+       19.0,
+       23.1
       ],
       "mirrored": false
      }
@@ -3870,11 +3870,11 @@
       "shot": "This totally caught",
       "source": [
        3.0,
-       6.567
+       6.533
       ],
       "output": [
-       26.133333333333333,
-       29.7
+       27.0,
+       30.533333333333335
       ],
       "mirrored": false
      },
@@ -3882,11 +3882,11 @@
       "shot": "to get the servers",
       "source": [
        26.0,
-       28.467
+       28.5
       ],
       "output": [
-       29.7,
-       32.166666666666664
+       30.533333333333335,
+       33.03333333333333
       ],
       "mirrored": false
      }
@@ -4083,11 +4083,11 @@
       "shot": "It's been a",
       "source": [
        33.0,
-       37.0
+       37.45
       ],
       "output": [
-       8.766666666666667,
-       11.433333333333334
+       9.233333333333333,
+       12.2
       ],
       "mirrored": false
      }
@@ -4223,11 +4223,11 @@
       "shot": "new ones have",
       "source": [
        31.5,
-       34.25
+       34.5
       ],
       "output": [
-       6.933333333333334,
-       8.766666666666667
+       7.233333333333333,
+       9.233333333333333
       ],
       "mirrored": true
      },
@@ -4235,11 +4235,11 @@
       "shot": "Comment below what",
       "source": [
        36.5,
-       41.833
+       41.867
       ],
       "output": [
-       40.233333333333334,
-       45.56666666666667
+       41.06666666666667,
+       46.43333333333333
       ],
       "mirrored": false
      }
@@ -4308,8 +4308,8 @@
        20.75
       ],
       "output": [
-       14.4,
-       16.566666666666666
+       15.2,
+       17.366666666666667
       ],
       "mirrored": false
      }
@@ -4381,11 +4381,11 @@
       "shot": "and running their",
       "source": [
        47.2,
-       48.2
+       48.233
       ],
       "output": [
-       13.4,
-       14.4
+       14.166666666666666,
+       15.2
       ],
       "mirrored": false
      }
@@ -4504,8 +4504,8 @@
        16.267
       ],
       "output": [
-       11.433333333333334,
-       13.4
+       12.2,
+       14.166666666666666
       ],
       "mirrored": false
      }
@@ -4645,11 +4645,11 @@
       "shot": "I've just about",
       "source": [
        3.0,
-       5.467
+       5.433
       ],
       "output": [
-       37.766666666666666,
-       40.233333333333334
+       38.63333333333333,
+       41.06666666666667
       ],
       "mirrored": false
      }
@@ -4693,11 +4693,11 @@
       "shot": "And [now]",
       "source": [
        18.0,
-       20.45
+       21.867
       ],
       "output": [
        2.6333333333333333,
-       4.266666666666667
+       4.566666666666666
       ],
       "mirrored": false
      }
@@ -4727,7 +4727,8 @@
   "2026-10-16: smithing v3 pickups received, new selects, rejected take, voice pickup and owner still, used_in.smithing-v3 (Claude). Nothing removed.",
   "2026-10-21: towns-v1 recordings (16 new), verified selects and used_in.towns-v1 (Claude). Nothing removed.",
   "2026-10-21: towns-v2 recordings (0 new), verified selects and used_in.towns-v2 (Claude). Nothing removed.",
-  "2026-10-21: towns-v3 recordings (1 new), verified selects and used_in.towns-v3 (Claude). Nothing removed."
+  "2026-10-21: towns-v3 recordings (1 new), verified selects and used_in.towns-v3 (Claude). Nothing removed.",
+  "2026-10-21: towns-v3 recordings (0 new), verified selects and used_in.towns-v3 (Claude). Nothing removed."
  ],
  "supplied": [
   {

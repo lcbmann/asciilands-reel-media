@@ -7,43 +7,43 @@
       8.6333
     ],
     "measured_lufs": -50.62,
-    "gain_db": -7.41
+    "gain_db": -7.46
   },
   {
     "shot": "and running their",
     "mode": "steps",
     "source": [
       47.2,
-      48.2
+      48.2333
     ],
-    "measured_lufs": -46.75,
-    "gain_db": -11.28
+    "measured_lufs": -46.69,
+    "gain_db": -11.39
   },
   {
     "shot": "This totally caught",
     "mode": "steps",
     "source": [
       3.0,
-      6.5667
+      6.5333000000000006
     ],
-    "measured_lufs": -50.48,
-    "gain_db": -7.55
+    "measured_lufs": -50.65,
+    "gain_db": -15.43
   },
   {
     "shot": "to get the servers",
     "mode": "steps",
     "source": [
       26.0,
-      28.4667
+      28.5
     ],
-    "measured_lufs": -49.81,
-    "gain_db": -8.22
+    "measured_lufs": -49.74,
+    "gain_db": -16.34
   },
   {
     "music": {
-      "gain_db": -34.92,
-      "line7_cut": 26.133,
-      "beats_from_start": 60.978
+      "gain_db": -34.97,
+      "line7_cut": 27.0,
+      "beats_from_start": 63.0
     }
   }
 ]

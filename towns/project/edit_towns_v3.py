@@ -77,6 +77,9 @@ WORD_FIXES = [(('exploration', '1', 'that', 'are'), ['exploration', 'won.', "The
               (('the', 'game', 'and', 'improvements'), ['the', 'game,', 'and', 'improvements'])]
 PAUSE_DEFAULT = {'.': 0.30, '?': 0.32, '!': 0.30, ',': 0.20, '': 0.16}
 PAUSES = {
+    'looks like this.': 0.60,          # a beat on York now
+    'left and right.': 0.46,
+    'sight to behold.': 0.60,
     'coming along.': 0.70,             # room for the blade designer before sailing (0.76 s as recorded)
     'guilds and religions.': 0.85,     # time to read the Cult of Akton post
 }
@@ -301,8 +304,8 @@ def load_source(spec):
 
 # Clean source area per recording: everything outside it (the Chrome debugging bar, tab and
 # bookmark bars on the local-build clips, the window's bottom edge) can never enter a crop.
-CLEAN_DEFAULT = (0, 64, 2560, 1406)
-CLEAN = {'2026-10-21 22-37-13': (0, 232, 2560, 1406), 'world zoom': (0, 232, 2560, 1406), 'nordheim': (0, 212, 2560, 1406), 'awesomesmithing': (0, 212, 2560, 1406), 'raft': (0, 212, 2560, 1406),
+CLEAN_DEFAULT = (0, 100, 2560, 1406)    # below the Chrome debugging bar and the Admin tools badge
+CLEAN = {'2026-10-21 22-37-13': (0, 240, 2560, 1406), 'world zoom': (0, 240, 2560, 1406), 'nordheim': (0, 240, 2560, 1406), 'awesomesmithing': (0, 240, 2560, 1406), 'raft': (0, 240, 2560, 1406),
          'yorkarrival': (0, 0, 2560, 1440), 'orbitdesertmeteor': (0, 0, 2560, 1440)}
 
 
@@ -547,7 +550,7 @@ ORBIT = 1.5                     # orbits play faster: smoother motion, more ener
 SHOTS = [
     dict(at='Last week', v='yorkarrival', t=6.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps',),
          note='York last week. Walk from behind starts 6.00. The turn ends 5.93.'),
-    dict(at='And [now]', v=YB, t=18.00, speed=ORBIT, look=still_frame(1300, 819, 1174), label='YORK',
+    dict(at='And [now]', v=YB, t=18.00, speed=2.0, look=still_frame(1300, 819, 1174), label='YORK',
          note='York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).'),
     dict(at="It's not the", srcs=MAP_SRCS, look=map_zoom(),
          note='One smooth zoom from the York local map to the whole island, made from the held zoom levels.'),
@@ -567,9 +570,9 @@ SHOTS = [
          note='Star iron meteor crater (library select 12 to 25).'),
     dict(at="There's so little", srcs=[dict(frame=('orbitdesertmeteor', 13.5)), dict(still='wiki')],
          look=star_iron_order(), note='Wiki market row: Star Iron, best buy order 1000g (owner screenshot).'),
-    dict(at='This totally caught', v='york4', t=3.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps',),
+    dict(at='This totally caught', v='york4', t=3.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps', 8.0),
          note='Walking through York full of players (owner select 0:03).'),
-    dict(at='to get the servers', v='york4', t=26.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps',),
+    dict(at='to get the servers', v='york4', t=26.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps', 8.0),
          note='Another player crosses in front (owner select 0:26 to 0:31).'),
     dict(at='I asked what', srcs=[dict(still='poll'), dict(still='poll', rows=['smithing']),
                                   dict(still='poll', rows=['smithing', 'exploration'])],
@@ -1174,12 +1177,12 @@ def mix(tl, total, words):
             continue
         level = lufs_of(part[a0:a1, 0])
         if np.isfinite(level) and level > -70:
-            g = voice_lufs - GAME_UNDER_VOICE[snd[0]] - level
+            g = voice_lufs - GAME_UNDER_VOICE[snd[0]] - (snd[1] if snd[0] == 'steps' and len(snd) > 1 else 0) - level
             events[-1].update(measured_lufs=round(level, 2))
         else:
             # Too short or quiet for gated loudness: calibrate on RMS against the voice's RMS instead.
             rms = 20 * np.log10(np.sqrt((part[a0:a1] ** 2).mean()) + 1e-12)
-            g = voice_rms - GAME_UNDER_VOICE[snd[0]] - rms
+            g = voice_rms - GAME_UNDER_VOICE[snd[0]] - (snd[1] if snd[0] == 'steps' and len(snd) > 1 else 0) - rms
             events[-1].update(measured_rms_db=round(float(rms), 2))
         g = min(g, GAME_MAX_GAIN_DB)
         events[-1].update(gain_db=round(float(g), 2))
