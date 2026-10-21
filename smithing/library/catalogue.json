@@ -3870,11 +3870,11 @@
       "shot": "This totally caught",
       "source": [
        3.0,
-       6.533
+       6.5
       ],
       "output": [
-       27.0,
-       30.533333333333335
+       26.633333333333333,
+       30.133333333333333
       ],
       "mirrored": false
      },
@@ -3885,8 +3885,8 @@
        28.5
       ],
       "output": [
-       30.533333333333335,
-       33.03333333333333
+       30.133333333333333,
+       32.63333333333333
       ],
       "mirrored": false
      }
@@ -4078,20 +4078,7 @@
       "mirrored": false
      }
     ],
-    "towns-v3": [
-     {
-      "shot": "It's been a",
-      "source": [
-       33.0,
-       37.45
-      ],
-      "output": [
-       9.233333333333333,
-       12.2
-      ],
-      "mirrored": false
-     }
-    ]
+    "towns-v3": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\aphelionorbit.mkv",
    "source_available_in_bundle": false,
@@ -4218,32 +4205,7 @@
       "mirrored": true
      }
     ],
-    "towns-v3": [
-     {
-      "shot": "new ones have",
-      "source": [
-       31.5,
-       34.5
-      ],
-      "output": [
-       7.233333333333333,
-       9.233333333333333
-      ],
-      "mirrored": true
-     },
-     {
-      "shot": "Comment below what",
-      "source": [
-       36.5,
-       41.867
-      ],
-      "output": [
-       41.06666666666667,
-       46.43333333333333
-      ],
-      "mirrored": false
-     }
-    ]
+    "towns-v3": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\fortredleaf.mkv",
    "source_available_in_bundle": false,
@@ -4300,20 +4262,7 @@
       "mirrored": false
      }
     ],
-    "towns-v3": [
-     {
-      "shot": "and even kingdoms.",
-      "source": [
-       17.5,
-       20.75
-      ],
-      "output": [
-       15.2,
-       17.366666666666667
-      ],
-      "mirrored": false
-     }
-    ]
+    "towns-v3": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\nordheim.mkv",
    "source_available_in_bundle": false,
@@ -4648,8 +4597,8 @@
        5.433
       ],
       "output": [
-       38.63333333333333,
-       41.06666666666667
+       38.233333333333334,
+       40.666666666666664
       ],
       "mirrored": false
      }
@@ -4688,20 +4637,7 @@
     }
    ],
    "used_in": {
-    "towns-v3": [
-     {
-      "shot": "And [now]",
-      "source": [
-       18.0,
-       21.867
-      ],
-      "output": [
-       2.6333333333333333,
-       4.566666666666666
-      ],
-      "mirrored": false
-     }
-    ]
+    "towns-v3": []
    },
    "original_windows_path": "C:\\Users\\liamb\\Videos\\2026-10-21 22-37-13.mkv",
    "source_available_in_bundle": false,
@@ -4772,6 +4708,12 @@
    "path": "towns/media/audio/followup2.wav",
    "kind": "voice",
    "description": "They built this narration, second take (2026-10-21), 50.9 s. Adds \"left and right\". Used from towns-v3."
+  },
+  {
+   "file": "derived orbits",
+   "path": "towns/media/derived/*-smooth.mkv",
+   "kind": "derived video (smooth_orbits.py)",
+   "description": "yorkbridge, nordheim, aphelionorbit and fortredleaf windows: repeated frames dropped and motion interpolated to 60 fps. Recorded rates were about 4, 9, 14 and 18 real frames a second. Name tags can double for a frame."
   }
  ]
 }

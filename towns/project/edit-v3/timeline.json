@@ -27,8 +27,8 @@
   },
   {
     "at": "And [now]",
-    "v": "2026-10-21 22-37-13",
-    "t": 18.0,
+    "v": "yorkbridge-smooth",
+    "t": 0.2,
     "speed": 2.0,
     "label": "YORK",
     "note": "York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).",
@@ -37,14 +37,14 @@
     "end": 4.566666666666666,
     "duration": 1.9333,
     "frames": 58,
-    "t_out": 21.8666,
+    "t_out": 4.0666,
     "srcs": [
       {
-        "v": "2026-10-21 22-37-13",
-        "t": 18.0,
+        "v": "yorkbridge-smooth",
+        "t": 0.2,
         "speed": 2.0,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\2026-10-21 22-37-13.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\yorkbridge-smooth.mkv"
       }
     ]
   },
@@ -121,8 +121,8 @@
   },
   {
     "at": "new ones have",
-    "v": "fortredleaf",
-    "t": 31.5,
+    "v": "fortredleaf-smooth",
+    "t": 0.2,
     "speed": 1.5,
     "flip": true,
     "label": "FORT REDLEAF",
@@ -132,21 +132,21 @@
     "end": 9.233333333333333,
     "duration": 2.0,
     "frames": 60,
-    "t_out": 34.5,
+    "t_out": 3.2,
     "srcs": [
       {
-        "v": "fortredleaf",
-        "t": 31.5,
+        "v": "fortredleaf-smooth",
+        "t": 0.2,
         "speed": 1.5,
         "flip": true,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\fortredleaf.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\fortredleaf-smooth.mkv"
       }
     ]
   },
   {
     "at": "It's been a",
-    "v": "aphelionorbit",
-    "t": 33.0,
+    "v": "aphelion-smooth",
+    "t": 0.2,
     "speed": 1.5,
     "label": "APHELION",
     "note": "Aphelion from afar (owner select from 0:23): the town across the snow.",
@@ -155,14 +155,14 @@
     "end": 12.2,
     "duration": 2.9667,
     "frames": 89,
-    "t_out": 37.45,
+    "t_out": 4.6501,
     "srcs": [
       {
-        "v": "aphelionorbit",
-        "t": 33.0,
+        "v": "aphelion-smooth",
+        "t": 0.2,
         "speed": 1.5,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\aphelionorbit.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\aphelion-smooth.mkv"
       }
     ]
   },
@@ -216,8 +216,8 @@
   },
   {
     "at": "and even kingdoms.",
-    "v": "nordheim",
-    "t": 17.5,
+    "v": "nordheim-smooth",
+    "t": 0.2,
     "speed": 1.5,
     "label": "NORDHEIM",
     "note": "Nordheim from the mountain, the walled town in view (owner select from 0:08).",
@@ -226,14 +226,14 @@
     "end": 17.366666666666667,
     "duration": 2.1667,
     "frames": 65,
-    "t_out": 20.7501,
+    "t_out": 3.4501,
     "srcs": [
       {
-        "v": "nordheim",
-        "t": 17.5,
+        "v": "nordheim-smooth",
+        "t": 0.2,
         "speed": 1.5,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\nordheim.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\nordheim-smooth.mkv"
       }
     ]
   },
@@ -433,8 +433,8 @@
   },
   {
     "at": "Comment below what",
-    "v": "fortredleaf",
-    "t": 36.5,
+    "v": "fortredleaf-smooth",
+    "t": 5.2,
     "endcard": true,
     "lead": 0.15,
     "note": "Fort Redleaf orbit under the end card (owner select from 0:31), unmirrored.",
@@ -444,14 +444,14 @@
     "duration": 5.3667,
     "frames": 161,
     "speed": 1,
-    "t_out": 41.8667,
+    "t_out": 10.5667,
     "srcs": [
       {
-        "v": "fortredleaf",
-        "t": 36.5,
+        "v": "fortredleaf-smooth",
+        "t": 5.2,
         "speed": 1,
         "flip": false,
-        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\video\\fortredleaf.mkv"
+        "file": "C:\\Users\\liamb\\Documents\\GitHub\\asciilands-reel-media\\towns\\media\\derived\\fortredleaf-smooth.mkv"
       }
     ]
   }

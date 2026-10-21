@@ -55,8 +55,11 @@ def norm(t):
     return re.sub(r'[^a-z0-9]', '', t.lower())
 
 
+DERIVED = B / 'media/derived'          # smoothed orbits, made by smooth_orbits.py
+
+
 def src(name):
-    return V / (name + '.mkv')
+    return (DERIVED if name.endswith('-smooth') else V) / (name + '.mkv')
 
 
 def ease(u):                      # smooth in and out, for camera moves
@@ -305,7 +308,9 @@ def load_source(spec):
 # Clean source area per recording: everything outside it (the Chrome debugging bar, tab and
 # bookmark bars on the local-build clips, the window's bottom edge) can never enter a crop.
 CLEAN_DEFAULT = (0, 100, 2560, 1406)    # below the Chrome debugging bar and the Admin tools badge
-CLEAN = {'2026-10-21 22-37-13': (0, 240, 2560, 1406), 'world zoom': (0, 240, 2560, 1406), 'nordheim': (0, 240, 2560, 1406), 'awesomesmithing': (0, 240, 2560, 1406), 'raft': (0, 240, 2560, 1406),
+CLEAN = {'yorkbridge-smooth': (920, 240, 1680, 1406), 'nordheim-smooth': (1040, 240, 1800, 1406),
+         'aphelion-smooth': (1100, 100, 1800, 1200), 'fortredleaf-smooth': (240, 100, 1820, 1406),
+         '2026-10-21 22-37-13': (0, 240, 2560, 1406), 'world zoom': (0, 240, 2560, 1406), 'nordheim': (0, 240, 2560, 1406), 'awesomesmithing': (0, 240, 2560, 1406), 'raft': (0, 240, 2560, 1406),
          'yorkarrival': (0, 0, 2560, 1440), 'orbitdesertmeteor': (0, 0, 2560, 1440)}
 
 
@@ -313,7 +318,8 @@ def clean_box(spec):
     if 'mapbox' in spec:
         return None                                   # the padded canvas is clean everywhere
     if 'v' in spec:
-        return CLEAN.get(spec['v'], CLEAN_DEFAULT)
+        x0, y0, x1, y1 = CLEAN.get(spec['v'], CLEAN_DEFAULT)
+        return (2560 - x1, y0, 2560 - x0, y1) if spec.get('flip') else (x0, y0, x1, y1)
     if 'frame' in spec:
         return CLEAN.get(spec['frame'][0], CLEAN_DEFAULT)
     return None
@@ -550,19 +556,19 @@ ORBIT = 1.5                     # orbits play faster: smoother motion, more ener
 SHOTS = [
     dict(at='Last week', v='yorkarrival', t=6.00, look=still_frame(1280, 760, 1300), label='YORK', sound=('steps',),
          note='York last week. Walk from behind starts 6.00. The turn ends 5.93.'),
-    dict(at='And [now]', v=YB, t=18.00, speed=2.0, look=still_frame(1300, 819, 1174), label='YORK',
+    dict(at='And [now]', v='yorkbridge-smooth', t=0.20, speed=2.0, look=still_frame(1300, 819, 1174), label='YORK',
          note='York now from across the river: the Great York Bridge, the tower and the new houses (owner select 0:18).'),
     dict(at="It's not the", srcs=MAP_SRCS, look=map_zoom(),
          note='One smooth zoom from the York local map to the whole island, made from the held zoom levels.'),
-    dict(at='new ones have', v='fortredleaf', t=31.50, speed=ORBIT, flip=True, look=still_frame(1940, 640, 1150),
+    dict(at='new ones have', v='fortredleaf-smooth', t=0.20, speed=ORBIT, flip=True, look=still_frame(1940, 640, 1150),
          label='FORT REDLEAF', note='Fort Redleaf orbit (owner select 0:31), mirrored, gatehouse centred.'),
-    dict(at="It's been a", v='aphelionorbit', t=33.00, speed=ORBIT, look=still_frame(1450, 620, 1100), label='APHELION',
+    dict(at="It's been a", v='aphelion-smooth', t=0.20, speed=ORBIT, look=still_frame(1450, 620, 1100), label='APHELION',
          note='Aphelion from afar (owner select from 0:23): the town across the snow.'),
     dict(at='selling plots and', v='plotforsale', t=14.30, look=plots(),
          note='Real plot UI: For sale 50 gold, Buy for 50 gold, the plot grid. Starts after the 14.08 jump.'),
     dict(at='and running their', v='driftwoodmarket', t=47.20, look=still_frame(1280, 760, 1300), label='DRIFTWOOD',
          sound=('steps',), note='Driftwood market street, centred on the player walking (owner select from 0:42).'),
-    dict(at='and even kingdoms.', v='nordheim', t=17.50, speed=ORBIT, look=still_frame(1420, 860, 1190), label='NORDHEIM',
+    dict(at='and even kingdoms.', v='nordheim-smooth', t=0.20, speed=ORBIT, look=still_frame(1420, 860, 1190), label='NORDHEIM',
          note='Nordheim from the mountain, the walled town in view (owner select from 0:08).'),
     dict(at='[guilds] and religions.', srcs=[dict(still='cult')], look=cult(),
          note="Cleptomane's Cult of Akton post (owner screenshot)."),
@@ -582,7 +588,7 @@ SHOTS = [
          look=swords_static(), note='Three new swords: Masterwork Blacksteel, Needle, Quick Dirk.'),
     dict(at="I've just about", v='raft', t=3.00, look=still_frame(1400, 800, 1180),
          note='Bringing the raft up to the dock (owner select 0:03). The recording has no sound.'),
-    dict(at='Comment below what', v='fortredleaf', t=36.50, look=still_frame(1450, 640, 1150), endcard=True, lead=0.15,
+    dict(at='Comment below what', v='fortredleaf-smooth', t=5.20, look=still_frame(1450, 640, 1150), endcard=True, lead=0.15,
          note='Fort Redleaf orbit under the end card (owner select from 0:31), unmirrored.'),
 ]
 END_TAIL = 2.5
@@ -1045,11 +1051,10 @@ def render_shot(i, s, words, caps, prev_last=None):
 
 
 def label_delays(tl):
-    """A label fades in a moment after the cut (later on the opening shot, so the hook reads first).
-    It stays on through a cut to the same town."""
+    """Labels are on screen from the cut (the owner found a delayed fade-in looked late)."""
     for i, s in enumerate(tl):
         same = i > 0 and tl[i - 1].get('label') == s.get('label')
-        s['label_delay'] = None if same else (LABEL_FIRST_DELAY if i == 0 else LABEL_DELAY)
+        s['label_delay'] = None                         # on screen from the first frame of the shot
 
 
 def render_picture(tl, words, caps, total, jobs):

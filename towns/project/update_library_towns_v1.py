@@ -74,6 +74,8 @@ SUPPLIED = [
          description='They built this narration, 51.3 s, 48 kHz mono. Whisper hears "exploration won. They\'re" as "exploration 1 that are"; fixed by context.'),
     dict(file='followup2.wav', path='towns/media/audio/followup2.wav', kind='voice',
          description='They built this narration, second take (2026-10-21), 50.9 s. Adds "left and right". Used from towns-v3.'),
+    dict(file='derived orbits', path='towns/media/derived/*-smooth.mkv', kind='derived video (smooth_orbits.py)',
+         description='yorkbridge, nordheim, aphelionorbit and fortredleaf windows: repeated frames dropped and motion interpolated to 60 fps. Recorded rates were about 4, 9, 14 and 18 real frames a second. Name tags can double for a frame.'),
     dict(file='discord-poll-final.png', path='towns/assets/stills/discord-poll-final.png', kind='owner screenshot',
          description='Where should Asciilands go next? poll, 1,506 votes: Smithing 24 %, Exploration and Sailing 19 %.'),
     dict(file='discord-cult-of-akton.png', path='towns/assets/stills/discord-cult-of-akton.png', kind='owner screenshot',
